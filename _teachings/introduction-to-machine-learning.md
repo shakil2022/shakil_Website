@@ -1,113 +1,174 @@
+```yaml
 ---
 layout: course
-title: Introduction to Machine Learning
-description: This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.
-instructor: Prof. Example
-year: 2023
-term: Fall
-location: Main Campus, Room 301
-time: Tuesdays and Thursdays, 10:00-11:30 AM
-course_id: intro-machine-learning
+
+title: Cyber Security and Digital Forensic Laboratory
+
+description: This course provides practical hands-on experience in cybersecurity, ethical hacking, penetration testing, and digital forensics. Students will work with Kali Linux, VMware, Burp Suite, DVWA, Ghidra, Autopsy, Volatility, and other security tools to investigate vulnerabilities, analyze attacks, and perform forensic investigations.
+
+instructor: Md Shakil Ahmed
+
+year: 2026
+
+term: Summer
+
+location: B2/909
+
+time: Tuesdays, 09:45-11:15 AM and Thursdays, 01:15-02:45 PM
+
+course_id: cse-414-cyber-security-and-digital-forensic-laboratory
+
 schedule:
+
   - week: 1
-    date: Sept 5
-    topic: Course Introduction
-    description: Overview of machine learning, course structure, and expectations.
+    date: Week 1
+    topic: Cyber Security Laboratory Setup
+    description: Introduction to the cybersecurity laboratory environment, VMware, Kali Linux installation, configuration, and basic security tools.
     materials:
-      - name: Syllabus
+      - name: Lab Guide
         url: /assets/pdf/example_pdf.pdf
-      - name: Slides
-        url: /assets/pdf/example_pdf.pdf
+      - name: Kali Linux Resources
+        url: https://www.kali.org/
 
   - week: 2
-    date: Sept 12
-    topic: Linear Regression
-    description: Introduction to linear regression, gradient descent, and model evaluation.
+    date: Week 2
+    topic: Burp Suite and DVWA
+    description: Installation and configuration of Burp Suite and DVWA for practicing web application security testing in a controlled laboratory environment.
     materials:
-      - name: Lecture Notes
+      - name: Lab Notes
         url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 1
-        url: /assets/pdf/example_pdf.pdf
+      - name: DVWA
+        url: https://github.com/digininja/DVWA
 
   - week: 3
-    date: Sept 19
-    topic: Classification
-    description: Logistic regression, decision boundaries, and multi-class classification.
+    date: Week 3
+    topic: Web Server Attacks
+    description: Practical study of web server concepts and controlled demonstrations of SQL injection, XSS, CSRF, clickjacking, and file upload vulnerabilities.
     materials:
-      - name: Lecture Notes
+      - name: Lab Manual
+        url: /assets/pdf/example_pdf.pdf
+      - name: PortSwigger Web Security Academy
+        url: https://portswigger.net/web-security
+
+  - week: 4
+    date: Week 4
+    topic: Python Scripting and Security Tasks
+    description: Introduction to Python scripting for security tasks, port scanning, malware concepts, keylogger concepts, file upload vulnerabilities, and remote code execution in controlled lab environments.
+    materials:
+      - name: Lab Notes
         url: /assets/pdf/example_pdf.pdf
       - name: Coding Lab
         url: https://github.com/
 
-  - week: 4
-    date: Sept 26
-    topic: Decision Trees and Random Forests
-    description: Tree-based methods, ensemble learning, and feature importance.
-    materials:
-      - name: Lecture Notes
-        url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 2
-        url: /assets/pdf/example_pdf.pdf
-
   - week: 5
-    date: Oct 3
-    topic: Support Vector Machines
-    description: Margin maximization, kernel methods, and support vectors.
+    date: Week 5
+    topic: Cryptography and Information Gathering
+    description: Practical implementation of encryption and decryption algorithms, hashing algorithms, OSINT, Shodan, IP lookup, and information-gathering techniques.
     materials:
-      - name: Lecture Notes
+      - name: Cryptography Lab
         url: /assets/pdf/example_pdf.pdf
-      - name: Review Materials
+      - name: OSINT Lab
         url: /assets/pdf/example_pdf.pdf
 
   - week: 6
-    date: Oct 10
-    topic: Midterm Exam
-    description: Covers weeks 1-5.
+    date: Week 6
+    topic: Reverse Engineering and Binary Exploitation
+    description: Introduction to reverse engineering using Ghidra and similar tools, with practical exercises on buffer overflow, stack overflow, and integer overflow vulnerabilities.
+    materials:
+      - name: Reverse Engineering Lab
+        url: /assets/pdf/example_pdf.pdf
+      - name: Ghidra
+        url: https://ghidra-sre.org/
 
   - week: 7
-    date: Oct 17
-    topic: Neural Networks Fundamentals
-    description: Perceptrons, multilayer networks, and backpropagation.
+    date: Week 7
+    topic: Cyber Law and Safe Cybersecurity Practice
+    description: Understanding ethical and unethical use of cybersecurity tools and applying safe and responsible practices in cybersecurity laboratories.
     materials:
-      - name: Lecture Notes
+      - name: Cyber Law Notes
         url: /assets/pdf/example_pdf.pdf
-      - name: Assignment 3
+      - name: Lab Safety Guidelines
         url: /assets/pdf/example_pdf.pdf
 
   - week: 8
-    date: Oct 24
-    topic: Deep Learning
-    description: Convolutional neural networks, recurrent neural networks, and applications.
+    date: Week 8
+    topic: Final Project and Practical Evaluation
+    description: Practical project evaluation covering cybersecurity tools, ethical hacking techniques, security analysis, and digital forensic practices learned throughout the course.
     materials:
-      - name: Lecture Notes
+      - name: Project Guidelines
         url: /assets/pdf/example_pdf.pdf
-      - name: Coding Lab
-        url: https://github.com/
+      - name: Final Lab Review
+        url: /assets/pdf/example_pdf.pdf
+
 ---
 
 ## Course Overview
 
-This introductory course on machine learning covers fundamental concepts and algorithms in the field. By the end of this course, students will be able to:
+This laboratory course provides practical experience in cybersecurity, ethical hacking, penetration testing, and digital forensics. By the end of this course, students will be able to:
 
-- Understand key machine learning paradigms and concepts
-- Implement basic machine learning algorithms
-- Evaluate and compare model performance
-- Apply machine learning techniques to real-world problems
+\- Configure and use cybersecurity laboratory environments using Kali Linux, VMware, Burp Suite, and DVWA
+
+\- Perform controlled web application security testing and identify common vulnerabilities
+
+\- Apply Python scripting and security tools to practical cybersecurity tasks
+
+\- Perform cryptographic, OSINT, reverse engineering, and binary analysis exercises
+
+\- Use digital forensic tools and techniques for investigation and analysis
+
+\- Apply ethical, legal, and safe practices when using cybersecurity tools
 
 ## Prerequisites
 
-- Basic knowledge of linear algebra and calculus
-- Programming experience in Python
-- Probability and statistics fundamentals
+\- No prerequisites required
 
 ## Textbooks
 
-- Primary: "Machine Learning: A Probabilistic Perspective" by Kevin Murphy
-- Reference: "Pattern Recognition and Machine Learning" by Christopher Bishop
+\- Primary: "Kali Linux for Hackers: Exploring Tools, Exploits, and Vulnerabilities" by C. Campbell, Code Academy, 2024
+
+\- Reference: "Cybersecurity Essentials" by Charles J. Brooks
+
+\- Reference: "Guide to Computer Forensics and Investigations" by Bill Nelson
+
+\- Reference: "Social Engineering: The Art of Human Hacking" by Christopher Hadnagy
+
+\- Reference: "Black Hat Python: Python Programming for Hackers and Pentesters" by Justin Seitz and Tim Arnold
+
+\- Reference: "Practical Reverse Engineering" by Bruce Dang and Alexandre Gazet
+
+\- Reference: "Cybersecurity and Cyberlaw" by Pavan Duggal
+
+\- Reference: "Cryptography and Network Security: Principles and Practice" by William Stallings
+
+## Tools and Platforms
+
+\- Kali Linux
+
+\- VMware
+
+\- Burp Suite
+
+\- DVWA
+
+\- Ghidra
+
+\- Autopsy
+
+\- Volatility
+
+\- Shodan
+
+\- IP Lookup Tools
 
 ## Grading
 
-- Assignments: 40%
-- Midterm Exam: 20%
-- Final Project: 30%
-- Participation: 10%
+\- Class Participation: 5%
+
+\- Assignment/Presentation/Viva: 10%
+
+\- Class Test/Lab Performance: 15%
+
+\- Midterm Examination/Project Evaluation: 30%
+
+\- Final Examination/Project Evaluation: 40%
+```
