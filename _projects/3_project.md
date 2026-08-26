@@ -230,7 +230,7 @@ related_publications: false
   <div class="project-buttons">
 
     <a
-      href="https://github.com/shakil2022/QR-Code-Scanner-main"
+      https://github.com/shakil2022/Remote-Control-Fire-Detection-Car"
       class="project-button primary"
       target="_blank"
       rel="noopener noreferrer"
@@ -695,7 +695,7 @@ related_publications: false
   <div class="project-buttons">
 
     <a
-      href="https://github.com/shakil2022/QR-Code-Scanner-main"
+      href="https://github.com/shakil2022/Remote-Control-Fire-Detection-Car"
       class="project-button primary"
       target="_blank"
       rel="noopener noreferrer"
