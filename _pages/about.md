@@ -404,118 +404,53 @@ These experiences have allowed me to combine academic teaching with hands-on res
 
 <section class="education-section">
   <h2>Education</h2>
-
   <div class="timeline">
-
-    <!-- M.Sc. -->
     <div class="edu-card">
       <div class="edu-main">
-        <p class="edu-school">
-          Institute of Information Technology, Jahangirnagar University
-        </p>
-
-        <p class="edu-degree">
-          M.Sc. in Information and Communication Technology
-        </p>
-
-        <p class="edu-note">
-          Thesis: FEP-SSL: A Privacy-Preserving Semi-Supervised Learning Framework for Parkinson's Disease Classification
-        </p>
+        <p class="edu-school">Institute of Information Technology, Jahangirnagar University</p>
+        <p class="edu-degree">M.Sc. in ICT; CGPA: 3.75/4.0</p>
+        <p class="edu-note">Thesis (M.Sc.): FEP-SSL: A Privacy-Preserving Semi-Supervised Learning Framework for Parkinson's Disease Classification</p>
       </div>
-
       <div class="edu-side">
-        <div class="edu-loc">
-          Dhaka, Bangladesh
-        </div>
-
-        <div class="edu-date">
-          Oct 2024 – 2026
-        </div>
+        <div class="edu-loc">Dhaka, Bangladesh</div>
+        <div class="edu-date">Oct 2024 – Sep 2026</div>
       </div>
     </div>
 
-    <!-- B.Sc. -->
     <div class="edu-card">
       <div class="edu-main">
-        <p class="edu-school">
-          Institute of Information Technology, Jahangirnagar University
-        </p>
-
-        <p class="edu-degree">
-          B.Sc. in Information and Communication Technology
-        </p>
-
-        <p class="edu-note">
-          Thesis: MosQNet-SA: An Explainable Convolutional Attention Network for Mosquito Classification with Potential Application as a RESTful API for Dengue and Malaria Risk Mapping
-        </p>
+        <p class="edu-school">Institute of Information Technology, Jahangirnagar University</p>
+        <p class="edu-degree">B.Sc. in ICT; CGPA: 3.86/4.0 (4th position)</p>
+        <p class="edu-note">Thesis (B.Sc.): Real-Time Bangla Sign Language Detection and Recognition Using YOLOv10</p>
       </div>
-
       <div class="edu-side">
-        <div class="edu-loc">
-          Dhaka, Bangladesh
-        </div>
-
-        <div class="edu-date">
-          Feb 2019 – Sep 2024
-        </div>
+        <div class="edu-loc">Dhaka, Bangladesh</div>
+        <div class="edu-date">Feb 2019 – Sep 2024</div>
       </div>
     </div>
 
-    <!-- HSC and SSC -->
     <div class="edu-card">
       <div class="edu-main">
-
-        <div class="edu-school-group">
-          <p class="edu-school">
-            Dinajpur Govt College
-          </p>
-
-          <p class="edu-degree">
-            Higher Secondary Certificate (HSC), Science
-            <br>
-            GPA: 5.00/5.00
-          </p>
-        </div>
+        <p class="edu-school edu-school-group">Sylhet Cadet College</p>
 
         <div class="edu-sub">
-          <p class="edu-school">
-            Panchkur Bi-Lateral High School
-          </p>
-
-          <p class="edu-degree">
-            Secondary School Certificate (SSC), Science
-            <br>
-            GPA: 5.00/5.00
-          </p>
+          <p class="edu-degree">Higher Secondary Certificate (HSC); (Science); GPA: 5.0/5.0</p>
         </div>
-
-      </div>
-
-      <div class="edu-side">
-
-        <div>
-          <div class="edu-loc">
-            Dinajpur, Bangladesh
-          </div>
-
-          <div class="edu-date">
-            Apr 2016 – May 2018
-          </div>
-        </div>
-
         <div class="edu-sub">
-          <div class="edu-loc">
-            Dinajpur, Bangladesh
-          </div>
-
-          <div class="edu-date">
-            Jan 2014 – Apr 2016
-          </div>
+          <p class="edu-degree">Secondary School Certificate (SSC); (Science); GPA: 5.0/5.0</p>
         </div>
-
+      </div>
+      <div class="edu-side">
+        <div class="edu-sub" style="border-top:none;padding-top:0;">
+          <div class="edu-loc">Sylhet, Bangladesh</div>
+          <div class="edu-date">April 2016 – May 2018</div>
+        </div>
+        <div class="edu-sub">
+          <div class="edu-loc">Sylhet, Bangladesh</div>
+          <div class="edu-date">Jan 2014 – April 2016</div>
+        </div>
       </div>
     </div>
-
   </div>
 </section>
 
@@ -523,30 +458,14 @@ These experiences have allowed me to combine academic teaching with hands-on res
 
 <section class="section-block">
   <h2>Certifications</h2>
-
   <div class="cert-list">
-
     <div class="cert-item">
-
       <div class="cert-main">
-        <p class="cert-name">
-          IBM Data Science Professional Certificate
-        </p>
-
-        <p class="cert-desc">
-          Completed a 12-course specialization covering data science methodology,
-          Python, SQL, data analysis, data visualization, machine learning,
-          and generative AI applications. Gained hands-on experience through
-          cloud-based labs and a final Capstone Project.
-        </p>
+        <p class="cert-name">IBM Data Science Professional Certificate</p>
+        <p class="cert-desc">Completed a 12-course specialization covering data science methodology, Python, SQL, data analysis, data visualization, machine learning, and generative AI applications. Gained hands-on experience through cloud-based labs and a final Capstone Project.</p>
       </div>
-
-      <div class="cert-date">
-        April 2025
-      </div>
-
+      <div class="cert-date">April 2025</div>
     </div>
-
   </div>
 </section>
 
@@ -554,43 +473,5 @@ These experiences have allowed me to combine academic teaching with hands-on res
 
 <section class="section-block">
   <h2>Achievements</h2>
-
-  <div class="cert-list">
-
-    <div class="cert-item">
-      <div class="cert-main">
-        <p class="cert-name">
-          ICT Division Fellowship
-        </p>
-
-        <p class="cert-desc">
-          Awarded the ICT Division Fellowship 2025–2026 for research on
-          privacy-preserving federated semi-supervised learning for healthcare applications.
-        </p>
-      </div>
-
-      <div class="cert-date">
-        2025–2026
-      </div>
-    </div>
-
-    <div class="cert-item">
-      <div class="cert-main">
-        <p class="cert-name">
-          National Science and Technology (NST) Fellowship
-        </p>
-
-        <p class="cert-desc">
-          Awarded the National Science and Technology Fellowship 2025–2026
-          for research related to privacy-preserving federated semi-supervised
-          learning for healthcare applications.
-        </p>
-      </div>
-
-      <div class="cert-date">
-        2025–2026
-      </div>
-    </div>
-
-  </div>
+  <p class="placeholder-note"><!-- add your achievements here, in the same cert-item / cert-name / cert-desc structure as Certifications --></p>
 </section>
