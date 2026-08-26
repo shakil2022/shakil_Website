@@ -408,7 +408,8 @@ These experiences have allowed me to combine academic teaching with hands-on res
     <div class="edu-card">
       <div class="edu-main">
         <p class="edu-school">Institute of Information Technology, Jahangirnagar University</p>
-        <p class="edu-degree">M.Sc. in ICT; CGPA: 3.75/4.0</p>
+        <a href="https://drive.google.com/file/d/16aIfdCM5Bt0XjIWH47rDqLdmt9idpkE6/view?usp=drive_link"> <p class="edu-degree">M.Sc. in ICT; CGPA: 3.75/4.0</p> </a>
+        
         <p class="edu-note">Thesis (M.Sc.): FEP-SSL: A Privacy-Preserving Semi-Supervised Learning Framework for Parkinson's Disease Classification</p>
       </div>
       <div class="edu-side">
@@ -420,7 +421,7 @@ These experiences have allowed me to combine academic teaching with hands-on res
     <div class="edu-card">
       <div class="edu-main">
         <p class="edu-school">Institute of Information Technology, Jahangirnagar University</p>
-        <p class="edu-degree">B.Sc. in ICT; CGPA: 3.86/4.0 (4th position)</p>
+                <a href="https://drive.google.com/file/d/1NFqiSCK6Hg0eh4tgNG9K6_tdsR3Nj4PQ/view?usp=sharing"> <p class="edu-degree">B.Sc. in ICT; CGPA: 3.86/4.0 (4th position)</p> </a>
         <p class="edu-note">Thesis (B.Sc.): Real-Time Bangla Sign Language Detection and Recognition Using YOLOv10</p>
       </div>
       <div class="edu-side">
@@ -431,23 +432,26 @@ These experiences have allowed me to combine academic teaching with hands-on res
 
     <div class="edu-card">
       <div class="edu-main">
-        <p class="edu-school edu-school-group">Sylhet Cadet College</p>
+        <p class="edu-school edu-school-group">Dinajpur Govt. College</p>
 
         <div class="edu-sub">
-          <p class="edu-degree">Higher Secondary Certificate (HSC); (Science); GPA: 5.0/5.0</p>
+        <a href="https://drive.google.com/file/d/1T-4sbylCgV18rKrN6SyuCOFDP0s2rs72/view?usp=drive_link"> <p class="edu-degree">Higher Secondary Certificate (HSC); (Science); GPA: 5.0/5.0</p> </a>
+         
         </div>
         <div class="edu-sub">
           <p class="edu-degree">Secondary School Certificate (SSC); (Science); GPA: 5.0/5.0</p>
         </div>
       </div>
-      <div class="edu-side">
-        <div class="edu-sub" style="border-top:none;padding-top:0;">
-          <div class="edu-loc">Sylhet, Bangladesh</div>
-          <div class="edu-date">April 2016 – May 2018</div>
+         <div class="edu-card">
+      <div class="edu-main">
+        <p class="edu-school edu-school-group">Panchkur B\L High School</p>
+
+        <div class="edu-sub">
+        <a href="https://drive.google.com/file/d/1osWGSHjY9RAbxn_ifhFAzW8Vd_ujt1VT/view?usp=drive_link"> <p class="edu-degree">Higher Secondary Certificate (HSC); (Science); GPA: 5.0/5.0</p> </a>
+         
         </div>
         <div class="edu-sub">
-          <div class="edu-loc">Sylhet, Bangladesh</div>
-          <div class="edu-date">Jan 2014 – April 2016</div>
+          <p class="edu-degree">Secondary School Certificate (SSC); (Science); GPA: 5.0/5.0</p>
         </div>
       </div>
     </div>
@@ -455,23 +459,57 @@ These experiences have allowed me to combine academic teaching with hands-on res
 </section>
 
 <hr class="divider-line">
-
 <section class="section-block">
   <h2>Certifications</h2>
+
   <div class="cert-list">
+
     <div class="cert-item">
       <div class="cert-main">
-        <p class="cert-name">IBM Data Science Professional Certificate</p>
-        <p class="cert-desc">Completed a 12-course specialization covering data science methodology, Python, SQL, data analysis, data visualization, machine learning, and generative AI applications. Gained hands-on experience through cloud-based labs and a final Capstone Project.</p>
+        <p class="cert-name">
+          IBM Data Science Professional Certificate
+        </p>
+
+        <p class="cert-desc">
+          Completed a 12-course specialization covering data science
+          methodology, Python, SQL, data analysis, data visualization,
+          machine learning, and generative AI applications. Gained
+          hands-on experience through cloud-based labs and a final
+          Capstone Project.
+        </p>
       </div>
-      <div class="cert-date">April 2025</div>
+
+      <div class="cert-date">
+        April 2025
+      </div>
     </div>
+
   </div>
 </section>
 
+
 <hr class="divider-line">
+
 
 <section class="section-block">
   <h2>Achievements</h2>
-  <p class="placeholder-note"><!-- add your achievements here, in the same cert-item / cert-name / cert-desc structure as Certifications --></p>
+
+  <div class="cert-list">
+
+    <!-- Add achievements here -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          Academic Achievement
+        </p>
+
+        <p class="cert-desc">
+          Secured 4th position in the B.Sc. (Hons.) in ICT program at
+          the Institute of Information Technology, Jahangirnagar University,
+          with a CGPA of 3.86/4.00.
+        </p>
+      </div>
+    </div>
+
+  </div>
 </section>
