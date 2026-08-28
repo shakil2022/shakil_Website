@@ -1,12 +1,13 @@
 ---
+
 layout: page
-title: Automated Fire Detecting and Extinguishing Car
-description: An Arduino-based robotic firefighting car that detects fire, moves toward the affected area, and automatically extinguishes the fire using a water-pumping mechanism.
-img: assets/img/fire-car.jpg
+title: Training Program Management System
+description: A web-based Training Program Management System for managing courses, trainees, enrollment, payments, communication, and training activities.
+img: assets/img/training-management.jpg
 importance: 3
 category: work
 related_publications: false
----
+---------------------------
 
 <style>
 .project-card {
@@ -64,7 +65,6 @@ related_publications: false
   line-height: 1.65;
   color: #e8edf7;
   text-align: justify;
-  text-justify: inter-word;
 }
 
 .project-tags {
@@ -141,7 +141,6 @@ related_publications: false
 
 .project-content p {
   text-align: justify;
-  text-justify: inter-word;
   line-height: 1.7;
 }
 
@@ -150,6 +149,18 @@ related_publications: false
 }
 
 .feature-card .card-title {
+  font-weight: 700;
+}
+
+.caption {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--global-text-color-light);
+}
+
+.project-content .table th {
   font-weight: 700;
 }
 
@@ -171,81 +182,81 @@ related_publications: false
     height: 62px;
     font-size: 25px;
   }
+
+  .project-header {
+    align-items: flex-start;
+  }
 }
 </style>
-
 
 <div class="project-card">
 
   <div class="project-header">
 
-    <div class="project-icon">
-      <i class="fas fa-fire-extinguisher"></i>
-    </div>
 
-    <div>
-      <h1 class="project-title">
-        Automated Fire Detecting and Extinguishing Car
-      </h1>
+<div class="project-icon">
+  <i class="fas fa-graduation-cap"></i>
+</div>
 
-      <p class="project-subtitle">
-        An Arduino-based robotic firefighting system for automatic fire detection and extinguishing.
-      </p>
-    </div>
+<div>
+  <h1 class="project-title">
+    Training Program Management System
+  </h1>
+
+  <p class="project-subtitle">
+    A web-based platform for managing training programs, courses,
+    trainees, enrollment, payments, and communication.
+  </p>
+</div>
+
 
   </div>
-
 
   <div class="project-description">
+    Developed a <strong>Training Program Management System (TPMS)</strong>
+    designed to streamline the administration, organization, and delivery
+    of training programs. The system provides a centralized platform for
+    managing courses, trainees, enrollment, payments, communication, and
+    training-related activities.
 
-    Developed an <strong>Arduino-based automated firefighting car</strong>
-    designed to detect fire and automatically move toward the affected
-    area before extinguishing it using a water pump and sprinkler mechanism.
-    The system is intended to reduce human exposure to dangerous
-    firefighting environments by performing fire detection and suppression
-    tasks with minimal human intervention.
 
-    The robotic vehicle uses sensors as input, an
-    <strong>Arduino UNO</strong> as the main control unit, and a water
-    pumping mechanism as the fire suppression output. The project focuses
-    on improving safety, rapid response, and automation in small and
-    potentially hazardous environments.
+The application was developed using <strong>PHP</strong> with
+<strong>MySQL</strong> for database management. The user interface
+incorporates <strong>HTML, CSS, JavaScript, and Bootstrap</strong>,
+while GitHub was used for source-code management and collaboration.
+
 
   </div>
-
 
   <div class="project-tags">
-
-    <span class="project-tag">Arduino UNO</span>
-    <span class="project-tag">Embedded System</span>
-    <span class="project-tag">Robotics</span>
-    <span class="project-tag">Fire Detection</span>
-    <span class="project-tag">Flame Sensor</span>
-    <span class="project-tag">Water Pump</span>
-    <span class="project-tag">Sprinkler</span>
-    <span class="project-tag">Relay</span>
-    <span class="project-tag">L293</span>
-    <span class="project-tag">18650 Battery</span>
-
+    <span class="project-tag">PHP</span>
+    <span class="project-tag">MySQL</span>
+    <span class="project-tag">HTML</span>
+    <span class="project-tag">CSS</span>
+    <span class="project-tag">JavaScript</span>
+    <span class="project-tag">Bootstrap</span>
+    <span class="project-tag">Web Application</span>
+    <span class="project-tag">Training Management</span>
+    <span class="project-tag">Live Chat</span>
+    <span class="project-tag">Online Payment</span>
   </div>
-
 
   <div class="project-buttons">
 
-    <a
-      href="https://github.com/shakil2022/Remote-Control-Fire-Detection-Car"
-      class="project-button primary"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <i class="fab fa-github"></i>
-      View Code
-    </a>
+<a
+  href="https://github.com/shakil2022/Training-Program-Management-System"
+  class="project-button primary"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i class="fab fa-github"></i>
+  View Code
+</a>
+
 
   </div>
 
 </div>
-
 
 <div class="project-content">
 
@@ -254,485 +265,570 @@ related_publications: false
   </h2>
 
   <p>
-    The <strong>Automated Fire Detecting and Extinguishing Car</strong> is
-    a robotic firefighting system developed to detect and extinguish fire
-    automatically. The project aims to reduce the need for humans to
-    directly enter dangerous environments during fire incidents.
+    The <strong>Training Program Management System (TPMS)</strong> is a
+    web-based platform developed to support the administration,
+    documentation, tracking, and management of training programs.
+    The system provides a centralized environment where administrators,
+    instructors, and trainees can perform their respective activities.
   </p>
 
   <p>
-    The system uses sensors to detect fire and sends the detected information
-    to the <strong>Arduino UNO</strong> control unit. Based on the sensor
-    input, the vehicle moves toward the fire. Once the fire is detected
-    within the operating range, the system activates a water pump and
-    sprinkler mechanism to spray water toward the fire.
+    The system allows administrators or instructors to create and maintain
+    course categories, add and manage courses, monitor trainee enrollment,
+    communicate with trainees, and configure payment and language settings.
+    Trainees can create accounts, manage their profiles, search for courses,
+    add courses to a cart, purchase courses, review courses, view enrolled
+    courses, and communicate through the live chat facility.
   </p>
 
   <div class="row justify-content-sm-center">
 
-    <div class="col-sm-8 mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/fire-car-1.jpg" title="Automated Fire Detecting and Extinguishing Car" class="img-fluid rounded z-depth-1" %}
-    </div>
 
-    <div class="col-sm-4 mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/fire-car-2.jpg" title="Fire Detection and Water Pumping System" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="col-sm-8 mt-3 mt-md-0">
+  {% include figure.liquid
+    loading="eager"
+    path="assets/img/training-management-1.jpg"
+    title="Training Program Management System Dashboard"
+    class="img-fluid rounded z-depth-1"
+  %}
+</div>
+
+<div class="col-sm-4 mt-3 mt-md-0">
+  {% include figure.liquid
+    loading="eager"
+    path="assets/img/training-management-2.jpg"
+    title="Training Program Management System Course Management"
+    class="img-fluid rounded z-depth-1"
+  %}
+</div>
+
 
   </div>
 
   <div class="caption">
-    The robotic vehicle detects fire using sensors, moves toward the affected area, and activates the water-pumping mechanism to extinguish the fire.
+    The Training Program Management System provides centralized management
+    of training programs, courses, trainees, enrollment, and related
+    activities.
   </div>
-
 
   <h2 class="project-section-title">
     System Features
   </h2>
 
-
   <div class="row">
 
-    <div class="col-md-6 mt-3">
-      <div class="card h-100 feature-card">
-        <div class="card-body">
 
-          <h4 class="card-title">
-            <i class="fas fa-fire"></i>
-            Fire Detection
-          </h4>
+<div class="col-md-6 mt-3">
+  <div class="card h-100 feature-card">
+    <div class="card-body">
 
-          <ul>
-            <li>Detects fire using flame sensors.</li>
-            <li>Receives fire-related sensor input.</li>
-            <li>Processes sensor information through Arduino UNO.</li>
-            <li>Identifies fire within the operating range.</li>
-          </ul>
+      <h4 class="card-title">
+        <i class="fas fa-user-shield"></i>
+        Admin &amp; Instructor Management
+      </h4>
 
-        </div>
-      </div>
+      <ul>
+        <li>Provides a dedicated admin/instructor dashboard.</li>
+        <li>Creates and manages course categories.</li>
+        <li>Adds, updates, and deletes courses.</li>
+        <li>Manages trainee enrollment.</li>
+        <li>Controls payment and language settings.</li>
+      </ul>
+
     </div>
+  </div>
+</div>
 
+<div class="col-md-6 mt-3">
+  <div class="card h-100 feature-card">
+    <div class="card-body">
 
-    <div class="col-md-6 mt-3">
-      <div class="card h-100 feature-card">
-        <div class="card-body">
+      <h4 class="card-title">
+        <i class="fas fa-user-graduate"></i>
+        Trainee Management
+      </h4>
 
-          <h4 class="card-title">
-            <i class="fas fa-car"></i>
-            Automated Movement
-          </h4>
+      <ul>
+        <li>Provides trainee registration and login.</li>
+        <li>Allows users to view and update their profiles.</li>
+        <li>Allows trainees to search for courses.</li>
+        <li>Supports course enrollment and purchasing.</li>
+        <li>Displays enrolled courses.</li>
+      </ul>
 
-          <ul>
-            <li>Moves toward the detected fire.</li>
-            <li>Uses sensor input to control vehicle movement.</li>
-            <li>Provides a mobile platform for firefighting.</li>
-            <li>Designed for operation in small spaces.</li>
-          </ul>
-
-        </div>
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-md-6 mt-3">
+  <div class="card h-100 feature-card">
+    <div class="card-body">
 
-    <div class="col-md-6 mt-3">
-      <div class="card h-100 feature-card">
-        <div class="card-body">
+      <h4 class="card-title">
+        <i class="fas fa-comments"></i>
+        Live Chat
+      </h4>
 
-          <h4 class="card-title">
-            <i class="fas fa-tint"></i>
-            Automatic Water Pump
-          </h4>
+      <ul>
+        <li>Provides direct communication between trainees and instructors.</li>
+        <li>Helps trainees ask questions about courses.</li>
+        <li>Supports communication about enrollment and payment.</li>
+        <li>Improves interaction between trainees and instructors.</li>
+      </ul>
 
-          <ul>
-            <li>Activates a water pump after fire detection.</li>
-            <li>Uses a pumping mechanism for fire suppression.</li>
-            <li>Sprays water toward the detected fire.</li>
-            <li>Continues the extinguishing process until the fire stops.</li>
-          </ul>
-
-        </div>
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-md-6 mt-3">
+  <div class="card h-100 feature-card">
+    <div class="card-body">
 
-    <div class="col-md-6 mt-3">
-      <div class="card h-100 feature-card">
-        <div class="card-body">
+      <h4 class="card-title">
+        <i class="fas fa-credit-card"></i>
+        Online Payment
+      </h4>
 
-          <h4 class="card-title">
-            <i class="fas fa-microchip"></i>
-            Arduino Control
-          </h4>
+      <ul>
+        <li>Supports online course purchasing.</li>
+        <li>Provides payment configuration for administrators.</li>
+        <li>Supports different currency options.</li>
+        <li>Allows trainees to confirm course payments.</li>
+      </ul>
 
-          <ul>
-            <li>Arduino UNO acts as the main control unit.</li>
-            <li>Processes sensor input.</li>
-            <li>Controls vehicle movement and output mechanisms.</li>
-            <li>Coordinates fire detection and suppression.</li>
-          </ul>
-
-        </div>
-      </div>
     </div>
+  </div>
+</div>
+
 
   </div>
-
 
   <h2 class="project-section-title">
     System Components
   </h2>
 
-
   <div class="row">
 
-    <div class="col-sm-6 col-md-4 mt-3">
-      <div class="card h-100">
 
-        <div class="card-body">
+<div class="col-sm-6 col-md-4 mt-3">
+  <div class="card h-100">
+    <div class="card-body">
 
-          <h4 class="card-title">
-            Arduino UNO
-          </h4>
+      <h4 class="card-title">Admin Dashboard</h4>
 
-          <p class="card-text">
-            Serves as the main control unit that receives sensor input and
-            controls the robotic vehicle and firefighting mechanism.
-          </p>
+      <p class="card-text">
+        Provides administrative control over courses, categories,
+        trainees, enrollment, payments, and language settings.
+      </p>
 
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-sm-6 col-md-4 mt-3">
+  <div class="card h-100">
+    <div class="card-body">
 
-    <div class="col-sm-6 col-md-4 mt-3">
-      <div class="card h-100">
+      <h4 class="card-title">Course Management</h4>
 
-        <div class="card-body">
+      <p class="card-text">
+        Allows administrators or instructors to add, update, delete,
+        categorize, and maintain training courses.
+      </p>
 
-          <h4 class="card-title">
-            Flame Sensor
-          </h4>
-
-          <p class="card-text">
-            Provides the input used by the system to identify the presence
-            of fire within its detection range.
-          </p>
-
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-sm-6 col-md-4 mt-3">
+  <div class="card h-100">
+    <div class="card-body">
 
-    <div class="col-sm-6 col-md-4 mt-3">
-      <div class="card h-100">
+      <h4 class="card-title">Trainee Management</h4>
 
-        <div class="card-body">
+      <p class="card-text">
+        Maintains registered trainees and provides access to their
+        enrollment and course-related information.
+      </p>
 
-          <h4 class="card-title">
-            Water Pump
-          </h4>
-
-          <p class="card-text">
-            Pumps water toward the fire through the sprinkler mechanism
-            after fire detection.
-          </p>
-
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-sm-6 col-md-4 mt-3">
+  <div class="card h-100">
+    <div class="card-body">
 
-    <div class="col-sm-6 col-md-4 mt-3">
-      <div class="card h-100">
+      <h4 class="card-title">Enrollment Management</h4>
 
-        <div class="card-body">
+      <p class="card-text">
+        Tracks course enrollment history and provides information
+        about overall and pending enrollment.
+      </p>
 
-          <h4 class="card-title">
-            Relay
-          </h4>
-
-          <p class="card-text">
-            Provides switching control for the system's output components,
-            including the water-pumping mechanism.
-          </p>
-
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-sm-6 col-md-4 mt-3">
+  <div class="card h-100">
+    <div class="card-body">
 
-    <div class="col-sm-6 col-md-4 mt-3">
-      <div class="card h-100">
+      <h4 class="card-title">Payment Management</h4>
 
-        <div class="card-body">
+      <p class="card-text">
+        Provides payment-related configuration and supports course
+        purchasing by trainees.
+      </p>
 
-          <h4 class="card-title">
-            L293 Circuit
-          </h4>
-
-          <p class="card-text">
-            Used as part of the motor and water-pump control circuitry
-            described in the project system model.
-          </p>
-
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-sm-6 col-md-4 mt-3">
+  <div class="card h-100">
+    <div class="card-body">
 
-    <div class="col-sm-6 col-md-4 mt-3">
-      <div class="card h-100">
+      <h4 class="card-title">User Profile</h4>
 
-        <div class="card-body">
+      <p class="card-text">
+        Provides trainees with a profile containing their account
+        information and allows profile information to be updated.
+      </p>
 
-          <h4 class="card-title">
-            18650 Battery
-          </h4>
-
-          <p class="card-text">
-            Provides the electrical power required to initialize and operate
-            the automated firefighting car.
-          </p>
-
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
+
 
   </div>
-
 
   <h2 class="project-section-title">
-    Fire Detection & Extinguishing Workflow
+    User Workflow
   </h2>
-
 
   <div class="row">
 
-    <div class="col-md-6 mt-3">
-      <div class="card h-100 feature-card">
+<div class="col-md-6 mt-3">
+  <div class="card h-100 feature-card">
+    <div class="card-body">
 
-        <div class="card-body">
+      <h4 class="card-title">
+        <i class="fas fa-user-plus"></i>
+        1. Registration
+      </h4>
 
-          <h4 class="card-title">
-            <i class="fas fa-battery-full"></i>
-            1. System Initialization
-          </h4>
+      <p class="card-text">
+        New instructors and trainees first create an account by
+        providing the required information.
+      </p>
 
-          <p class="card-text">
-            The 18650 battery is connected to the automated firefighting
-            car and the vehicle is placed on level ground.
-          </p>
-
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-md-6 mt-3">
+  <div class="card h-100 feature-card">
+    <div class="card-body">
 
-    <div class="col-md-6 mt-3">
-      <div class="card h-100 feature-card">
+      <h4 class="card-title">
+        <i class="fas fa-sign-in-alt"></i>
+        2. Login
+      </h4>
 
-        <div class="card-body">
+      <p class="card-text">
+        Users log into the system using their registered username
+        and password. The system provides separate administrative
+        and user-oriented functionality.
+      </p>
 
-          <h4 class="card-title">
-            <i class="fas fa-search"></i>
-            2. Fire Detection
-          </h4>
-
-          <p class="card-text">
-            Flame sensors receive input when a fire is present within the
-            detection range of the vehicle.
-          </p>
-
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-md-6 mt-3">
+  <div class="card h-100 feature-card">
+    <div class="card-body">
 
-    <div class="col-md-6 mt-3">
-      <div class="card h-100 feature-card">
+      <h4 class="card-title">
+        <i class="fas fa-search"></i>
+        3. Course Search
+      </h4>
 
-        <div class="card-body">
+      <p class="card-text">
+        Trainees can browse and search available courses using
+        course categories to find their desired training program.
+      </p>
 
-          <h4 class="card-title">
-            <i class="fas fa-location-arrow"></i>
-            3. Movement Toward Fire
-          </h4>
-
-          <p class="card-text">
-            The Arduino processes the sensor input and the vehicle moves
-            toward the detected fire.
-          </p>
-
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-md-6 mt-3">
+  <div class="card h-100 feature-card">
+    <div class="card-body">
 
-    <div class="col-md-6 mt-3">
-      <div class="card h-100 feature-card">
+      <h4 class="card-title">
+        <i class="fas fa-shopping-cart"></i>
+        4. Course Purchase
+      </h4>
 
-        <div class="card-body">
+      <p class="card-text">
+        Trainees can add courses to their cart, purchase their
+        selected courses, and access the courses after enrollment.
+      </p>
 
-          <h4 class="card-title">
-            <i class="fas fa-tint"></i>
-            4. Fire Extinguishing
-          </h4>
-
-          <p class="card-text">
-            The water pump is activated and water is sprayed toward the
-            fire through the sprinkler mechanism.
-          </p>
-
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
+
+<div class="col-md-6 mt-3">
+  <div class="card h-100 feature-card">
+    <div class="card-body">
+
+      <h4 class="card-title">
+        <i class="fas fa-comments"></i>
+        5. Communication
+      </h4>
+
+      <p class="card-text">
+        Trainees can communicate directly with instructors through
+        the live chat facility when they need assistance.
+      </p>
+
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6 mt-3">
+  <div class="card h-100 feature-card">
+    <div class="card-body">
+
+      <h4 class="card-title">
+        <i class="fas fa-book-open"></i>
+        6. Course Access
+      </h4>
+
+      <p class="card-text">
+        After purchasing and enrolling in a course, trainees can
+        view their enrolled courses and access the available
+        course materials.
+      </p>
+
+    </div>
+  </div>
+</div>
+
 
   </div>
-
 
   <div class="row justify-content-sm-center">
 
-    <div class="col-sm-10 mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/fire-car-3.jpg" title="Fire Detection and Extinguishing Process" class="img-fluid rounded z-depth-1" %}
-    </div>
+
+<div class="col-sm-10 mt-3 mt-md-0">
+  {% include figure.liquid
+    loading="eager"
+    path="assets/img/training-management-3.jpg"
+    title="Training Program Management System User Interface"
+    class="img-fluid rounded z-depth-1"
+  %}
+</div>
+```
 
   </div>
 
   <div class="caption">
-    The system detects the fire through sensors, moves the vehicle toward the affected area, and activates the water pump to extinguish the fire.
+    The system supports course discovery, enrollment, purchasing,
+    course access, profile management, and communication between
+    trainees and instructors.
   </div>
 
+  <h2 class="project-section-title">
+    Technology Stack
+  </h2>
+
+  <div class="table-responsive">
+
+
+<table class="table table-bordered">
+
+  <thead>
+    <tr>
+      <th>Technology / Tool</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <tr>
+      <td>PHP</td>
+      <td>Server-side application development</td>
+    </tr>
+
+    <tr>
+      <td>MySQL</td>
+      <td>Database management and data storage</td>
+    </tr>
+
+    <tr>
+      <td>HTML</td>
+      <td>Web page structure and content</td>
+    </tr>
+
+    <tr>
+      <td>CSS</td>
+      <td>User interface styling</td>
+    </tr>
+
+    <tr>
+      <td>JavaScript</td>
+      <td>Client-side web functionality</td>
+    </tr>
+
+    <tr>
+      <td>Bootstrap</td>
+      <td>Responsive user interface development</td>
+    </tr>
+
+    <tr>
+      <td>MySQL Workbench</td>
+      <td>Database design and management</td>
+    </tr>
+
+    <tr>
+      <td>Visual Studio Code</td>
+      <td>Development environment</td>
+    </tr>
+
+    <tr>
+      <td>GitHub</td>
+      <td>Version control and code collaboration</td>
+    </tr>
+
+  </tbody>
+
+</table>
+
+
+  </div>
 
   <h2 class="project-section-title">
     Technical Attributes
   </h2>
 
-
   <div class="table-responsive">
 
-    <table class="table table-bordered">
+<table class="table table-bordered">
 
-      <thead>
-        <tr>
-          <th>Attribute</th>
-          <th>Details</th>
-        </tr>
-      </thead>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Details</th>
+    </tr>
+  </thead>
 
-      <tbody>
+  <tbody>
 
-        <tr>
-          <td>Project Type</td>
-          <td>Robotic Firefighting System</td>
-        </tr>
+    <tr>
+      <td>Project Type</td>
+      <td>Web-Based Training Management System</td>
+    </tr>
 
-        <tr>
-          <td>Controller</td>
-          <td>Arduino UNO</td>
-        </tr>
+    <tr>
+      <td>Backend</td>
+      <td>PHP</td>
+    </tr>
 
-        <tr>
-          <td>Detection Method</td>
-          <td>Flame Sensor</td>
-        </tr>
+    <tr>
+      <td>Database</td>
+      <td>MySQL</td>
+    </tr>
 
-        <tr>
-          <td>Power Source</td>
-          <td>18650 Battery</td>
-        </tr>
+    <tr>
+      <td>Frontend</td>
+      <td>HTML, CSS, JavaScript, Bootstrap</td>
+    </tr>
 
-        <tr>
-          <td>Fire Suppression</td>
-          <td>Water Pump and Sprinkler</td>
-        </tr>
+    <tr>
+      <td>User Roles</td>
+      <td>Administrator / Instructor and Trainee</td>
+    </tr>
 
-        <tr>
-          <td>Motor Control</td>
-          <td>L293 Circuit</td>
-        </tr>
+    <tr>
+      <td>Course Management</td>
+      <td>Course creation, updating, deletion, and categorization</td>
+    </tr>
 
-        <tr>
-          <td>Switching</td>
-          <td>Relay</td>
-        </tr>
+    <tr>
+      <td>Enrollment</td>
+      <td>Course enrollment and enrollment history</td>
+    </tr>
 
-        <tr>
-          <td>Operating Mode</td>
-          <td>Automated Fire Detection and Response</td>
-        </tr>
+    <tr>
+      <td>Payment</td>
+      <td>Online course payment and payment configuration</td>
+    </tr>
 
-        <tr>
-          <td>Vehicle Structure</td>
-          <td>Compact and Lightweight Robotic Platform</td>
-        </tr>
+    <tr>
+      <td>Communication</td>
+      <td>Live chat between trainees and instructors</td>
+    </tr>
 
-        <tr>
-          <td>Primary Objective</td>
-          <td>Fire Detection and Extinguishing</td>
-        </tr>
+    <tr>
+      <td>Primary Objective</td>
+      <td>Centralized management of training programs</td>
+    </tr>
 
-      </tbody>
+  </tbody>
 
-    </table>
+</table>
+
 
   </div>
 
-
   <h2 class="project-section-title">
-    Safety & Automation Objectives
+    Key Contributions
   </h2>
 
   <ul>
 
-    <li>
-      <strong>Safety:</strong> Reduce human exposure to dangerous
-      firefighting environments.
-    </li>
+<li>
+  <strong>Centralized Management:</strong>
+  Provides a centralized platform for managing training-related
+  activities.
+</li>
 
-    <li>
-      <strong>Rapid Response:</strong> Detect and respond to fire quickly
-      within the system's operating range.
-    </li>
+<li>
+  <strong>Course Management:</strong>
+  Supports course categories, course creation, maintenance, and
+  course-related information.
+</li>
 
-    <li>
-      <strong>Minimal Human Intervention:</strong> Automate the fire
-      detection and extinguishing process.
-    </li>
+<li>
+  <strong>Online Enrollment:</strong>
+  Allows trainees to search for desired courses and enroll in them.
+</li>
 
-    <li>
-      <strong>Compact Operation:</strong> Provide a robotic platform that
-      can operate in small spaces and areas with limited entrances.
-    </li>
+<li>
+  <strong>Online Payment:</strong>
+  Provides an online purchasing and payment mechanism for courses.
+</li>
 
-  </ul>
+<li>
+  <strong>Live Communication:</strong>
+  Includes a live chat facility that allows trainees to communicate
+  directly with instructors.
+</li>
 
+<li>
+  <strong>User Management:</strong>
+  Provides registration, login, profile management, and
+  enrolled-course functionality.
+</li>
 
-  <h2 class="project-section-title">
-    Limitations
-  </h2>
-
-  <ul>
-
-    <li>
-      The flame sensor does not perform well under sunlight.
-    </li>
-
-    <li>
-      The current system operates only within a limited area.
-    </li>
 
   </ul>
-
 
   <h2 class="project-section-title">
     Future Improvements
@@ -740,91 +836,82 @@ related_publications: false
 
   <div class="row">
 
-    <div class="col-md-6 mt-3">
-      <div class="card h-100">
 
-        <div class="card-body">
+<div class="col-md-6 mt-3">
+  <div class="card h-100">
+    <div class="card-body">
 
-          <h4 class="card-title">
-            <i class="fas fa-sun"></i>
-            Improved Flame Detection
-          </h4>
+      <h4 class="card-title">
+        <i class="fas fa-clipboard-check"></i>
+        Assessment System
+      </h4>
 
-          <p class="card-text">
-            Use a higher-performance flame sensor capable of providing
-            improved performance under sunlight.
-          </p>
+      <p class="card-text">
+        Introduce an assessment system to evaluate trainee knowledge,
+        performance, and progress during training programs.
+      </p>
 
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-md-6 mt-3">
+  <div class="card h-100">
+    <div class="card-body">
 
-    <div class="col-md-6 mt-3">
-      <div class="card h-100">
+      <h4 class="card-title">
+        <i class="fas fa-mobile-alt"></i>
+        Mobile Accessibility
+      </h4>
 
-        <div class="card-body">
+      <p class="card-text">
+        Extend the platform with improved mobile accessibility so
+        trainees can access training services conveniently from
+        mobile devices.
+      </p>
 
-          <h4 class="card-title">
-            <i class="fas fa-water"></i>
-            Automated Sprinkler
-          </h4>
-
-          <p class="card-text">
-            Integrate improved automated water-sprinkler functionality for
-            more effective fire suppression.
-          </p>
-
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-md-6 mt-3">
+  <div class="card h-100">
+    <div class="card-body">
 
-    <div class="col-md-6 mt-3">
-      <div class="card h-100">
+      <h4 class="card-title">
+        <i class="fas fa-gamepad"></i>
+        Gamification
+      </h4>
 
-        <div class="card-body">
+      <p class="card-text">
+        Introduce gamification techniques to make training activities
+        more engaging and interactive for trainees.
+      </p>
 
-          <h4 class="card-title">
-            <i class="fas fa-map-marker-alt"></i>
-            GPS Integration
-          </h4>
-
-          <p class="card-text">
-            Future development can incorporate GPS functionality to enable
-            control from remote stations.
-          </p>
-
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
 
+<div class="col-md-6 mt-3">
+  <div class="card h-100">
+    <div class="card-body">
 
-    <div class="col-md-6 mt-3">
-      <div class="card h-100">
+      <h4 class="card-title">
+        <i class="fas fa-tachometer-alt"></i>
+        Response Optimization
+      </h4>
 
-        <div class="card-body">
+      <p class="card-text">
+        Improve system performance and minimize response time for a
+        faster and more efficient user experience.
+      </p>
 
-          <h4 class="card-title">
-            <i class="fas fa-microphone"></i>
-            Voice Interaction
-          </h4>
-
-          <p class="card-text">
-            The system can be further extended with voice-interactive
-            functionality and other robotic interfaces.
-          </p>
-
-        </div>
-
-      </div>
     </div>
+  </div>
+</div>
+
 
   </div>
-
 
   <h2 class="project-section-title">
     Project Highlights
@@ -832,20 +919,36 @@ related_publications: false
 
   <p>
     This project demonstrates practical experience in
-    <strong>Arduino-based robotics, embedded systems, sensor-based fire
-    detection, automated vehicle movement, water-pump control, and robotic
-    fire suppression</strong>. The compact robotic platform is designed to
-    detect fire within a certain range, move toward the affected area, and
-    extinguish the fire using a pumping mechanism.
+    <strong>full-stack web development, PHP application development,
+    MySQL database management, responsive interface design, course
+    management, user management, online enrollment, payment management,
+    and live communication</strong>.
   </p>
 
   <p>
-    According to the project report, experimental operation showed that the
-    robot could sense fire accurately within a short time. Its compact body
-    also makes it potentially suitable for small spaces and locations with
-    limited entrances.
+    The system provides an integrated platform for managing online
+    training programs and course purchases while allowing administrators
+    or instructors to maintain course information and trainees to
+    search, purchase, and access their enrolled courses.
   </p>
 
+  <h2 class="project-section-title">
+    Project Report
+  </h2>
+
+  <p>
+    The project was developed as a semester project at the
+    <strong>Institute of Information Technology, Jahangirnagar University</strong>.
+    The project report identifies the development technologies as PHP,
+    MySQL, HTML, CSS, JavaScript, and Bootstrap.
+  </p>
+
+  <p>
+    The project team consisted of
+    <strong>Mst. Sumiya Siddika, Md. Shakil Ahmed, Shariful Islam,
+    and Amit Azim Amit</strong>, under the supervision of
+    <strong>Professor Dr. M. Shamim Kaiser</strong>.
+  </p>
 
   <h2 class="project-section-title">
     GitHub Repository
@@ -856,18 +959,19 @@ related_publications: false
     repository.
   </p>
 
-
   <div class="project-buttons">
 
-    <a
-      href="https://github.com/shakil2022/Remote-Control-Fire-Detection-Car"
-      class="project-button primary"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <i class="fab fa-github"></i>
-      GitHub Repository
-    </a>
+
+<a
+  href="https://github.com/shakil2022/Training-Program-Management-System"
+  class="project-button primary"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <i class="fab fa-github"></i>
+  GitHub Repository
+</a>
+
 
   </div>
 
