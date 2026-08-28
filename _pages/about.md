@@ -402,63 +402,489 @@ Jahangirnagar University
 These experiences have allowed me to combine academic teaching with hands-on research and contribute to the development of students in areas related to computing and artificial intelligence.
 </p>
 
+
 <section class="education-section">
   <h2>Education</h2>
+
   <div class="timeline">
+
+    <!-- M.Sc. -->
     <div class="edu-card">
       <div class="edu-main">
-        <p class="edu-school">Institute of Information Technology, Jahangirnagar University</p>
-        <a href="https://drive.google.com/file/d/16aIfdCM5Bt0XjIWH47rDqLdmt9idpkE6/view?usp=drive_link"> <p class="edu-degree">M.Sc. in ICT; CGPA: 3.75/4.0</p> </a>
-        
-        <p class="edu-note">Thesis (M.Sc.): FEP-SSL: A Privacy-Preserving Semi-Supervised Learning Framework for Parkinson's Disease Classification</p>
+        <p class="edu-school">
+          Institute of Information Technology, Jahangirnagar University
+        </p>
+
+        <a href="https://drive.google.com/file/d/16aIfdCM5Bt0XjIWH47rDqLdmt9idpkE6/view?usp=drive_link"
+           target="_blank"
+           rel="noopener noreferrer">
+          <p class="edu-degree">
+            M.Sc. in ICT; CGPA: 3.75/4.0
+          </p>
+        </a>
+
+        <p class="edu-note">
+          Thesis (M.Sc.): FEP-SSL: A Privacy-Preserving Semi-Supervised
+          Learning Framework for Parkinson's Disease Classification
+        </p>
       </div>
+
       <div class="edu-side">
         <div class="edu-loc">Dhaka, Bangladesh</div>
         <div class="edu-date">Oct 2024 – Sep 2026</div>
       </div>
     </div>
 
+
+    <!-- B.Sc. -->
     <div class="edu-card">
       <div class="edu-main">
-        <p class="edu-school">Institute of Information Technology, Jahangirnagar University</p>
-                <a href="https://drive.google.com/file/d/1NFqiSCK6Hg0eh4tgNG9K6_tdsR3Nj4PQ/view?usp=sharing"> <p class="edu-degree">B.Sc. in ICT; CGPA: 3.86/4.0 (4th position)</p> </a>
-        <p class="edu-note">Thesis (B.Sc.): Real-Time Bangla Sign Language Detection and Recognition Using YOLOv10</p>
+        <p class="edu-school">
+          Institute of Information Technology, Jahangirnagar University
+        </p>
+
+        <a href="https://drive.google.com/file/d/1NFqiSCK6Hg0eh4tgNG9K6_tdsR3Nj4PQ/view?usp=sharing"
+           target="_blank"
+           rel="noopener noreferrer">
+          <p class="edu-degree">
+            B.Sc. in ICT; CGPA: 3.86/4.0 (4th position)
+          </p>
+        </a>
+
+        <p class="edu-note">
+          Thesis (B.Sc.): Real-Time Bangla Sign Language Detection and
+          Recognition Using YOLOv10
+        </p>
       </div>
+
       <div class="edu-side">
         <div class="edu-loc">Dhaka, Bangladesh</div>
         <div class="edu-date">Feb 2019 – Sep 2024</div>
       </div>
     </div>
 
+
+    <!-- HSC -->
     <div class="edu-card">
       <div class="edu-main">
-        <p class="edu-school edu-school-group">Dinajpur Govt. College</p>
+        <p class="edu-school edu-school-group">
+          Dinajpur Govt. College
+        </p>
 
         <div class="edu-sub">
-        <a href="https://drive.google.com/file/d/1T-4sbylCgV18rKrN6SyuCOFDP0s2rs72/view?usp=drive_link"> <p class="edu-degree">Higher Secondary Certificate (HSC); (Science); GPA: 5.0/5.0</p> </a>
-         
-        </div>
-        <div class="edu-sub">
-          <p class="edu-degree">Secondary School Certificate (SSC); (Science); GPA: 5.0/5.0</p>
+          <a href="https://drive.google.com/file/d/1T-4sbylCgV18rKrN6SyuCOFDP0s2rs72/view?usp=drive_link"
+             target="_blank"
+             rel="noopener noreferrer">
+            <p class="edu-degree">
+              Higher Secondary Certificate (HSC); Science; GPA: 5.0/5.0
+            </p>
+          </a>
         </div>
       </div>
-         <div class="edu-card">
-      <div class="edu-main">
-        <p class="edu-school edu-school-group">Panchkur B\L High School</p>
 
-        <div class="edu-sub">
-        <a href="https://drive.google.com/file/d/1osWGSHjY9RAbxn_ifhFAzW8Vd_ujt1VT/view?usp=drive_link"> <p class="edu-degree">Higher Secondary Certificate (HSC); (Science); GPA: 5.0/5.0</p> </a>
-         
-        </div>
-        <div class="edu-sub">
-          <p class="edu-degree">Secondary School Certificate (SSC); (Science); GPA: 5.0/5.0</p>
-        </div>
+      <div class="edu-side">
+        <div class="edu-loc">Dinajpur, Bangladesh</div>
+        <div class="edu-date">2016 – 2018</div>
       </div>
     </div>
+
+
+    <!-- SSC -->
+    <div class="edu-card">
+      <div class="edu-main">
+        <p class="edu-school edu-school-group">
+          Panchkur B\L High School
+        </p>
+
+        <div class="edu-sub">
+          <a href="https://drive.google.com/file/d/1osWGSHjY9RAbxn_ifhFAzW8Vd_ujt1VT/view?usp=drive_link"
+             target="_blank"
+             rel="noopener noreferrer">
+            <p class="edu-degree">
+              Secondary School Certificate (SSC); Science; GPA: 5.0/5.0
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div class="edu-side">
+        <div class="edu-loc">Dinajpur, Bangladesh</div>
+        <div class="edu-date">2014 – 2016</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+```
+
+```html
+<hr class="divider-line">
+
+<section class="section-block">
+  <h2>Certifications</h2>
+
+  <div class="cert-list">
+
+    <!-- IBM Data Science -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="YOUR_IBM_CERTIFICATE_LINK"
+             target="_blank"
+             rel="noopener noreferrer">
+            IBM Data Science Professional Certificate
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Completed a 12-course specialization covering data science
+          methodology, Python, SQL, data analysis, data visualization,
+          machine learning, and generative AI applications. Gained
+          hands-on experience through cloud-based labs and a final
+          Capstone Project.
+        </p>
+      </div>
+
+      <div class="cert-date">
+        April 2025
+      </div>
+    </div>
+
+
+    <!-- Cyber Security -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="https://drive.google.com/file/d/18KFyvAjJjQBL97XDjT1hrtb7TMxXRUox/view?usp=drive_link"
+             target="_blank"
+             rel="noopener noreferrer">
+            Cyber Security
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Enhancing Digital Government and Economy (EDGE)
+        </p>
+      </div>
+
+      <div class="cert-date">
+        Sep 2024 – Dec 2024
+      </div>
+    </div>
+
+
+    <!-- Software Testing -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="https://drive.google.com/file/d/11vjOE41rv4mdr7RnSify30t_IFvAoasW/view?usp=drive_link"
+             target="_blank"
+             rel="noopener noreferrer">
+            Software Testing
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Enhancing Digital Government and Economy (EDGE)
+        </p>
+      </div>
+
+      <div class="cert-date">
+        Mar 2024 – May 2024
+      </div>
+    </div>
+
+
+    <!-- Graphics Design -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="https://drive.google.com/file/d/1rtKzPKqB0tIe2WjNwa8EPyC13nkH3i6l/view?usp=drive_link"
+             target="_blank"
+             rel="noopener noreferrer">
+            Graphics Design
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Learning &amp; Earning Development Project (LEDP)
+        </p>
+      </div>
+
+      <div class="cert-date">
+        Jan 2020 – Jun 2020
+      </div>
+    </div>
+
+
+    <!-- Youth Social Leadership -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="https://drive.google.com/file/d/1Ae6YWbL-Wy5OZon2pUjOYipNHDjWJpxl/view"
+             target="_blank"
+             rel="noopener noreferrer">
+            Youth Social Leadership
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Bangladesh Youth Leadership Training
+        </p>
+      </div>
+
+      <div class="cert-date">
+        Feb 2020 – Mar 2020
+      </div>
+    </div>
+
+  </div>
+</section>
+```
+
+
+
+
+
+<hr class="divider-line">
+
+<section class="section-block">
+  <h2>Honors and Awards</h2>
+
+  <div class="cert-list">
+
+    <!-- ICT Division Fellowship -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="https://drive.google.com/file/d/1lCtDA3zSwH3vj1NPrKfoYh6sfrPSHMLz/view?usp=drive_link"
+             target="_blank"
+             rel="noopener noreferrer">
+            Information and Communication Technology (ICT) Division Fellowship
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Awarded the ICT Division Fellowship for the 2025–2026 academic
+          session for research on
+          <em>“FEP-SSL: A Privacy-Preserving Semi-Supervised Learning
+          Framework for Parkinson’s Disease Classification.”</em>
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2025 – 2026
+      </div>
+    </div>
+
+
+    <!-- NST Fellowship -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="https://drive.google.com/file/d/1ukv5D60qS6wI1gxfXyz6FpkMQ_HyA47a/view?usp=drive_link"
+             target="_blank"
+             rel="noopener noreferrer">
+            National Science and Technology (NST) Fellowship
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Awarded the National Science and Technology (NST) Fellowship
+          for the 2025–2026 academic session for research on
+          <em>“Privacy-Preserving Federated Semi-Supervised Learning
+          Model for Healthcare Applications.”</em>
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2025 – 2026
+      </div>
+    </div>
+
+
+    <!-- University Merit Scholarship -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="https://juniv.edu/"
+             target="_blank"
+             rel="noopener noreferrer">
+            University Merit Scholarship
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Awarded the University Merit Scholarship for outstanding
+          academic performance throughout the B.Sc. (Hons.) in ICT
+          program at the Institute of Information Technology,
+          Jahangirnagar University.
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2019 – 2024
+      </div>
+    </div>
+
+
+    <!-- IEEEXtreme -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="YOUR_IEEEXTREME_LINK"
+             target="_blank"
+             rel="noopener noreferrer">
+            IEEEXtreme 14.0 Programming Contest
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Participated in the IEEEXtreme 14.0 programming contest
+          organized by IEEE. My team, <em>“JUinception,”</em> ranked
+          498th among 2,155 teams worldwide and secured 11th position
+          in Bangladesh.
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2021
+      </div>
+    </div>
+
+
+    <!-- University Merit Scholarship - Semester Results -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="YOUR_SEMESTER_MERIT_SCHOLARSHIP_LINK"
+             target="_blank"
+             rel="noopener noreferrer">
+            University Merit Scholarship — B.Sc. Academic Results
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Received the University Merit Scholarship for academic
+          performance in all eight semesters (Part I–VIII) of the
+          B.Sc. (Hons.) in ICT program.
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2019 – 2024
+      </div>
+    </div>
+
+
+    <!-- Dementia Workshop -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="YOUR_DEMENTIA_WORKSHOP_LINK"
+             target="_blank"
+             rel="noopener noreferrer">
+            Workshop on Early Detection and Management of Dementia
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Participating member in the workshop
+          <em>“Early Detection and Management of Dementia using
+          Explainable Artificial Intelligence,”</em> awarded by
+          Nottingham Trent University, England.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Debate Finalist -->
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="YOUR_DEBATE_FINALIST_LINK"
+             target="_blank"
+             rel="noopener noreferrer">
+            Debate Finalist
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Achieved finalist status in a debate competition organized
+          by the Dinajpur Debating Society.
+        </p>
+      </div>
+    </div>
+
+
   </div>
 </section>
 
+
 <hr class="divider-line">
+
+<section class="section-block">
+  <h2>Technical Skills</h2>
+
+  <div class="skills-list">
+
+    <!-- Programming Languages -->
+    <div class="skill-item">
+      <div class="skill-main">
+        <p class="skill-name">Languages</p>
+
+        <p class="skill-desc">
+          C, C++, Java, Python, PHP, LaTeX, HTML, CSS, JavaScript, MySQL
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Machine Learning -->
+    <div class="skill-item">
+      <div class="skill-main">
+        <p class="skill-name">Machine Learning</p>
+
+        <p class="skill-desc">
+          PyTorch, Keras, OpenCV, TensorFlow, NLTK, Pandas, NumPy, Matplotlib
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Developer Tools -->
+    <div class="skill-item">
+      <div class="skill-main">
+        <p class="skill-name">Developer Tools</p>
+
+        <p class="skill-desc">
+          Visual Studio Code, Code::Blocks, LaTeX, PyCharm, Jupyter Notebook,
+          Eclipse
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Illustration Tools -->
+    <div class="skill-item">
+      <div class="skill-main">
+        <p class="skill-name">Illustration Tools</p>
+
+        <p class="skill-desc">
+          Adobe Illustrator, Adobe Photoshop, Canva, Adobe Animate,
+          Adobe Premiere Pro
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<hr class="divider-line">
+
+<!-- ==================== CERTIFICATIONS ==================== -->
+
 <section class="section-block">
   <h2>Certifications</h2>
 
@@ -484,6 +910,78 @@ These experiences have allowed me to combine academic teaching with hands-on res
       </div>
     </div>
 
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Cyber Security
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Enhancing Digital Government and Economy (EDGE)
+        </p>
+      </div>
+
+      <div class="cert-date">
+        Sep 2024 – Dec 2024
+      </div>
+    </div>
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Software Testing
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Enhancing Digital Government and Economy (EDGE)
+        </p>
+      </div>
+
+      <div class="cert-date">
+        Mar 2024 – May 2024
+      </div>
+    </div>
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Graphics Design
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Learning &amp; Earning Development Project (LEDP)
+        </p>
+      </div>
+
+      <div class="cert-date">
+        Jan 2020 – Jun 2020
+      </div>
+    </div>
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Youth Social Leadership
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Bangladesh Youth Leadership Training
+        </p>
+      </div>
+
+      <div class="cert-date">
+        Feb 2020 – Mar 2020
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -491,23 +989,295 @@ These experiences have allowed me to combine academic teaching with hands-on res
 <hr class="divider-line">
 
 
+<!-- ==================== ACHIEVEMENTS ==================== -->
+
 <section class="section-block">
   <h2>Achievements</h2>
 
   <div class="cert-list">
 
-    <!-- Add achievements here -->
     <div class="cert-item">
       <div class="cert-main">
         <p class="cert-name">
-          Academic Achievement
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Information and Communication Technology (ICT) Division Fellowship
+          </a>
         </p>
 
         <p class="cert-desc">
-          Secured 4th position in the B.Sc. (Hons.) in ICT program at
-          the Institute of Information Technology, Jahangirnagar University,
-          with a CGPA of 3.86/4.00.
+          <strong>2025 – 2026</strong><br>
+          Title: <em>FEP-SSL: A Privacy-Preserving Semi-Supervised
+          Learning Framework for Parkinson’s Disease Classification.</em>
         </p>
+      </div>
+
+      <div class="cert-date">
+        2025 – 2026
+      </div>
+    </div>
+
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            National Science and Technology (NST) Fellowship
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          <strong>2025 – 2026</strong><br>
+          Title: <em>Privacy-Preserving Federated Semi-Supervised
+          Learning Model for Healthcare Applications.</em>
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2025 – 2026
+      </div>
+    </div>
+
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            University Merit Scholarship for Academic Results
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Awarded a government-supported university merit scholarship
+          based on academic performance throughout the B.Sc. program.
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2019 – 2024
+      </div>
+    </div>
+
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            IEEEXtreme 14.0 Programming Contest
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Participated in the IEEEXtreme 14.0 programming contest
+          organized by IEEE in 2021. My team, <strong>JUinception</strong>,
+          ranked <strong>498th out of 2,155 teams</strong> globally and
+          secured <strong>11th position in Bangladesh</strong>.
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2021
+      </div>
+    </div>
+
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            University Merit Scholarship
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Awarded a university merit scholarship for outstanding
+          academic results in B.Sc. Part I, II, III, IV, V, VI, VII,
+          and VIII.
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2019 – 2024
+      </div>
+    </div>
+
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Workshop on Early Detection and Management of Dementia
+            using Explainable Artificial Intelligence
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Participating Member in the workshop awarded by
+          Nottingham Trent University, England.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Debate Finalist
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Awarded as a finalist by the Dinajpur Debating Society.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<hr class="divider-line">
+
+
+<!-- ==================== TECHNICAL SKILLS ==================== -->
+
+<section class="section-block">
+  <h2>Technical Skills</h2>
+
+  <div class="skills-list">
+
+    <div class="skill-item">
+      <div class="skill-title">
+        Languages
+      </div>
+
+      <div class="skill-content">
+        C, C++, Java, Python, PHP, LaTeX, HTML, CSS, JavaScript, MySQL
+      </div>
+    </div>
+
+
+    <div class="skill-item">
+      <div class="skill-title">
+        Machine Learning
+      </div>
+
+      <div class="skill-content">
+        PyTorch, Keras, OpenCV, TensorFlow, NLTK, Pandas, NumPy, Matplotlib
+      </div>
+    </div>
+
+
+    <div class="skill-item">
+      <div class="skill-title">
+        Developer Tools
+      </div>
+
+      <div class="skill-content">
+        Visual Studio Code, Code::Blocks, LaTeX, PyCharm,
+        Jupyter Notebook, Eclipse
+      </div>
+    </div>
+
+
+    <div class="skill-item">
+      <div class="skill-title">
+        Illustration Tools
+      </div>
+
+      <div class="skill-content">
+        Adobe Illustrator, Adobe Photoshop, Canva, Adobe Animate,
+        Adobe Premiere Pro
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<hr class="divider-line">
+
+
+<!-- ==================== CO-CURRICULAR ACTIVITIES ==================== -->
+
+<section class="section-block">
+  <h2>Co-Curricular Activities and Services</h2>
+
+  <div class="cert-list">
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Admission Helpline Assistant
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Assisted students and applicants through the
+          Jahangirnagar University Admission Helpline.
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2023 – 2024
+      </div>
+    </div>
+
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            General Secretary
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Dinajpur Students Association of Jahangirnagar University
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2022 – 2025
+      </div>
+    </div>
+
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            General Member
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Jahangirnagar University Science Club
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2019 – 2022
+      </div>
+    </div>
+
+
+    <div class="cert-item">
+      <div class="cert-main">
+        <p class="cert-name">
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Volunteer
+          </a>
+        </p>
+
+        <p class="cert-desc">
+          Savar Half Marathon
+        </p>
+      </div>
+
+      <div class="cert-date">
+        2022
       </div>
     </div>
 
