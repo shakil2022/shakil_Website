@@ -481,15 +481,15 @@ These experiences have allowed me to combine academic teaching with hands-on res
     </span>
 
     <span class="interest-tag">
-      Trustworthy AI
+      Cyber Security
     </span>
 
     <span class="interest-tag">
-      Differential Privacy
+      Privacy Privacy
     </span>
 
     <span class="interest-tag">
-      Robust Machine Learning
+      Artificial Intelligence
     </span>
 
     <span class="interest-tag">
@@ -497,20 +497,17 @@ These experiences have allowed me to combine academic teaching with hands-on res
     </span>
 
     <span class="interest-tag">
-      Data-Efficient Deep Learning
+      Machine Learning
+    </span>
+
+    <span class="interest-tag">
+      Image Processing
     </span>
 
     <span class="interest-tag">
       Computer Vision
     </span>
 
-    <span class="interest-tag">
-      Statistical Analysis
-    </span>
-
-    <span class="interest-tag">
-      Generative AI
-    </span>
 
   </div>
 
