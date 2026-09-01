@@ -333,6 +333,71 @@ latest_posts:
       flex-direction: column;
     }
   }
+  /* ==================== RESEARCH INTERESTS ==================== */
+
+.research-interests {
+  max-width: 760px;
+  margin: 40px auto 0;
+  padding: 28px 0 0;
+  border-top: 1px solid var(--border-soft);
+}
+
+.research-interests h2 {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #eef1f8;
+  margin: 0 0 16px;
+}
+
+.interest-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.interest-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 13px;
+  border-radius: 18px;
+  background: rgba(91, 141, 239, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: #dce5f5;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.interest-tag:hover {
+  background: rgba(91, 141, 239, 0.18);
+  border-color: rgba(91, 141, 239, 0.35);
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .research-interests {
+    margin-top: 32px;
+    padding: 24px 0 0;
+  }
+
+  .research-interests h2 {
+    font-size: 16px;
+  }
+
+  .interest-tags {
+    gap: 8px;
+  }
+
+  .interest-tag {
+    font-size: 12px;
+    padding: 7px 11px;
+  }
+}
 </style>
 
 <p>
@@ -401,6 +466,52 @@ Jahangirnagar University
 </a>.
 These experiences have allowed me to combine academic teaching with hands-on research and contribute to the development of students in areas related to computing and artificial intelligence.
 </p>
+
+
+<!-- ==================== RESEARCH INTERESTS ==================== -->
+
+<section class="research-interests">
+
+  <h2>Research Interests</h2>
+
+  <div class="interest-tags">
+
+    <span class="interest-tag">
+      Federated Learning
+    </span>
+
+    <span class="interest-tag">
+      Cyber Security
+    </span>
+
+    <span class="interest-tag">
+      Privacy Privacy
+    </span>
+
+    <span class="interest-tag">
+      Artificial Intelligence
+    </span>
+
+    <span class="interest-tag">
+      Semi-supervised Learning
+    </span>
+
+    <span class="interest-tag">
+      Machine Learning
+    </span>
+
+    <span class="interest-tag">
+      Image Processing
+    </span>
+
+    <span class="interest-tag">
+      Computer Vision
+    </span>
+
+
+  </div>
+
+</section>
 
 
 <section class="education-section">
@@ -681,30 +792,7 @@ These experiences have allowed me to combine academic teaching with hands-on res
 
   <div class="cert-list">
 
-    <!-- IBM Data Science -->
-    <div class="cert-item">
-      <div class="cert-main">
-        <p class="cert-name">
-          <a href="YOUR_IBM_CERTIFICATE_LINK"
-             target="_blank"
-             rel="noopener noreferrer">
-            IBM Data Science Professional Certificate
-          </a>
-        </p>
 
-        <p class="cert-desc">
-          Completed a 12-course specialization covering data science
-          methodology, Python, SQL, data analysis, data visualization,
-          machine learning, and generative AI applications. Gained
-          hands-on experience through cloud-based labs and a final
-          Capstone Project.
-        </p>
-      </div>
-
-      <div class="cert-date">
-        April 2025
-      </div>
-    </div>
 
 
     <!-- Cyber Security -->
