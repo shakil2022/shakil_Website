@@ -524,6 +524,7 @@ These experiences have allowed me to combine academic teaching with hands-on res
 </p>
 
 
+<hr class="divider-line">
 <!-- ==================== RESEARCH INTERESTS ==================== -->
 
 <section class="research-interests">
@@ -570,6 +571,7 @@ These experiences have allowed me to combine academic teaching with hands-on res
 </section>
 
 
+<hr class="divider-line">
 <section class="education-section">
   <h2>Education</h2>
 
@@ -684,6 +686,7 @@ These experiences have allowed me to combine academic teaching with hands-on res
 </section>
 
 
+<hr class="divider-line">
 
 <!-- ==================== HONORS AND AWARDS ==================== -->
 
@@ -836,9 +839,6 @@ These experiences have allowed me to combine academic teaching with hands-on res
   </div>
 </section>
 
-
-
-
 <hr class="divider-line">
 
 <!-- ==================== CERTIFICATIONS ==================== -->
@@ -942,6 +942,7 @@ These experiences have allowed me to combine academic teaching with hands-on res
 </section>
 
 
+<hr class="divider-line">
 
 <!-- ==================== CO-CURRICULAR ACTIVITIES ==================== -->
 
@@ -1045,6 +1046,7 @@ These experiences have allowed me to combine academic teaching with hands-on res
 </section>
 
 
+<hr class="divider-line">
 <!-- ========================================================= -->
 <!-- TECHNICAL SKILLS -->
 <!-- ========================================================= -->
@@ -1114,6 +1116,7 @@ Adobe Animate, Adobe Premiere Pro
 
 </section>
 
+<hr class="divider-line">
 <footer class="site-footer">
   <div class="container text-center">
     <p class="mb-0">
