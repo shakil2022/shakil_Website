@@ -4,7 +4,7 @@ layout: course
 
 title: Structured Programming Language Lab
 
-description: This laboratory course provides hands-on experience in structured programming using the C programming language. Students will develop practical skills in programming fundamentals, conditional statements, loops, functions, arrays, recursion, strings, pointers, structures, file handling, and competitive programming problem-solving techniques.
+description: This laboratory course provides hands-on experience in structured programming using the C programming language. Students will develop practical skills in programming fundamentals, conditional statements, loops, functions, arrays, recursion, strings, pointers, structures, file handling, and programming problem-solving techniques.
 
 instructor: Md. Shakil Ahmed
 
@@ -105,17 +105,25 @@ This laboratory course provides students with practical experience in structured
 By the end of this course, students will be able to:
 
 * Apply fundamental programming concepts using the C programming language.
+
 * Implement conditional statements, loops, functions, arrays, and recursion.
+
 * Manipulate strings and use pointers in C programs.
+
 * Implement structures and file-handling operations.
+
 * Apply programming concepts to solve computational problems.
+
 * Develop analytical and algorithmic problem-solving skills.
+
 * Solve programming problems using online judges and competitive programming techniques.
 
 ## Prerequisites
 
 * CSE 101: Structured Programming Language
+
 * Basic computer literacy
+
 * Basic understanding of programming concepts
 
 ## Textbooks
@@ -128,15 +136,20 @@ By the end of this course, students will be able to:
 
 ## Online Resources
 
-* C programming documentation and tutorials
-* Online C compiler and programming practice platforms
-* Online judge platforms such as URI and UVA
+* C programming documentation and tutorials.
+
+* Online C compilers and programming practice platforms.
+
+* Online judge and programming practice platforms.
 
 ## Grading
 
-* **Class Participation:** 5%
-* **Continuous Lab Evaluation and Assignments:** 25%
+* **Class Participation and Activity:** 5%
+
+* **Continuous Lab Evaluation & Assignments:** 25%
+
 * **Lab Midterm Examination:** 30%
+
 * **Final Lab Evaluation:** 40%
 
 **Total: 100%**
