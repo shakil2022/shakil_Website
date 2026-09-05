@@ -180,7 +180,7 @@ nav_order: 5
 
 <div class="contact-page">
 
-  <div class="contact-intro">
+  <!-- <div class="contact-intro">
     <h1>Contact Information</h1>
 
     <p>
@@ -188,7 +188,7 @@ nav_order: 5
       teaching, or other professional opportunities, please feel free
       to contact me through the following platforms.
     </p>
-  </div>
+  </div> -->
 
   <div class="contact-grid">
 
@@ -258,7 +258,7 @@ nav_order: 5
 
   </div>
 
-  <div class="contact-details">
+  <!-- <div class="contact-details">
 
     <h2>Get in Touch</h2>
 
@@ -288,6 +288,6 @@ nav_order: 5
       </li>
     </ul>
 
-  </div>
+  </div> -->
 
 </div>
