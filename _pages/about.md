@@ -15,17 +15,17 @@ profile:
   more_info: >
 
 selected_papers: true
-social: true
+social: false
 
-announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
+# announcements:
+#   enabled: true
+#   scrollable: true
+#   limit: 5
 
-latest_posts:
-  enabled: true
-  scrollable: true
-  limit: 3
+# latest_posts:
+#   enabled: true
+#   scrollable: true
+#   limit: 3
 ---
 
 <style>
