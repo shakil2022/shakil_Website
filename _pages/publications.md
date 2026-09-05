@@ -50,7 +50,7 @@ nav_order: 2
 
     <!-- ORCID -->
     <a
-      href="https://orcid.org/YOUR_ORCID_ID"
+      href="https://orcid.org/0009-0005-5684-4151"
       class="profile-card"
       target="_blank"
       rel="noopener noreferrer"
