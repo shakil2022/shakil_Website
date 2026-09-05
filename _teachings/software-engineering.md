@@ -11,9 +11,6 @@ year: 2026
 
 term: Spring
 
-location: B2/905 and B2/316
-
-time: Tuesdays, 8:15-9:45 AM and Thursdays, 1:15-2:45 PM
 
 course_id: cse-327-software-engineering
 

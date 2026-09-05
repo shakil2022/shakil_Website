@@ -11,9 +11,6 @@ year: 2025
 
 term: Fall
 
-location: B2/316
-
-time: Fridays, 8:20-10:40 AM
 
 course_id: cse-207-database-systems
 

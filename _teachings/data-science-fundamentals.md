@@ -5,8 +5,6 @@ description: This course introduces the fundamental concepts of cyber security, 
 instructor: Md Shakil Ahmed
 year: 2026
 term: Summer
-location: B2/909
-time: Tuesdays, 09:45-11:15 AM and Thursdays, 01:15-02:45 PM
 course_id: cse-413-cyber-security-and-digital-forensic
 
 schedule:

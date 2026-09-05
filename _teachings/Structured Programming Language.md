@@ -5,8 +5,6 @@ description: This course introduces the fundamental concepts of structured progr
 instructor: Md. Shakil Ahmed
 year: 2025
 term: Fall
-location: B4-405 and B3-402
-time: Mondays, 10:30-11:45 AM and Thursdays, 9:15-10:30 AM
 course_id: cse-101-structured-programming-language
 
 schedule:

@@ -11,9 +11,6 @@ year: 2025
 
 term: Spring
 
-location: Level-2
-
-time: To be announced
 
 course_id: cse-1201-1-object-oriented-programming-language
 

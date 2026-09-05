@@ -11,9 +11,6 @@ year: 2026
 
 term: Summer
 
-location: B2/909
-
-time: Tuesdays, 09:45-11:15 AM and Thursdays, 01:15-02:45 PM
 
 course_id: cse-414-cyber-security-and-digital-forensic-laboratory
 
