@@ -1,27 +1,37 @@
-# -----------------------------------------------------------------------------
-# Social media and contact links
-# -----------------------------------------------------------------------------
+# This file contains the author's social media links and usernames.
+# The socials will be displayed in the order they are defined here.
+# For more information, please refer to the documentation of the jekyll-socials plugin:
+# https://github.com/george-gca/jekyll-socials
 
-# GitHub username
-github_username: shakil2022
+github_username: https://github.com/shakil2022
+linkedin_username: https://www.linkedin.com/feed/
+scholar_userid: https://scholar.google.com/citations?user=jIomJygAAAAJ&hl=en
+orcid_id: https://orcid.org/0009-0005-5684-41510.
+email: shakil.ahmed@bubt.edu.bd # your email address
+cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 
-# LinkedIn username or profile name
-linkedin_username: md-shakil-ahmed
+# # Other academic and professional links
+# researchgate_profile: # your ResearchGate profile URL
+# researchgate_username: # your ResearchGate username
+# website_url: # your personal website URL
+# twitter_username: # your Twitter/X username
+# youtube_username: # your YouTube username
+# facebook_username: # your Facebook username
 
-# Google Scholar user ID
-# Use only the ID after "?user=", not the complete URL.
-scholar_userid: jIomJygAAAAJ
+# rss_icon: true # comment this line to hide the RSS icon
 
-# ORCID iD
-orcid_id: 0000-0000-0000-0000
+# inspirehep_id: 1010907 # Inspire HEP author ID
+# wechat_qr: # filename of your WeChat QR code
+# whatsapp_number: # your WhatsApp number in international format
 
-# Email address
-email: shakil.ahmed@bubt.edu.bd
 
-# CV PDF path
-cv_pdf: /shakil_Website/assets/pdf/Shakil_Ahmed_CV.pdf
-
-# Disable RSS icon
-# rss_icon: true
-
-# Do not include Einstein or any other custom social link.
+#  # this file contains the social media links and usernames of the author
+# # the socials will be displayed in the order they are defined here
+# # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+# cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
+# email: shakil.ahmed@bubt.edu.bd # your email address
+# inspirehep_id: 1010907 # Inspire HEP author ID
+# rss_icon: true # comment this line to hide the RSS icon
+# scholar_userid: https://scholar.google.com/citations?user=jIomJygAAAAJ&hl=en # your Google Scholar ID
+# # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+# # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
