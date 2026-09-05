@@ -4,7 +4,7 @@ permalink: /contact/
 title: Contact
 #description: Contact information and professional social media links.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <style>
@@ -246,7 +246,7 @@ nav_order: 5
       </div>
 
       <a
-        href="https://twitter.com/"
+        href="https://x.com/home"
         class="contact-button"
         target="_blank"
         rel="noopener noreferrer"
@@ -258,36 +258,14 @@ nav_order: 5
 
   </div>
 
-  <!-- <div class="contact-details">
 
-    <h2>Get in Touch</h2>
-
-    <p>
-      I welcome inquiries related to research collaboration, Ph.D.
-      opportunities, academic projects, teaching, and professional
-      discussions. Please include a clear subject and a brief description
-      of your purpose when contacting me by email.
-    </p>
-
-    <ul>
-      <li>
-        <strong>Email:</strong>
-        <a href="mailto:akmolmasud5@gmail.com">
-          akmolmasud5@gmail.com
-        </a>
-      </li>
-
-      <li>
-        <strong>Availability:</strong>
-        Available for academic and research-related communication.
-      </li>
-
-      <li>
-        <strong>Response time:</strong>
-        I will respond as soon as possible.
-      </li>
-    </ul>
-
-  </div> -->
 
 </div>
+
+<footer class="site-footer">
+  <div class="container text-center">
+    <p class="mb-0">
+      © 2026 Md. Shakil Ahmed. All rights reserved.
+    </p>
+  </div>
+</footer>
