@@ -11,7 +11,7 @@ subtitle: >
 profile:
   align: left
   image: prof_pic.jpg
-  image_circular: true
+  image_circular: false
   more_info: >
 
 selected_papers: true

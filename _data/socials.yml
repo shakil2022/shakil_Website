@@ -3,12 +3,14 @@
 # For more information, please refer to the documentation of the jekyll-socials plugin:
 # https://github.com/george-gca/jekyll-socials
 
-github_username: https://github.com/shakil2022
-linkedin_username: https://www.linkedin.com/feed/
-scholar_userid: https://scholar.google.com/citations?user=jIomJygAAAAJ&hl=en
-orcid_id: https://orcid.org/0009-0005-5684-41510.
-email: shakil.ahmed@bubt.edu.bd # your email address
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
+github_username: shakil2022
+linkedin_username: md-shakil-ahmed
+scholar_userid: jIomJygAAAAJ&hl
+orcid_id: 0009-0005-5684-4151
+
+email: shakil.ahmed@bubt.edu.bd
+
+cv_pdf: /assets/pdf/cv.pdf
 
 # # Other academic and professional links
 # researchgate_profile: # your ResearchGate profile URL
