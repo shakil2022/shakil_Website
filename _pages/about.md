@@ -886,84 +886,6 @@ These experiences have allowed me to combine academic teaching with hands-on res
 </section>
 
 
-<hr class="divider-line">
-
-
-
-<hr class="divider-line">
-
-
-<!-- ==================== TECHNICAL SKILLS ==================== -->
-
-<section class="section-block">
-  <h2>Technical Skills</h2>
-
-  <div class="skills-list">
-
-    <!-- Languages -->
-    <div class="skill-item">
-      <div class="skill-main">
-        <p class="skill-name">
-          Languages
-        </p>
-
-        <p class="skill-desc">
-          C, C++, Java, Python, PHP, LaTeX, HTML, CSS, JavaScript, MySQL
-        </p>
-      </div>
-    </div>
-
-
-    <!-- Machine Learning -->
-    <div class="skill-item">
-      <div class="skill-main">
-        <p class="skill-name">
-          Machine Learning
-        </p>
-
-        <p class="skill-desc">
-          PyTorch, Keras, OpenCV, TensorFlow, NLTK, Pandas, NumPy,
-          Matplotlib
-        </p>
-      </div>
-    </div>
-
-
-    <!-- Developer Tools -->
-    <div class="skill-item">
-      <div class="skill-main">
-        <p class="skill-name">
-          Developer Tools
-        </p>
-
-        <p class="skill-desc">
-          Visual Studio Code, Code::Blocks, LaTeX, PyCharm,
-          Jupyter Notebook, Eclipse
-        </p>
-      </div>
-    </div>
-
-
-    <!-- Illustration Tools -->
-    <div class="skill-item">
-      <div class="skill-main">
-        <p class="skill-name">
-          Illustration Tools
-        </p>
-
-        <p class="skill-desc">
-          Adobe Illustrator, Adobe Photoshop, Canva, Adobe Animate,
-          Adobe Premiere Pro
-        </p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-<hr class="divider-line">
-
 
 <!-- ==================== CO-CURRICULAR ACTIVITIES ==================== -->
 
@@ -1065,3 +987,73 @@ These experiences have allowed me to combine academic teaching with hands-on res
 
   </div>
 </section>
+
+
+<!-- ==================== TECHNICAL SKILLS ==================== -->
+
+<section class="section-block">
+  <h2>Technical Skills</h2>
+
+  <div class="skills-list">
+
+    <!-- Languages -->
+    <div class="skill-item">
+      <div class="skill-main">
+        <p class="skill-name">
+          Languages
+        </p>
+
+        <p class="skill-desc">
+          C, C++, Java, Python, PHP, LaTeX, HTML, CSS, JavaScript, MySQL
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Machine Learning -->
+    <div class="skill-item">
+      <div class="skill-main">
+        <p class="skill-name">
+          Machine Learning
+        </p>
+
+        <p class="skill-desc">
+          PyTorch, Keras, OpenCV, TensorFlow, NLTK, Pandas, NumPy,
+          Matplotlib
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Developer Tools -->
+    <div class="skill-item">
+      <div class="skill-main">
+        <p class="skill-name">
+          Developer Tools
+        </p>
+
+        <p class="skill-desc">
+          Visual Studio Code, Code::Blocks, LaTeX, PyCharm,
+          Jupyter Notebook, Eclipse
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Illustration Tools -->
+    <div class="skill-item">
+      <div class="skill-main">
+        <p class="skill-name">
+          Illustration Tools
+        </p>
+
+        <p class="skill-desc">
+          Adobe Illustrator, Adobe Photoshop, Canva, Adobe Animate,
+          Adobe Premiere Pro
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
