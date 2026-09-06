@@ -10,7 +10,7 @@ instructor: Md. Shakil Ahmed
 year: 2026
 
 term: Summer
-
+importance: 2
 
 course_id: cse-414-cyber-security-and-digital-forensic-laboratory
 

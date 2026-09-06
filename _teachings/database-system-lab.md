@@ -10,7 +10,7 @@ instructor: Md. Shakil Ahmed
 year: 2025
 
 term: Spring
-
+importance: 6
 course_id: cse-208-database-systems-lab
 
 schedule:

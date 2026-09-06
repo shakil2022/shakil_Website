@@ -11,7 +11,7 @@ instructor: Md. Shakil Ahmed
 year: 2025
 
 term: Spring
-
+importance: 8
 course_id: cse-102-structured-programming-language-lab
 
 schedule:

@@ -10,7 +10,7 @@ instructor: Md. Shakil Ahmed
 year: 2026
 
 term: Spring
-
+importance: 3
 
 course_id: cse-327-software-engineering
 

@@ -11,7 +11,7 @@ year: 2025
 
 term: Fall
 
-
+importance: 5
 course_id: cse-207-database-systems
 
 schedule:
