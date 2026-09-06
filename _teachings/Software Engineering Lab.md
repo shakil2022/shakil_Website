@@ -5,6 +5,7 @@ description: This course provides practical experience in software engineering m
 instructor: Md. Shakil Ahmed
 year: 2026
 term: Spring
+importance: 4
 course_id: cse-328-software-engineering-laboratory
 
 schedule:
