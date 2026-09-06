@@ -7,7 +7,6 @@ importance: 6
 category: work
 related_publications: false
 ---
-
 <style>
 .project-card {
   position: relative;
@@ -145,14 +144,6 @@ related_publications: false
   line-height: 1.7;
 }
 
-.feature-card {
-  margin-bottom: 20px;
-}
-
-.feature-card .card-title {
-  font-weight: 700;
-}
-
 @media (max-width: 576px) {
   .project-card {
     padding: 20px;
@@ -173,7 +164,6 @@ related_publications: false
   }
 }
 </style>
-
 
 <div class="project-card">
 

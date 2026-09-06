@@ -7,7 +7,6 @@ importance: 2
 category: work
 related_publications: false
 ---
-
 <style>
 .project-card {
   position: relative;
@@ -145,26 +144,6 @@ related_publications: false
   line-height: 1.7;
 }
 
-.feature-card {
-  margin-bottom: 20px;
-}
-
-.feature-card .card-title {
-  font-weight: 700;
-}
-
-.caption {
-  margin-top: 10px;
-  margin-bottom: 25px;
-  text-align: center;
-  font-size: 14px;
-  color: var(--global-text-color-light);
-}
-
-.project-content .table th {
-  font-weight: 700;
-}
-
 @media (max-width: 576px) {
   .project-card {
     padding: 20px;
@@ -183,13 +162,8 @@ related_publications: false
     height: 62px;
     font-size: 25px;
   }
-
-  .project-header {
-    align-items: flex-start;
-  }
 }
 </style>
-
 <div class="project-card">
 
   <div class="project-header">

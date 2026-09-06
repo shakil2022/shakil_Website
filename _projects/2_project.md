@@ -145,14 +145,6 @@ related_publications: false
   line-height: 1.7;
 }
 
-.role-card {
-  margin-bottom: 20px;
-}
-
-.role-card .card-title {
-  font-weight: 700;
-}
-
 @media (max-width: 576px) {
   .project-card {
     padding: 20px;
@@ -173,7 +165,6 @@ related_publications: false
   }
 }
 </style>
-
 
 <div class="project-card">
 
