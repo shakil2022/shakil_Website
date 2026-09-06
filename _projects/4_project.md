@@ -2,7 +2,7 @@
 layout: page
 title: Training Program Management System
 description: A web-based Training Program Management System for managing courses, trainees, enrollment, payments, communication, and training activities.
-img: assets/img/training-management.jpg
+img: assets/img/training_management.jpg
 importance: 4
 category: work
 related_publications: false

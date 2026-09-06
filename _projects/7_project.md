@@ -3,7 +3,7 @@ layout: page
 title: Bangladeshi Sign Language Detection
 description: A YOLOv10-based system for recognizing static Bangladeshi Sign Language gestures and translating them into text.
 img: assets/img/sign-language-detection.jpg
-importance: 2
+importance: 5
 category: work
 related_publications: false
 ---
