@@ -1356,7 +1356,7 @@ To remove the publications, you can:
 
 You can also:
 
-- in `v1.x`, bibliography layout/includes are gem-owned, so there are no starter-local `_layouts/bib.liquid`, `_includes/bib_search.liquid`, `_includes/citation.liquid`, or `_includes/selected_papers.liquid` files to delete
+- in `v1.x`, bibliography layout/includes are gem-owned, so there are no starter-local `_layouts/bib.liquid`, `_includes/bib_search.liquid`, `_includes/citation.liquid`, liquid` files to delete
 - the old `hide-custom-bibtex.rb` helper is now provided by `al_folio_core` (there is no local file to delete)
 - remove `al_citations` from the [Gemfile](../Gemfile) and from the `plugins` section in [\_config.yml](../_config.yml)
 - remove the `jekyll-scholar` gem from the [Gemfile](../Gemfile) and the `plugins` section in [\_config.yml](../_config.yml)

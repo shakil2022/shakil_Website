@@ -14,20 +14,16 @@ profile:
   image_circular: false
   more_info: >
 
-selected_papers: false
-social: true
+announcements:
+  enabled: false
+  scrollable: true
+  limit: 5
 
-# announcements:
-#   enabled: false
-#   scrollable: true
-#   limit: 5
-
-# latest_posts:
-#   enabled: false
-#   scrollable: true
-#   limit: 3
----
-
+latest_posts:
+  enabled: false
+  scrollable: true
+  limit: 3
+  ---
 <style>
   :root {
     --bg-deep: #0b1120;
