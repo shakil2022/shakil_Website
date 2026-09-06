@@ -14,16 +14,16 @@ profile:
   image_circular: false
   more_info: >
 
-selected_papers: true
+selected_papers: false
 social: true
 
 # announcements:
-#   enabled: true
+#   enabled: false
 #   scrollable: true
 #   limit: 5
 
 # latest_posts:
-#   enabled: true
+#   enabled: false
 #   scrollable: true
 #   limit: 3
 ---
@@ -465,7 +465,7 @@ in the Department of Computer Science and Engineering at the
 <a href="https://bubt.edu.bd/">
 Bangladesh University of Business and Technology (BUBT)
 </a>.
-I completed my M.Sc. in Information and Communication Technology at the
+I have completed my M.Sc. and B.Sc. degree in Information and Communication Technology at the
 <a href="https://iitju.edu.bd/">
 Institute of Information Technology, Jahangirnagar University
 </a>.
