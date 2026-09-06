@@ -105,51 +105,38 @@ This laboratory course provides students with practical experience in structured
 By the end of this course, students will be able to:
 
 * Apply fundamental programming concepts using the C programming language.
-
 * Implement conditional statements, loops, functions, arrays, and recursion.
-
 * Manipulate strings and use pointers in C programs.
-
 * Implement structures and file-handling operations.
-
 * Apply programming concepts to solve computational problems.
-
 * Develop analytical and algorithmic problem-solving skills.
-
 * Solve programming problems using online judges and competitive programming techniques.
 
 ## Prerequisites
 
 * CSE 101: Structured Programming Language
-
 * Basic computer literacy
-
 * Basic understanding of programming concepts
 
 ## Textbooks
 
-* **Primary:** *Teach Yourself C*, 3rd Edition, Herbert Schildt.
+* **Primary:** *Teach Yourself C*, 3rd Edition, by Herbert Schildt.
 
 ## Reference Books
 
-* *Programming in ANSI C*, 8th Edition, E. Balagurusamy.
+* *Programming in ANSI C*, 8th Edition, by E. Balagurusamy.
 
 ## Online Resources
 
 * C programming documentation and tutorials.
-
 * Online C compilers and programming practice platforms.
-
 * Online judge and programming practice platforms.
 
 ## Grading
 
 * **Class Participation and Activity:** 5%
-
 * **Continuous Lab Evaluation & Assignments:** 25%
-
 * **Lab Midterm Examination:** 30%
-
 * **Final Lab Evaluation:** 40%
 
 **Total: 100%**
