@@ -1,13 +1,12 @@
 ---
-
 layout: page
-title: Training Program Management System
-description: A web-based Training Program Management System for managing courses, trainees, enrollment, payments, communication, and training activities.
-img: assets/img/training-management.jpg
-importance: 3
+title: Bangladeshi Sign Language Detection
+description: A YOLOv10-based system for recognizing static Bangladeshi Sign Language gestures and translating them into text.
+img: assets/img/sign-language-detection.jpg
+importance: 2
 category: work
 related_publications: false
----------------------------
+---
 
 <style>
 .project-card {
@@ -154,6 +153,18 @@ related_publications: false
   font-weight: 700;
 }
 
+.caption {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--global-text-color-light);
+}
+
+.project-content .table th {
+  font-weight: 700;
+}
+
 @media (max-width: 576px) {
   .project-card {
     padding: 20px;
@@ -172,6 +183,10 @@ related_publications: false
     height: 62px;
     font-size: 25px;
   }
+
+  .project-header {
+    align-items: flex-start;
+  }
 }
 </style>
 
@@ -179,71 +194,62 @@ related_publications: false
 
   <div class="project-header">
 
-```
-<div class="project-icon">
-  <i class="fas fa-graduation-cap"></i>
-</div>
+    <div class="project-icon">
+      <i class="fas fa-hands"></i>
+    </div>
 
-<div>
-  <h1 class="project-title">
-    Training Program Management System
-  </h1>
+    <div>
+      <h1 class="project-title">
+        Bangladeshi Sign Language Detection
+      </h1>
 
-  <p class="project-subtitle">
-    A web-based platform for managing training programs, courses, trainees, enrollment, payments, and communication.
-  </p>
-</div>
-```
+      <p class="project-subtitle">
+        A YOLOv10-based system for recognizing static Bangladeshi Sign Language
+        gestures and translating them into text.
+      </p>
+    </div>
 
   </div>
 
   <div class="project-description">
 
-```
-Developed a <strong>Training Program Management System (TPMS)</strong>
-designed to streamline the administration, organization, and delivery
-of training programs. The system provides a centralized platform for
-managing courses, trainees, enrollment, payments, communication, and
-training-related activities.
+    Developed a <strong>Bangladeshi Sign Language (BdSL) Detection System</strong>
+    to help bridge communication barriers faced by deaf and mute individuals.
+    The system recognizes static Bangladeshi Sign Language hand gestures and
+    translates them into text, supporting more inclusive and accessible
+    communication.
 
-The application was developed using <strong>PHP</strong> with
-<strong>MySQL</strong> for database management. The user interface
-incorporates <strong>HTML, CSS, JavaScript, and Bootstrap</strong>,
-while GitHub was used for source-code management and collaboration.
-```
+    The proposed approach leverages <strong>YOLOv10</strong>, a
+    state-of-the-art object detection model, trained on a custom dataset of
+    labeled BdSL gesture images. The model was designed to provide accurate
+    and efficient recognition of <strong>14 unique static signs</strong>.
 
   </div>
 
   <div class="project-tags">
-
-```
-<span class="project-tag">PHP</span>
-<span class="project-tag">MySQL</span>
-<span class="project-tag">HTML</span>
-<span class="project-tag">CSS</span>
-<span class="project-tag">JavaScript</span>
-<span class="project-tag">Bootstrap</span>
-<span class="project-tag">Web Application</span>
-<span class="project-tag">Training Management</span>
-<span class="project-tag">Live Chat</span>
-<span class="project-tag">Online Payment</span>
-```
-
+    <span class="project-tag">YOLOv10</span>
+    <span class="project-tag">Python</span>
+    <span class="project-tag">Computer Vision</span>
+    <span class="project-tag">Deep Learning</span>
+    <span class="project-tag">Object Detection</span>
+    <span class="project-tag">Sign Language Recognition</span>
+    <span class="project-tag">Bangladeshi Sign Language</span>
+    <span class="project-tag">14 Static Signs</span>
+    <span class="project-tag">Custom Dataset</span>
+    <span class="project-tag">Text Translation</span>
   </div>
 
   <div class="project-buttons">
 
-```
-<a
-  href="https://github.com/shakil2022/Training-Program-Management-System"
-  class="project-button primary"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <i class="fab fa-github"></i>
-  View Code
-</a>
-```
+    <a
+      href="https://github.com/shakil2022/SIGN_LANGUAGE_DETECTION"
+      class="project-button primary"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fab fa-github"></i>
+      View Code
+    </a>
 
   </div>
 
@@ -256,565 +262,302 @@ while GitHub was used for source-code management and collaboration.
   </h2>
 
   <p>
-    The <strong>Training Program Management System (TPMS)</strong> is a
-    web-based platform developed to support the administration,
-    documentation, tracking, and management of training programs.
-    The system provides a centralized environment where administrators,
-    instructors, and trainees can perform their respective activities.
+    There is a critical need for accurate Bangladeshi Sign Language (BdSL)
+    detection systems to create a more inclusive environment for people who
+    are deaf and mute. Communication barriers can contribute to social
+    isolation and limit access to education, services, and everyday
+    interactions.
   </p>
 
   <p>
-    The system allows administrators or instructors to create and maintain
-    course categories, add and manage courses, monitor trainee enrollment,
-    communicate with trainees, and configure payment and language settings.
-    Trainees can create accounts, manage their profiles, search for courses,
-    add courses to a cart, purchase courses, review courses, view enrolled
-    courses, and communicate through the live chat facility.
+    This project proposes a computer vision-based system that recognizes
+    Bangladeshi Sign Language hand gestures and translates them into text.
+    By facilitating communication between sign language users and others,
+    the system aims to reduce communication barriers and support greater
+    social inclusion.
   </p>
 
-  <div class="row justify-content-sm-center">
-
-```
-<div class="col-sm-8 mt-3 mt-md-0">
-  {% include figure.liquid loading="eager" path="assets/img/training-management-1.jpg" title="Training Program Management System Dashboard" class="img-fluid rounded z-depth-1" %}
-</div>
-
-<div class="col-sm-4 mt-3 mt-md-0">
-  {% include figure.liquid loading="eager" path="assets/img/training-management-2.jpg" title="Training Program Management System Course Management" class="img-fluid rounded z-depth-1" %}
-</div>
-```
-
-  </div>
-
-  <div class="caption">
-    The Training Program Management System provides centralized management of training programs, courses, trainees, enrollment, and related activities.
-  </div>
+  <p>
+    The proposed method uses <strong>YOLOv10</strong>, a state-of-the-art
+    object detection model, to achieve accurate and efficient BdSL gesture
+    recognition. A custom dataset of <strong>1,949 labeled images</strong>
+    covering <strong>14 unique static signs</strong> was used to train and
+    evaluate the model.
+  </p>
 
   <h2 class="project-section-title">
-    System Features
+    Methodology
   </h2>
 
   <div class="row">
 
-```
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
-    <div class="card-body">
+          <h4 class="card-title">
+            <i class="fas fa-database"></i>
+            Custom Dataset
+          </h4>
 
-      <h4 class="card-title">
-        <i class="fas fa-user-shield"></i>
-        Admin & Instructor Management
-      </h4>
+          <p class="card-text">
+            A curated dataset of 1,949 labeled images representing
+            14 unique static Bangladeshi Sign Language gestures.
+          </p>
 
-      <ul>
-        <li>Provides a dedicated admin/instructor dashboard.</li>
-        <li>Creates and manages course categories.</li>
-        <li>Adds, updates, and deletes courses.</li>
-        <li>Manages trainee enrollment.</li>
-        <li>Controls payment and language settings.</li>
-      </ul>
-
+        </div>
+      </div>
     </div>
 
-  </div>
-</div>
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
+          <h4 class="card-title">
+            <i class="fas fa-brain"></i>
+            YOLOv10 Model
+          </h4>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
+          <p class="card-text">
+            A custom YOLOv10 object detection model trained to identify
+            and recognize static BdSL hand gestures.
+          </p>
 
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-user-graduate"></i>
-        Trainee Management
-      </h4>
-
-      <ul>
-        <li>Provides trainee registration and login.</li>
-        <li>Allows users to view and update their profiles.</li>
-        <li>Allows trainees to search for courses.</li>
-        <li>Supports course enrollment and purchasing.</li>
-        <li>Displays enrolled courses.</li>
-      </ul>
-
+        </div>
+      </div>
     </div>
 
-  </div>
-</div>
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
+          <h4 class="card-title">
+            <i class="fas fa-cogs"></i>
+            Model Training
+          </h4>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
+          <p class="card-text">
+            The model was trained on labeled gesture images to improve
+            recognition accuracy and robustness across the selected signs.
+          </p>
 
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-comments"></i>
-        Live Chat
-      </h4>
-
-      <ul>
-        <li>Provides direct communication between trainees and instructors.</li>
-        <li>Helps trainees ask questions about courses.</li>
-        <li>Supports communication about enrollment and payment.</li>
-        <li>Improves interaction between trainees and instructors.</li>
-      </ul>
-
+        </div>
+      </div>
     </div>
 
-  </div>
-</div>
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
+          <h4 class="card-title">
+            <i class="fas fa-language"></i>
+            Text Translation
+          </h4>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
+          <p class="card-text">
+            Recognized hand gestures are translated into text to support
+            communication between sign language users and others.
+          </p>
 
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-credit-card"></i>
-        Online Payment
-      </h4>
-
-      <ul>
-        <li>Supports online course purchasing.</li>
-        <li>Provides payment configuration for administrators.</li>
-        <li>Supports different currency options.</li>
-        <li>Allows trainees to confirm course payments.</li>
-      </ul>
-
+        </div>
+      </div>
     </div>
-
-  </div>
-</div>
-```
 
   </div>
 
   <h2 class="project-section-title">
-    System Components
+    System Workflow
   </h2>
 
   <div class="row">
 
-```
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
-    <div class="card-body">
+          <h4 class="card-title">
+            <i class="fas fa-camera"></i>
+            1. Input Image
+          </h4>
 
-      <h4 class="card-title">
-        Admin Dashboard
-      </h4>
+          <p class="card-text">
+            A hand gesture image is provided as input to the detection system.
+          </p>
 
-      <p class="card-text">
-        Provides administrative control over courses, categories,
-        trainees, enrollment, payments, and language settings.
-      </p>
-
+        </div>
+      </div>
     </div>
 
-  </div>
-</div>
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
+          <h4 class="card-title">
+            <i class="fas fa-search"></i>
+            2. Gesture Detection
+          </h4>
 
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
+          <p class="card-text">
+            The trained YOLOv10 model detects the hand gesture and identifies
+            the corresponding sign class.
+          </p>
 
-    <div class="card-body">
-
-      <h4 class="card-title">
-        Course Management
-      </h4>
-
-      <p class="card-text">
-        Allows administrators or instructors to add, update, delete,
-        categorize, and maintain training courses.
-      </p>
-
+        </div>
+      </div>
     </div>
 
-  </div>
-</div>
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
+          <h4 class="card-title">
+            <i class="fas fa-check-circle"></i>
+            3. Sign Recognition
+          </h4>
 
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
+          <p class="card-text">
+            The detected gesture is classified into one of the 14 supported
+            Bangladeshi Sign Language signs.
+          </p>
 
-    <div class="card-body">
-
-      <h4 class="card-title">
-        Trainee Management
-      </h4>
-
-      <p class="card-text">
-        Maintains registered trainees and provides access to their
-        enrollment and course-related information.
-      </p>
-
+        </div>
+      </div>
     </div>
 
-  </div>
-</div>
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
+          <h4 class="card-title">
+            <i class="fas fa-comment-alt"></i>
+            4. Text Output
+          </h4>
 
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
+          <p class="card-text">
+            The recognized sign is converted into text to facilitate
+            communication.
+          </p>
 
-    <div class="card-body">
-
-      <h4 class="card-title">
-        Enrollment Management
-      </h4>
-
-      <p class="card-text">
-        Tracks course enrollment history and provides information about
-        overall and pending enrollment.
-      </p>
-
+        </div>
+      </div>
     </div>
-
-  </div>
-</div>
-
-
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        Payment Management
-      </h4>
-
-      <p class="card-text">
-        Provides payment-related configuration and supports course
-        purchasing by trainees.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        User Profile
-      </h4>
-
-      <p class="card-text">
-        Provides trainees with a profile containing their account
-        information and allows profile information to be updated.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-```
 
   </div>
 
   <h2 class="project-section-title">
-    User Workflow
-  </h2>
-
-  <div class="row">
-
-```
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-user-plus"></i>
-        1. Registration
-      </h4>
-
-      <p class="card-text">
-        New instructors and trainees first create an account by
-        providing the required information.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-sign-in-alt"></i>
-        2. Login
-      </h4>
-
-      <p class="card-text">
-        Users log into the system using their registered username and
-        password. The system provides separate administrative and
-        user-oriented functionality.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-search"></i>
-        3. Course Search
-      </h4>
-
-      <p class="card-text">
-        Trainees can browse and search available courses using course
-        categories to find their desired training program.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-shopping-cart"></i>
-        4. Course Purchase
-      </h4>
-
-      <p class="card-text">
-        Trainees can add courses to their cart, purchase their selected
-        courses, and access the courses after enrollment.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-comments"></i>
-        5. Communication
-      </h4>
-
-      <p class="card-text">
-        Trainees can communicate directly with instructors through the
-        live chat facility when they need assistance.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-book-open"></i>
-        6. Course Access
-      </h4>
-
-      <p class="card-text">
-        After purchasing and enrolling in a course, trainees can view
-        their enrolled courses and access the available course
-        materials.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-```
-
-  </div>
-
-  <div class="row justify-content-sm-center">
-
-```
-<div class="col-sm-10 mt-3 mt-md-0">
-  {% include figure.liquid loading="eager" path="assets/img/training-management-3.jpg" title="Training Program Management System User Interface" class="img-fluid rounded z-depth-1" %}
-</div>
-```
-
-  </div>
-
-  <div class="caption">
-    The system supports course discovery, enrollment, purchasing, course access, profile management, and communication between trainees and instructors.
-  </div>
-
-  <h2 class="project-section-title">
-    Technology Stack
+    Dataset and Model Details
   </h2>
 
   <div class="table-responsive">
 
-```
-<table class="table table-bordered">
+    <table class="table table-bordered">
 
-  <thead>
-    <tr>
-      <th>Technology / Tool</th>
-      <th>Purpose</th>
-    </tr>
-  </thead>
+      <thead>
+        <tr>
+          <th>Attribute</th>
+          <th>Details</th>
+        </tr>
+      </thead>
 
-  <tbody>
+      <tbody>
 
-    <tr>
-      <td>PHP</td>
-      <td>Server-side application development</td>
-    </tr>
+        <tr>
+          <td>Project Type</td>
+          <td>Computer Vision and Sign Language Recognition</td>
+        </tr>
 
-    <tr>
-      <td>MySQL</td>
-      <td>Database management and data storage</td>
-    </tr>
+        <tr>
+          <td>Model</td>
+          <td>YOLOv10</td>
+        </tr>
 
-    <tr>
-      <td>HTML</td>
-      <td>Web page structure and content</td>
-    </tr>
+        <tr>
+          <td>Dataset</td>
+          <td>Custom labeled Bangladeshi Sign Language dataset</td>
+        </tr>
 
-    <tr>
-      <td>CSS</td>
-      <td>User interface styling</td>
-    </tr>
+        <tr>
+          <td>Total Images</td>
+          <td>1,949</td>
+        </tr>
 
-    <tr>
-      <td>JavaScript</td>
-      <td>Client-side web functionality</td>
-    </tr>
+        <tr>
+          <td>Number of Signs</td>
+          <td>14 unique static signs</td>
+        </tr>
 
-    <tr>
-      <td>Bootstrap</td>
-      <td>Responsive user interface development</td>
-    </tr>
+        <tr>
+          <td>Recognition Type</td>
+          <td>Static hand gesture detection</td>
+        </tr>
 
-    <tr>
-      <td>MySQL Workbench</td>
-      <td>Database design and management</td>
-    </tr>
+        <tr>
+          <td>Output</td>
+          <td>Recognized sign translated into text</td>
+        </tr>
 
-    <tr>
-      <td>Visual Studio Code</td>
-      <td>Development environment</td>
-    </tr>
+        <tr>
+          <td>Primary Objective</td>
+          <td>Bridging communication barriers through BdSL recognition</td>
+        </tr>
 
-    <tr>
-      <td>GitHub</td>
-      <td>Version control and code collaboration</td>
-    </tr>
+      </tbody>
 
-  </tbody>
-
-</table>
-```
+    </table>
 
   </div>
 
   <h2 class="project-section-title">
-    Technical Attributes
+    Performance Results
   </h2>
+
+  <p>
+    The proposed method was evaluated on the custom dataset containing
+    1,949 images of 14 unique signs. The model achieved the following
+    performance across all classes.
+  </p>
 
   <div class="table-responsive">
 
-```
-<table class="table table-bordered">
+    <table class="table table-bordered">
 
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Details</th>
-    </tr>
-  </thead>
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>Performance</th>
+        </tr>
+      </thead>
 
-  <tbody>
+      <tbody>
 
-    <tr>
-      <td>Project Type</td>
-      <td>Web-Based Training Management System</td>
-    </tr>
+        <tr>
+          <td>F1-Confidence Rate</td>
+          <td>86%</td>
+        </tr>
 
-    <tr>
-      <td>Backend</td>
-      <td>PHP</td>
-    </tr>
+        <tr>
+          <td>Recall-Confidence Rate</td>
+          <td>98%</td>
+        </tr>
 
-    <tr>
-      <td>Database</td>
-      <td>MySQL</td>
-    </tr>
+        <tr>
+          <td>Precision-Confidence Rate</td>
+          <td>100%</td>
+        </tr>
 
-    <tr>
-      <td>Frontend</td>
-      <td>HTML, CSS, JavaScript, Bootstrap</td>
-    </tr>
+        <tr>
+          <td>Precision-Recall Rate</td>
+          <td>90.3%</td>
+        </tr>
 
-    <tr>
-      <td>User Roles</td>
-      <td>Administrator / Instructor and Trainee</td>
-    </tr>
+        <tr>
+          <td>Overall Average Accuracy</td>
+          <td>90.67%</td>
+        </tr>
 
-    <tr>
-      <td>Course Management</td>
-      <td>Course creation, updating, deletion, and categorization</td>
-    </tr>
+      </tbody>
 
-    <tr>
-      <td>Enrollment</td>
-      <td>Course enrollment and enrollment history</td>
-    </tr>
-
-    <tr>
-      <td>Payment</td>
-      <td>Online course payment and payment configuration</td>
-    </tr>
-
-    <tr>
-      <td>Communication</td>
-      <td>Live chat between trainees and instructors</td>
-    </tr>
-
-    <tr>
-      <td>Primary Objective</td>
-      <td>Centralized management of training programs</td>
-    </tr>
-
-  </tbody>
-
-</table>
-```
+    </table>
 
   </div>
 
@@ -824,43 +567,57 @@ while GitHub was used for source-code management and collaboration.
 
   <ul>
 
-```
-<li>
-  <strong>Centralized Management:</strong>
-  Provides a centralized platform for managing training-related
-  activities.
-</li>
+    <li>
+      <strong>Inclusive Communication:</strong>
+      Develops a system intended to reduce communication barriers faced by
+      deaf and mute individuals.
+    </li>
 
-<li>
-  <strong>Course Management:</strong>
-  Supports course categories, course creation, maintenance, and
-  course-related information.
-</li>
+    <li>
+      <strong>YOLOv10-Based Detection:</strong>
+      Applies a state-of-the-art object detection model to Bangladeshi
+      Sign Language recognition.
+    </li>
 
-<li>
-  <strong>Online Enrollment:</strong>
-  Allows trainees to search for desired courses and enroll in them.
-</li>
+    <li>
+      <strong>Custom Dataset:</strong>
+      Uses a curated dataset of 1,949 labeled images covering 14 unique
+      static signs.
+    </li>
 
-<li>
-  <strong>Online Payment:</strong>
-  Provides an online purchasing and payment mechanism for courses.
-</li>
+    <li>
+      <strong>Accurate Recognition:</strong>
+      Achieves an overall average accuracy of 90.67% across the supported
+      signs.
+    </li>
 
-<li>
-  <strong>Live Communication:</strong>
-  Includes a live chat facility that allows trainees to communicate
-  directly with instructors.
-</li>
-
-<li>
-  <strong>User Management:</strong>
-  Provides registration, login, profile management, and enrolled-course
-  functionality.
-</li>
-```
+    <li>
+      <strong>Practical Application:</strong>
+      Provides a foundation for developing accessible sign language
+      communication tools.
+    </li>
 
   </ul>
+
+  <h2 class="project-section-title">
+    Social Impact
+  </h2>
+
+  <p>
+    This project aims to contribute to a more inclusive society by
+    addressing communication barriers faced by people who rely on
+    Bangladeshi Sign Language. By translating hand gestures into text,
+    the system has the potential to improve everyday communication,
+    reduce social isolation, and support greater participation in
+    education, employment, and community activities.
+  </p>
+
+  <p>
+    The research also contributes to the development of sign language
+    recognition technology and provides a foundation for future systems
+    capable of supporting a wider range of gestures and real-time
+    communication scenarios.
+  </p>
 
   <h2 class="project-section-title">
     Future Improvements
@@ -868,91 +625,77 @@ while GitHub was used for source-code management and collaboration.
 
   <div class="row">
 
-```
-<div class="col-md-6 mt-3">
-  <div class="card h-100">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
-    <div class="card-body">
+          <h4 class="card-title">
+            <i class="fas fa-video"></i>
+            Real-Time Recognition
+          </h4>
 
-      <h4 class="card-title">
-        <i class="fas fa-clipboard-check"></i>
-        Assessment System
-      </h4>
+          <p class="card-text">
+            Extend the system to support real-time gesture recognition
+            through video input and live camera streams.
+          </p>
 
-      <p class="card-text">
-        Introduce an assessment system to evaluate trainee knowledge,
-        performance, and progress during training programs.
-      </p>
-
+        </div>
+      </div>
     </div>
 
-  </div>
-</div>
+    <div class="col-md-6 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
+          <h4 class="card-title">
+            <i class="fas fa-expand-arrows-alt"></i>
+            Expanded Sign Vocabulary
+          </h4>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100">
+          <p class="card-text">
+            Increase the number of supported signs to improve the coverage
+            of Bangladeshi Sign Language.
+          </p>
 
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-mobile-alt"></i>
-        Mobile Accessibility
-      </h4>
-
-      <p class="card-text">
-        Extend the platform with improved mobile accessibility so
-        trainees can access training services conveniently from mobile
-        devices.
-      </p>
-
+        </div>
+      </div>
     </div>
 
-  </div>
-</div>
+    <div class="col-md-6 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
+          <h4 class="card-title">
+            <i class="fas fa-language"></i>
+            Sentence-Level Translation
+          </h4>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100">
+          <p class="card-text">
+            Extend the system from individual static signs to continuous
+            gesture sequences and sentence-level translation.
+          </p>
 
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-gamepad"></i>
-        Gamification
-      </h4>
-
-      <p class="card-text">
-        Introduce gamification techniques to make training activities
-        more engaging and interactive for trainees.
-      </p>
-
+        </div>
+      </div>
     </div>
 
-  </div>
-</div>
+    <div class="col-md-6 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
+          <h4 class="card-title">
+            <i class="fas fa-mobile-alt"></i>
+            Mobile Accessibility
+          </h4>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100">
+          <p class="card-text">
+            Develop a mobile-friendly application to make the recognition
+            system more accessible for everyday use.
+          </p>
 
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-tachometer-alt"></i>
-        Response Optimization
-      </h4>
-
-      <p class="card-text">
-        Improve system performance and minimize response time for a
-        faster and more efficient user experience.
-      </p>
-
+        </div>
+      </div>
     </div>
-
-  </div>
-</div>
-```
 
   </div>
 
@@ -962,35 +705,11 @@ while GitHub was used for source-code management and collaboration.
 
   <p>
     This project demonstrates practical experience in
-    <strong>full-stack web development, PHP application development,
-    MySQL database management, responsive interface design, course
-    management, user management, online enrollment, payment management,
-    and live communication</strong>.
-  </p>
-
-  <p>
-    The system provides an integrated platform for managing online training
-    programs and course purchases while allowing administrators or
-    instructors to maintain course information and trainees to search,
-    purchase, and access their enrolled courses.
-  </p>
-
-  <h2 class="project-section-title">
-    Project Report
-  </h2>
-
-  <p>
-    The project was developed as a semester project at the
-    <strong>Institute of Information Technology, Jahangirnagar University</strong>.
-    The project report identifies the development technologies as PHP,
-    MySQL, HTML, CSS, JavaScript, and Bootstrap.
-  </p>
-
-  <p>
-    The project team consisted of
-    <strong>Mst. Sumiya Siddika, Md. Shakil Ahmed, Shariful Islam,
-    and Amit Azim Amit</strong>, under the supervision of
-    <strong>Professor Dr. M. Shamim Kaiser</strong>.
+    <strong>deep learning, computer vision, object detection, custom dataset
+    development, YOLOv10 model training, and sign language recognition</strong>.
+    It combines technical innovation with a socially meaningful objective:
+    improving communication accessibility for people who rely on
+    Bangladeshi Sign Language.
   </p>
 
   <h2 class="project-section-title">
@@ -1004,17 +723,15 @@ while GitHub was used for source-code management and collaboration.
 
   <div class="project-buttons">
 
-```
-<a
-  href="https://github.com/shakil2022/Training-Program-Management-System"
-  class="project-button primary"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <i class="fab fa-github"></i>
-  GitHub Repository
-</a>
-```
+    <a
+      href="https://github.com/shakil2022/SIGN_LANGUAGE_DETECTION"
+      class="project-button primary"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fab fa-github"></i>
+      GitHub Repository
+    </a>
 
   </div>
 
