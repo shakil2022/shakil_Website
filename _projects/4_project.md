@@ -1,13 +1,12 @@
 ---
-
 layout: page
 title: Training Program Management System
 description: A web-based Training Program Management System for managing courses, trainees, enrollment, payments, communication, and training activities.
 img: assets/img/training-management.jpg
-importance: 3
+importance: 4
 category: work
 related_publications: false
----------------------------
+---
 
 <style>
 .project-card {
@@ -65,6 +64,7 @@ related_publications: false
   line-height: 1.65;
   color: #e8edf7;
   text-align: justify;
+  text-justify: inter-word;
 }
 
 .project-tags {
@@ -141,6 +141,7 @@ related_publications: false
 
 .project-content p {
   text-align: justify;
+  text-justify: inter-word;
   line-height: 1.7;
 }
 
@@ -193,38 +194,35 @@ related_publications: false
 
   <div class="project-header">
 
+    <div class="project-icon">
+      <i class="fas fa-graduation-cap"></i>
+    </div>
 
-<div class="project-icon">
-  <i class="fas fa-graduation-cap"></i>
-</div>
+    <div>
+      <h1 class="project-title">
+        Training Program Management System
+      </h1>
 
-<div>
-  <h1 class="project-title">
-    Training Program Management System
-  </h1>
-
-  <p class="project-subtitle">
-    A web-based platform for managing training programs, courses,
-    trainees, enrollment, payments, and communication.
-  </p>
-</div>
-
+      <p class="project-subtitle">
+        A web-based platform for managing training programs, courses,
+        trainees, enrollment, payments, and communication.
+      </p>
+    </div>
 
   </div>
 
   <div class="project-description">
+
     Developed a <strong>Training Program Management System (TPMS)</strong>
     designed to streamline the administration, organization, and delivery
     of training programs. The system provides a centralized platform for
     managing courses, trainees, enrollment, payments, communication, and
     training-related activities.
 
-
-The application was developed using <strong>PHP</strong> with
-<strong>MySQL</strong> for database management. The user interface
-incorporates <strong>HTML, CSS, JavaScript, and Bootstrap</strong>,
-while GitHub was used for source-code management and collaboration.
-
+    The application was developed using <strong>PHP</strong> with
+    <strong>MySQL</strong> for database management. The user interface
+    incorporates <strong>HTML, CSS, JavaScript, and Bootstrap</strong>,
+    while GitHub was used for source-code management and collaboration.
 
   </div>
 
@@ -243,16 +241,15 @@ while GitHub was used for source-code management and collaboration.
 
   <div class="project-buttons">
 
-<a
-  href="https://github.com/shakil2022/Training-Program-Management-System"
-  class="project-button primary"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <i class="fab fa-github"></i>
-  View Code
-</a>
-
+    <a
+      href="https://github.com/shakil2022/Training-Program-Management-System"
+      class="project-button primary"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fab fa-github"></i>
+      View Code
+    </a>
 
   </div>
 
@@ -283,25 +280,23 @@ while GitHub was used for source-code management and collaboration.
 
   <div class="row justify-content-sm-center">
 
+    <div class="col-sm-8 mt-3 mt-md-0">
+      {% include figure.liquid
+        loading="eager"
+        path="assets/img/training-management-1.jpg"
+        title="Training Program Management System Dashboard"
+        class="img-fluid rounded z-depth-1"
+      %}
+    </div>
 
-<div class="col-sm-8 mt-3 mt-md-0">
-  {% include figure.liquid
-    loading="eager"
-    path="assets/img/training-management-1.jpg"
-    title="Training Program Management System Dashboard"
-    class="img-fluid rounded z-depth-1"
-  %}
-</div>
-
-<div class="col-sm-4 mt-3 mt-md-0">
-  {% include figure.liquid
-    loading="eager"
-    path="assets/img/training-management-2.jpg"
-    title="Training Program Management System Course Management"
-    class="img-fluid rounded z-depth-1"
-  %}
-</div>
-
+    <div class="col-sm-4 mt-3 mt-md-0">
+      {% include figure.liquid
+        loading="eager"
+        path="assets/img/training-management-2.jpg"
+        title="Training Program Management System Course Management"
+        class="img-fluid rounded z-depth-1"
+      %}
+    </div>
 
   </div>
 
@@ -317,89 +312,87 @@ while GitHub was used for source-code management and collaboration.
 
   <div class="row">
 
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-    <div class="card-body">
+          <h4 class="card-title">
+            <i class="fas fa-user-shield"></i>
+            Admin &amp; Instructor Management
+          </h4>
 
-      <h4 class="card-title">
-        <i class="fas fa-user-shield"></i>
-        Admin &amp; Instructor Management
-      </h4>
+          <ul>
+            <li>Provides a dedicated admin/instructor dashboard.</li>
+            <li>Creates and manages course categories.</li>
+            <li>Adds, updates, and deletes courses.</li>
+            <li>Manages trainee enrollment.</li>
+            <li>Controls payment and language settings.</li>
+          </ul>
 
-      <ul>
-        <li>Provides a dedicated admin/instructor dashboard.</li>
-        <li>Creates and manages course categories.</li>
-        <li>Adds, updates, and deletes courses.</li>
-        <li>Manages trainee enrollment.</li>
-        <li>Controls payment and language settings.</li>
-      </ul>
-
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-    <div class="card-body">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
-      <h4 class="card-title">
-        <i class="fas fa-user-graduate"></i>
-        Trainee Management
-      </h4>
+          <h4 class="card-title">
+            <i class="fas fa-user-graduate"></i>
+            Trainee Management
+          </h4>
 
-      <ul>
-        <li>Provides trainee registration and login.</li>
-        <li>Allows users to view and update their profiles.</li>
-        <li>Allows trainees to search for courses.</li>
-        <li>Supports course enrollment and purchasing.</li>
-        <li>Displays enrolled courses.</li>
-      </ul>
+          <ul>
+            <li>Provides trainee registration and login.</li>
+            <li>Allows users to view and update their profiles.</li>
+            <li>Allows trainees to search for courses.</li>
+            <li>Supports course enrollment and purchasing.</li>
+            <li>Displays enrolled courses.</li>
+          </ul>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-    <div class="card-body">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
-      <h4 class="card-title">
-        <i class="fas fa-comments"></i>
-        Live Chat
-      </h4>
+          <h4 class="card-title">
+            <i class="fas fa-comments"></i>
+            Live Chat
+          </h4>
 
-      <ul>
-        <li>Provides direct communication between trainees and instructors.</li>
-        <li>Helps trainees ask questions about courses.</li>
-        <li>Supports communication about enrollment and payment.</li>
-        <li>Improves interaction between trainees and instructors.</li>
-      </ul>
+          <ul>
+            <li>Provides direct communication between trainees and instructors.</li>
+            <li>Helps trainees ask questions about courses.</li>
+            <li>Supports communication about enrollment and payment.</li>
+            <li>Improves interaction between trainees and instructors.</li>
+          </ul>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-    <div class="card-body">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
-      <h4 class="card-title">
-        <i class="fas fa-credit-card"></i>
-        Online Payment
-      </h4>
+          <h4 class="card-title">
+            <i class="fas fa-credit-card"></i>
+            Online Payment
+          </h4>
 
-      <ul>
-        <li>Supports online course purchasing.</li>
-        <li>Provides payment configuration for administrators.</li>
-        <li>Supports different currency options.</li>
-        <li>Allows trainees to confirm course payments.</li>
-      </ul>
+          <ul>
+            <li>Supports online course purchasing.</li>
+            <li>Provides payment configuration for administrators.</li>
+            <li>Supports different currency options.</li>
+            <li>Allows trainees to confirm course payments.</li>
+          </ul>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
 
   </div>
 
@@ -409,97 +402,95 @@ while GitHub was used for source-code management and collaboration.
 
   <div class="row">
 
+    <div class="col-sm-6 col-md-4 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
-    <div class="card-body">
+          <h4 class="card-title">Admin Dashboard</h4>
 
-      <h4 class="card-title">Admin Dashboard</h4>
+          <p class="card-text">
+            Provides administrative control over courses, categories,
+            trainees, enrollment, payments, and language settings.
+          </p>
 
-      <p class="card-text">
-        Provides administrative control over courses, categories,
-        trainees, enrollment, payments, and language settings.
-      </p>
-
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
-    <div class="card-body">
+    <div class="col-sm-6 col-md-4 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
-      <h4 class="card-title">Course Management</h4>
+          <h4 class="card-title">Course Management</h4>
 
-      <p class="card-text">
-        Allows administrators or instructors to add, update, delete,
-        categorize, and maintain training courses.
-      </p>
+          <p class="card-text">
+            Allows administrators or instructors to add, update, delete,
+            categorize, and maintain training courses.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
-    <div class="card-body">
+    <div class="col-sm-6 col-md-4 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
-      <h4 class="card-title">Trainee Management</h4>
+          <h4 class="card-title">Trainee Management</h4>
 
-      <p class="card-text">
-        Maintains registered trainees and provides access to their
-        enrollment and course-related information.
-      </p>
+          <p class="card-text">
+            Maintains registered trainees and provides access to their
+            enrollment and course-related information.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
-    <div class="card-body">
+    <div class="col-sm-6 col-md-4 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
-      <h4 class="card-title">Enrollment Management</h4>
+          <h4 class="card-title">Enrollment Management</h4>
 
-      <p class="card-text">
-        Tracks course enrollment history and provides information
-        about overall and pending enrollment.
-      </p>
+          <p class="card-text">
+            Tracks course enrollment history and provides information
+            about overall and pending enrollment.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
-    <div class="card-body">
+    <div class="col-sm-6 col-md-4 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
-      <h4 class="card-title">Payment Management</h4>
+          <h4 class="card-title">Payment Management</h4>
 
-      <p class="card-text">
-        Provides payment-related configuration and supports course
-        purchasing by trainees.
-      </p>
+          <p class="card-text">
+            Provides payment-related configuration and supports course
+            purchasing by trainees.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
-    <div class="card-body">
+    <div class="col-sm-6 col-md-4 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
-      <h4 class="card-title">User Profile</h4>
+          <h4 class="card-title">User Profile</h4>
 
-      <p class="card-text">
-        Provides trainees with a profile containing their account
-        information and allows profile information to be updated.
-      </p>
+          <p class="card-text">
+            Provides trainees with a profile containing their account
+            information and allows profile information to be updated.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
 
   </div>
 
@@ -509,131 +500,128 @@ while GitHub was used for source-code management and collaboration.
 
   <div class="row">
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-    <div class="card-body">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
-      <h4 class="card-title">
-        <i class="fas fa-user-plus"></i>
-        1. Registration
-      </h4>
+          <h4 class="card-title">
+            <i class="fas fa-user-plus"></i>
+            1. Registration
+          </h4>
 
-      <p class="card-text">
-        New instructors and trainees first create an account by
-        providing the required information.
-      </p>
+          <p class="card-text">
+            New instructors and trainees first create an account by
+            providing the required information.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-    <div class="card-body">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
-      <h4 class="card-title">
-        <i class="fas fa-sign-in-alt"></i>
-        2. Login
-      </h4>
+          <h4 class="card-title">
+            <i class="fas fa-sign-in-alt"></i>
+            2. Login
+          </h4>
 
-      <p class="card-text">
-        Users log into the system using their registered username
-        and password. The system provides separate administrative
-        and user-oriented functionality.
-      </p>
+          <p class="card-text">
+            Users log into the system using their registered username
+            and password. The system provides separate administrative
+            and user-oriented functionality.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-    <div class="card-body">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
-      <h4 class="card-title">
-        <i class="fas fa-search"></i>
-        3. Course Search
-      </h4>
+          <h4 class="card-title">
+            <i class="fas fa-search"></i>
+            3. Course Search
+          </h4>
 
-      <p class="card-text">
-        Trainees can browse and search available courses using
-        course categories to find their desired training program.
-      </p>
+          <p class="card-text">
+            Trainees can browse and search available courses using
+            course categories to find their desired training program.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-    <div class="card-body">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
-      <h4 class="card-title">
-        <i class="fas fa-shopping-cart"></i>
-        4. Course Purchase
-      </h4>
+          <h4 class="card-title">
+            <i class="fas fa-shopping-cart"></i>
+            4. Course Purchase
+          </h4>
 
-      <p class="card-text">
-        Trainees can add courses to their cart, purchase their
-        selected courses, and access the courses after enrollment.
-      </p>
+          <p class="card-text">
+            Trainees can add courses to their cart, purchase their
+            selected courses, and access the courses after enrollment.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-    <div class="card-body">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
-      <h4 class="card-title">
-        <i class="fas fa-comments"></i>
-        5. Communication
-      </h4>
+          <h4 class="card-title">
+            <i class="fas fa-comments"></i>
+            5. Communication
+          </h4>
 
-      <p class="card-text">
-        Trainees can communicate directly with instructors through
-        the live chat facility when they need assistance.
-      </p>
+          <p class="card-text">
+            Trainees can communicate directly with instructors through
+            the live chat facility when they need assistance.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-    <div class="card-body">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
 
-      <h4 class="card-title">
-        <i class="fas fa-book-open"></i>
-        6. Course Access
-      </h4>
+          <h4 class="card-title">
+            <i class="fas fa-book-open"></i>
+            6. Course Access
+          </h4>
 
-      <p class="card-text">
-        After purchasing and enrolling in a course, trainees can
-        view their enrolled courses and access the available
-        course materials.
-      </p>
+          <p class="card-text">
+            After purchasing and enrolling in a course, trainees can
+            view their enrolled courses and access the available
+            course materials.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
 
   </div>
 
   <div class="row justify-content-sm-center">
 
-
-<div class="col-sm-10 mt-3 mt-md-0">
-  {% include figure.liquid
-    loading="eager"
-    path="assets/img/training-management-3.jpg"
-    title="Training Program Management System User Interface"
-    class="img-fluid rounded z-depth-1"
-  %}
-</div>
-```
+    <div class="col-sm-10 mt-3 mt-md-0">
+      {% include figure.liquid
+        loading="eager"
+        path="assets/img/training-management-3.jpg"
+        title="Training Program Management System User Interface"
+        class="img-fluid rounded z-depth-1"
+      %}
+    </div>
 
   </div>
 
@@ -649,67 +637,65 @@ while GitHub was used for source-code management and collaboration.
 
   <div class="table-responsive">
 
+    <table class="table table-bordered">
 
-<table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Technology / Tool</th>
+          <th>Purpose</th>
+        </tr>
+      </thead>
 
-  <thead>
-    <tr>
-      <th>Technology / Tool</th>
-      <th>Purpose</th>
-    </tr>
-  </thead>
+      <tbody>
 
-  <tbody>
+        <tr>
+          <td>PHP</td>
+          <td>Server-side application development</td>
+        </tr>
 
-    <tr>
-      <td>PHP</td>
-      <td>Server-side application development</td>
-    </tr>
+        <tr>
+          <td>MySQL</td>
+          <td>Database management and data storage</td>
+        </tr>
 
-    <tr>
-      <td>MySQL</td>
-      <td>Database management and data storage</td>
-    </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Web page structure and content</td>
+        </tr>
 
-    <tr>
-      <td>HTML</td>
-      <td>Web page structure and content</td>
-    </tr>
+        <tr>
+          <td>CSS</td>
+          <td>User interface styling</td>
+        </tr>
 
-    <tr>
-      <td>CSS</td>
-      <td>User interface styling</td>
-    </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Client-side web functionality</td>
+        </tr>
 
-    <tr>
-      <td>JavaScript</td>
-      <td>Client-side web functionality</td>
-    </tr>
+        <tr>
+          <td>Bootstrap</td>
+          <td>Responsive user interface development</td>
+        </tr>
 
-    <tr>
-      <td>Bootstrap</td>
-      <td>Responsive user interface development</td>
-    </tr>
+        <tr>
+          <td>MySQL Workbench</td>
+          <td>Database design and management</td>
+        </tr>
 
-    <tr>
-      <td>MySQL Workbench</td>
-      <td>Database design and management</td>
-    </tr>
+        <tr>
+          <td>Visual Studio Code</td>
+          <td>Development environment</td>
+        </tr>
 
-    <tr>
-      <td>Visual Studio Code</td>
-      <td>Development environment</td>
-    </tr>
+        <tr>
+          <td>GitHub</td>
+          <td>Version control and code collaboration</td>
+        </tr>
 
-    <tr>
-      <td>GitHub</td>
-      <td>Version control and code collaboration</td>
-    </tr>
+      </tbody>
 
-  </tbody>
-
-</table>
-
+    </table>
 
   </div>
 
@@ -719,71 +705,70 @@ while GitHub was used for source-code management and collaboration.
 
   <div class="table-responsive">
 
-<table class="table table-bordered">
+    <table class="table table-bordered">
 
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Details</th>
-    </tr>
-  </thead>
+      <thead>
+        <tr>
+          <th>Attribute</th>
+          <th>Details</th>
+        </tr>
+      </thead>
 
-  <tbody>
+      <tbody>
 
-    <tr>
-      <td>Project Type</td>
-      <td>Web-Based Training Management System</td>
-    </tr>
+        <tr>
+          <td>Project Type</td>
+          <td>Web-Based Training Management System</td>
+        </tr>
 
-    <tr>
-      <td>Backend</td>
-      <td>PHP</td>
-    </tr>
+        <tr>
+          <td>Backend</td>
+          <td>PHP</td>
+        </tr>
 
-    <tr>
-      <td>Database</td>
-      <td>MySQL</td>
-    </tr>
+        <tr>
+          <td>Database</td>
+          <td>MySQL</td>
+        </tr>
 
-    <tr>
-      <td>Frontend</td>
-      <td>HTML, CSS, JavaScript, Bootstrap</td>
-    </tr>
+        <tr>
+          <td>Frontend</td>
+          <td>HTML, CSS, JavaScript, Bootstrap</td>
+        </tr>
 
-    <tr>
-      <td>User Roles</td>
-      <td>Administrator / Instructor and Trainee</td>
-    </tr>
+        <tr>
+          <td>User Roles</td>
+          <td>Administrator / Instructor and Trainee</td>
+        </tr>
 
-    <tr>
-      <td>Course Management</td>
-      <td>Course creation, updating, deletion, and categorization</td>
-    </tr>
+        <tr>
+          <td>Course Management</td>
+          <td>Course creation, updating, deletion, and categorization</td>
+        </tr>
 
-    <tr>
-      <td>Enrollment</td>
-      <td>Course enrollment and enrollment history</td>
-    </tr>
+        <tr>
+          <td>Enrollment</td>
+          <td>Course enrollment and enrollment history</td>
+        </tr>
 
-    <tr>
-      <td>Payment</td>
-      <td>Online course payment and payment configuration</td>
-    </tr>
+        <tr>
+          <td>Payment</td>
+          <td>Online course payment and payment configuration</td>
+        </tr>
 
-    <tr>
-      <td>Communication</td>
-      <td>Live chat between trainees and instructors</td>
-    </tr>
+        <tr>
+          <td>Communication</td>
+          <td>Live chat between trainees and instructors</td>
+        </tr>
 
-    <tr>
-      <td>Primary Objective</td>
-      <td>Centralized management of training programs</td>
-    </tr>
+        <tr>
+          <td>Primary Objective</td>
+          <td>Centralized management of training programs</td>
+        </tr>
 
-  </tbody>
+      </tbody>
 
-</table>
-
+    </table>
 
   </div>
 
@@ -793,40 +778,39 @@ while GitHub was used for source-code management and collaboration.
 
   <ul>
 
-<li>
-  <strong>Centralized Management:</strong>
-  Provides a centralized platform for managing training-related
-  activities.
-</li>
+    <li>
+      <strong>Centralized Management:</strong>
+      Provides a centralized platform for managing training-related
+      activities.
+    </li>
 
-<li>
-  <strong>Course Management:</strong>
-  Supports course categories, course creation, maintenance, and
-  course-related information.
-</li>
+    <li>
+      <strong>Course Management:</strong>
+      Supports course categories, course creation, maintenance, and
+      course-related information.
+    </li>
 
-<li>
-  <strong>Online Enrollment:</strong>
-  Allows trainees to search for desired courses and enroll in them.
-</li>
+    <li>
+      <strong>Online Enrollment:</strong>
+      Allows trainees to search for desired courses and enroll in them.
+    </li>
 
-<li>
-  <strong>Online Payment:</strong>
-  Provides an online purchasing and payment mechanism for courses.
-</li>
+    <li>
+      <strong>Online Payment:</strong>
+      Provides an online purchasing and payment mechanism for courses.
+    </li>
 
-<li>
-  <strong>Live Communication:</strong>
-  Includes a live chat facility that allows trainees to communicate
-  directly with instructors.
-</li>
+    <li>
+      <strong>Live Communication:</strong>
+      Includes a live chat facility that allows trainees to communicate
+      directly with instructors.
+    </li>
 
-<li>
-  <strong>User Management:</strong>
-  Provides registration, login, profile management, and
-  enrolled-course functionality.
-</li>
-
+    <li>
+      <strong>User Management:</strong>
+      Provides registration, login, profile management, and
+      enrolled-course functionality.
+    </li>
 
   </ul>
 
@@ -836,80 +820,78 @@ while GitHub was used for source-code management and collaboration.
 
   <div class="row">
 
+    <div class="col-md-6 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100">
-    <div class="card-body">
+          <h4 class="card-title">
+            <i class="fas fa-clipboard-check"></i>
+            Assessment System
+          </h4>
 
-      <h4 class="card-title">
-        <i class="fas fa-clipboard-check"></i>
-        Assessment System
-      </h4>
+          <p class="card-text">
+            Introduce an assessment system to evaluate trainee knowledge,
+            performance, and progress during training programs.
+          </p>
 
-      <p class="card-text">
-        Introduce an assessment system to evaluate trainee knowledge,
-        performance, and progress during training programs.
-      </p>
-
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100">
-    <div class="card-body">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
-      <h4 class="card-title">
-        <i class="fas fa-mobile-alt"></i>
-        Mobile Accessibility
-      </h4>
+          <h4 class="card-title">
+            <i class="fas fa-mobile-alt"></i>
+            Mobile Accessibility
+          </h4>
 
-      <p class="card-text">
-        Extend the platform with improved mobile accessibility so
-        trainees can access training services conveniently from
-        mobile devices.
-      </p>
+          <p class="card-text">
+            Extend the platform with improved mobile accessibility so
+            trainees can access training services conveniently from
+            mobile devices.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100">
-    <div class="card-body">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
-      <h4 class="card-title">
-        <i class="fas fa-gamepad"></i>
-        Gamification
-      </h4>
+          <h4 class="card-title">
+            <i class="fas fa-gamepad"></i>
+            Gamification
+          </h4>
 
-      <p class="card-text">
-        Introduce gamification techniques to make training activities
-        more engaging and interactive for trainees.
-      </p>
+          <p class="card-text">
+            Introduce gamification techniques to make training activities
+            more engaging and interactive for trainees.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-6 mt-3">
-  <div class="card h-100">
-    <div class="card-body">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
 
-      <h4 class="card-title">
-        <i class="fas fa-tachometer-alt"></i>
-        Response Optimization
-      </h4>
+          <h4 class="card-title">
+            <i class="fas fa-tachometer-alt"></i>
+            Response Optimization
+          </h4>
 
-      <p class="card-text">
-        Improve system performance and minimize response time for a
-        faster and more efficient user experience.
-      </p>
+          <p class="card-text">
+            Improve system performance and minimize response time for a
+            faster and more efficient user experience.
+          </p>
 
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
 
   </div>
 
@@ -961,17 +943,15 @@ while GitHub was used for source-code management and collaboration.
 
   <div class="project-buttons">
 
-
-<a
-  href="https://github.com/shakil2022/Training-Program-Management-System"
-  class="project-button primary"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <i class="fab fa-github"></i>
-  GitHub Repository
-</a>
-
+    <a
+      href="https://github.com/shakil2022/Training-Program-Management-System"
+      class="project-button primary"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fab fa-github"></i>
+      GitHub Repository
+    </a>
 
   </div>
 
