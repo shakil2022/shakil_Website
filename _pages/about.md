@@ -14,15 +14,7 @@ profile:
   image_circular: false
   more_info: >
 
-announcements:
-  enabled: false
-  scrollable: true
-  limit: 5
-
-latest_posts:
-  enabled: false
-  scrollable: true
-  limit: 3
+social: true 
   ---
 <style>
   :root {
