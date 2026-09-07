@@ -171,7 +171,7 @@ related_publications: false
   <div class="project-header">
 
     <div class="project-icon">
-      <i class="fas fa-graduation-cap"></i>
+      <i class="fas fa-chalkboard-teacher"></i>
     </div>
 
     <div>
@@ -797,7 +797,7 @@ related_publications: false
   <div class="row">
 
     <div class="col-md-6 mt-3">
-      <div class="card h-100">
+      <div class="card h-100 feature-card">
         <div class="card-body">
 
           <h4 class="card-title">
@@ -815,7 +815,7 @@ related_publications: false
     </div>
 
     <div class="col-md-6 mt-3">
-      <div class="card h-100">
+      <div class="card h-100 feature-card">
         <div class="card-body">
 
           <h4 class="card-title">
@@ -834,7 +834,7 @@ related_publications: false
     </div>
 
     <div class="col-md-6 mt-3">
-      <div class="card h-100">
+      <div class="card h-100 feature-card">
         <div class="card-body">
 
           <h4 class="card-title">
@@ -852,7 +852,7 @@ related_publications: false
     </div>
 
     <div class="col-md-6 mt-3">
-      <div class="card h-100">
+      <div class="card h-100 feature-card">
         <div class="card-body">
 
           <h4 class="card-title">
