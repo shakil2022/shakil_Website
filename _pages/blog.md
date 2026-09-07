@@ -8,6 +8,17 @@ nav_order: 6
 ---
 
 <style>
+  :root {
+    --bg-deep: #0b1120;
+    --bg-panel: #111a2e;
+    --bg-card: #16213a;
+    --border-soft: rgba(255,255,255,0.08);
+    --text-main: #dde3ef;
+    --text-dim: #8b93a7;
+    --accent: #5b8def;
+    --accent-soft: rgba(91,141,239,0.15);
+  }
+
   .contact-page {
     max-width: 1100px;
     margin: 0 auto;
@@ -23,11 +34,12 @@ nav_order: 6
   .contact-intro h1 {
     margin-bottom: 12px;
     font-weight: 700;
+    color: #eef1f8;
   }
 
   .contact-intro p {
     margin-bottom: 0;
-    color: var(--global-text-color-light);
+    color: var(--text-dim);
     line-height: 1.7;
   }
 
@@ -46,14 +58,10 @@ nav_order: 6
     min-height: 230px;
     padding: 30px 22px;
     text-align: center;
-    border: 1px solid rgba(150, 170, 220, 0.35);
+    border: 1px solid var(--border-soft);
     border-radius: 16px;
-    background: linear-gradient(
-      135deg,
-      rgba(38, 65, 105, 0.95),
-      rgba(25, 48, 82, 0.95)
-    );
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    background: var(--bg-card);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
     transition:
       transform 0.25s ease,
       box-shadow 0.25s ease,
@@ -62,8 +70,8 @@ nav_order: 6
 
   .contact-card:hover {
     transform: translateY(-5px);
-    border-color: rgba(180, 200, 240, 0.7);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    border-color: rgba(91, 141, 239, 0.4);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
   }
 
   .contact-icon {
@@ -73,13 +81,13 @@ nav_order: 6
     width: 58px;
     height: 58px;
     margin-bottom: 14px;
-    color: #b8c5f0;
+    color: var(--accent);
     font-size: 34px;
   }
 
   .contact-title {
     margin: 0 0 18px;
-    color: #ffffff;
+    color: #f0f3fa;
     font-size: 20px;
     font-weight: 700;
   }
@@ -90,10 +98,10 @@ nav_order: 6
     justify-content: center;
     min-height: 42px;
     padding: 9px 16px;
-    border: 1px solid #aebce8;
+    border: 1px solid rgba(91, 141, 239, 0.35);
     border-radius: 7px;
-    color: #dce5f5 !important;
-    background: transparent;
+    color: #a9c6ff !important;
+    background: var(--accent-soft);
     text-decoration: none !important;
     font-size: 14px;
     font-weight: 600;
@@ -106,19 +114,19 @@ nav_order: 6
   }
 
   .contact-button:hover {
-    background: #aebce8;
-    color: #172746 !important;
+    background: var(--accent);
+    color: #0b1120 !important;
     text-decoration: none !important;
     transform: translateY(-2px);
   }
 
   .contact-button.primary {
-    background: #aebce8;
-    color: #172746 !important;
+    background: var(--accent);
+    color: #0b1120 !important;
   }
 
   .contact-button.primary:hover {
-    background: #c2cdf0;
+    background: #74a0f2;
   }
 
   .contact-details {
@@ -128,10 +136,12 @@ nav_order: 6
   .contact-details h2 {
     margin-bottom: 20px;
     font-weight: 700;
+    color: #eef1f8;
   }
 
   .contact-details p {
     line-height: 1.8;
+    color: var(--text-main);
   }
 
   .contact-details ul {
@@ -140,6 +150,7 @@ nav_order: 6
 
   .contact-details li {
     margin-bottom: 10px;
+    color: var(--text-main);
   }
 
   @media (max-width: 768px) {
@@ -203,7 +214,7 @@ nav_order: 6
         <h3 class="contact-title">Email</h3>
       </div>
 
-      <a
+      
         href="mailto:shakil.ahmed@bubt.edu.bd"
         class="contact-button primary"
       >
@@ -223,7 +234,7 @@ nav_order: 6
         <h3 class="contact-title">LinkedIn</h3>
       </div>
 
-      <a
+      
         href="https://www.linkedin.com/in/md-shakil-ahmed-6482b13b3/"
         class="contact-button"
         target="_blank"
@@ -245,7 +256,7 @@ nav_order: 6
         <h3 class="contact-title">Twitter</h3>
       </div>
 
-      <a
+      
         href="https://x.com/home"
         class="contact-button"
         target="_blank"
@@ -257,8 +268,6 @@ nav_order: 6
     </div>
 
   </div>
-
-
 
 </div>
 

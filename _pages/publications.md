@@ -30,7 +30,7 @@ nav_order: 2
   <div class="publication-profile-links">
 
     <!-- Google Scholar -->
-    <a
+    
       href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
       class="publication-profile-link"
       target="_blank"
@@ -41,7 +41,7 @@ nav_order: 2
     </a>
 
     <!-- ResearchGate -->
-    <a
+    
       href="https://www.researchgate.net/profile/Md-Ahmed-231/research"
       class="publication-profile-link"
       target="_blank"
@@ -52,7 +52,7 @@ nav_order: 2
     </a>
 
     <!-- ORCID -->
-    <a
+    
       href="https://orcid.org/0009-0005-5684-4151"
       class="publication-profile-link"
       target="_blank"
@@ -73,6 +73,17 @@ nav_order: 2
 
 <style>
 
+:root {
+  --bg-deep: #0b1120;
+  --bg-panel: #111a2e;
+  --bg-card: #16213a;
+  --border-soft: rgba(255,255,255,0.08);
+  --text-main: #dde3ef;
+  --text-dim: #8b93a7;
+  --accent: #5b8def;
+  --accent-soft: rgba(91,141,239,0.15);
+}
+
 /* =========================================================
    MAIN PUBLICATION CONTAINER
    ========================================================= */
@@ -81,6 +92,8 @@ nav_order: 2
   width: 100%;
   max-width: 100%;
   margin: 0 auto;
+  font-family: 'Inter', system-ui, sans-serif;
+  color: var(--text-main);
 }
 
 
@@ -102,10 +115,10 @@ nav_order: 2
 .academic-publications .bibliography h2,
 .academic-publications .bibliography h3,
 .academic-publications .bibliography .year {
-  font-family: Georgia, "Times New Roman", serif;
-  color: #f0f2f5;
+  font-family: 'Playfair Display', serif;
+  color: #eef1f8;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.25;
 
   margin-top: 42px;
@@ -113,7 +126,7 @@ nav_order: 2
 
   padding-bottom: 14px;
 
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid var(--border-soft);
 }
 
 
@@ -127,7 +140,7 @@ nav_order: 2
   margin: 0;
   padding: 27px 0 25px;
 
-  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+  border-bottom: 1px solid var(--border-soft);
 }
 
 
@@ -165,9 +178,9 @@ nav_order: 2
 
   margin: 0 0 9px;
 
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Playfair Display', serif;
 
-  color: #f1f2f4;
+  color: #f0f3fa;
 
   font-size: 18px;
   font-weight: 700;
@@ -181,7 +194,7 @@ nav_order: 2
 /* Title hover */
 
 .academic-publications .title:hover {
-  color: #ffffff;
+  color: var(--accent);
   text-decoration: none;
 }
 
@@ -193,15 +206,9 @@ nav_order: 2
 .academic-publications .author {
   margin: 0 0 7px;
 
-  color: #d4d9e2;
+  color: var(--text-main);
 
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Arial,
-    sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
 
   font-size: 13px;
   font-weight: 600;
@@ -217,15 +224,9 @@ nav_order: 2
 .academic-publications .periodical {
   margin: 0 0 13px;
 
-  color: #9da9bb;
+  color: var(--text-dim);
 
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Arial,
-    sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
 
   font-size: 13px;
 
@@ -236,7 +237,7 @@ nav_order: 2
 /* Italic journal name */
 
 .academic-publications .periodical em {
-  color: #aab5c6;
+  color: #a9c6ff;
 }
 
 
@@ -267,20 +268,14 @@ nav_order: 2
 
   padding: 4px 9px;
 
-  border: 1px solid #9eafc9;
+  border: 1px solid rgba(91, 141, 239, 0.35);
   border-radius: 4px;
 
-  background: transparent;
+  background: var(--accent-soft);
 
-  color: #aebdd6 !important;
+  color: #a9c6ff !important;
 
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Arial,
-    sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
 
   font-size: 11px;
   font-weight: 500;
@@ -301,11 +296,11 @@ nav_order: 2
 /* Button hover */
 
 .academic-publications .links a:hover {
-  color: #ffffff !important;
+  color: #0b1120 !important;
 
-  border-color: #d2dceb;
+  border-color: var(--accent);
 
-  background-color: rgba(255, 255, 255, 0.06);
+  background-color: var(--accent);
 
   text-decoration: none !important;
 }
@@ -365,7 +360,7 @@ nav_order: 2
   padding-top: 35px;
   padding-bottom: 25px;
 
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid var(--border-soft);
 }
 
 
@@ -374,12 +369,12 @@ nav_order: 2
 .publication-profiles-title {
   margin: 0 0 25px;
 
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Playfair Display', serif;
 
-  color: #f0f2f5;
+  color: #eef1f8;
 
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
 
   line-height: 1.3;
 }
@@ -411,20 +406,14 @@ nav_order: 2
 
   padding: 5px 11px;
 
-  border: 1px solid #9eafc9;
+  border: 1px solid rgba(91, 141, 239, 0.35);
   border-radius: 4px;
 
-  background: transparent;
+  background: var(--accent-soft);
 
-  color: #aebdd6 !important;
+  color: #a9c6ff !important;
 
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Arial,
-    sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
 
   font-size: 11px;
   font-weight: 500;
@@ -444,39 +433,24 @@ nav_order: 2
 
 .publication-profile-link i {
   font-size: 13px;
+  color: var(--accent);
 }
 
 
 /* Profile hover */
 
 .publication-profile-link:hover {
-  color: #ffffff !important;
+  color: #0b1120 !important;
 
-  border-color: #d2dceb;
+  border-color: var(--accent);
 
-  background-color: rgba(255, 255, 255, 0.06);
+  background-color: var(--accent);
 
   text-decoration: none !important;
 }
 
-
-/* =========================================================
-   DARK BLUE THEME
-   ========================================================= */
-
-/*
-   These variables create the same overall color feeling
-   as the screenshot while remaining compatible with
-   al-folio's dark theme.
-*/
-
-body {
-  --publication-heading: #f0f2f5;
-  --publication-title: #f1f2f4;
-  --publication-author: #d4d9e2;
-  --publication-muted: #9da9bb;
-  --publication-button: #aebdd6;
-  --publication-border: rgba(255, 255, 255, 0.13);
+.publication-profile-link:hover i {
+  color: #0b1120;
 }
 
 
@@ -485,15 +459,15 @@ body {
    ========================================================= */
 
 html[data-theme="dark"] .academic-publications .title {
-  color: #f1f2f4;
+  color: #f0f3fa;
 }
 
 html[data-theme="dark"] .academic-publications .author {
-  color: #d4d9e2;
+  color: var(--text-main);
 }
 
 html[data-theme="dark"] .academic-publications .periodical {
-  color: #9da9bb;
+  color: var(--text-dim);
 }
 
 
@@ -625,7 +599,7 @@ html[data-theme="light"] .academic-publications .bibliography .year {
 
 .academic-publications a:focus-visible,
 .publication-profile-link:focus-visible {
-  outline: 2px solid #b8c7df;
+  outline: 2px solid var(--accent);
   outline-offset: 3px;
 }
 
@@ -639,7 +613,7 @@ html[data-theme="light"] .academic-publications .bibliography .year {
 <footer class="site-footer">
   <div class="container text-center">
     <p class="mb-0">
-      © 2024 Md. Shakil Ahmed. All rights reserved.
+      © 2026 Md. Shakil Ahmed. All rights reserved.
     </p>
   </div>
 </footer>
