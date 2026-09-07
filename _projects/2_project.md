@@ -1,13 +1,12 @@
 ---
 layout: page
-title: University Cafeteria Management System
-description: A full-stack University Cafeteria Management System with role-based features for customers, administrators, managers, cashiers, and delivery personnel.
-img: assets/img/University_Cafe.png
-importance: 2
+title: Bangladeshi Sign Language Detection
+description: A YOLOv10-based system for recognizing static Bangladeshi Sign Language gestures and translating them into text.
+img: assets/img/sign-language-detection.jpg
+importance: 5
 category: work
 related_publications: false
 ---
-
 <style>
 .project-card {
   position: relative;
@@ -165,64 +164,59 @@ related_publications: false
   }
 }
 </style>
-
 <div class="project-card">
 
   <div class="project-header">
 
     <div class="project-icon">
-      <i class="fas fa-utensils"></i>
+      <i class="fas fa-hands"></i>
     </div>
 
     <div>
       <h1 class="project-title">
-        University Cafeteria Management System
+        Bangladeshi Sign Language Detection
       </h1>
 
       <p class="project-subtitle">
-        A full-stack web-based cafeteria management and food ordering system.
+        A YOLOv10-based system for recognizing static Bangladeshi Sign Language
+        gestures and translating them into text.
       </p>
     </div>
 
   </div>
 
-
   <div class="project-description">
 
-    Developed a full-stack <strong>University Cafeteria Management System</strong>
-    designed to simplify food ordering, cafeteria operations, inventory
-    management, payment processing, delivery, and administrative activities.
-    The system provides separate role-based functionalities for
-    <strong>Customers, Admins, Managers, Cashiers, and Delivery Personnel</strong>.
-    
-    Customers can browse the menu, place and customize orders, view order
-    history, save favorite orders, and provide feedback. Administrators and
-    managers can manage food items, users, orders, inventory, staff schedules,
-    sales, and customer feedback, while cashiers handle payments and delivery
-    personnel manage food delivery and order status.
+    Developed a <strong>Bangladeshi Sign Language (BdSL) Detection System</strong>
+    to help bridge communication barriers faced by deaf and mute individuals.
+    The system recognizes static Bangladeshi Sign Language hand gestures and
+    translates them into text, supporting more inclusive and accessible
+    communication.
+
+    The proposed approach leverages <strong>YOLOv10</strong>, a
+    state-of-the-art object detection model, trained on a custom dataset of
+    labeled BdSL gesture images. The model was designed to provide accurate
+    and efficient recognition of <strong>14 unique static signs</strong>.
 
   </div>
-
 
   <div class="project-tags">
-
-    <span class="project-tag">React</span>
-    <span class="project-tag">Redux</span>
-    <span class="project-tag">JavaScript</span>
-    <span class="project-tag">Node.js</span>
-    <span class="project-tag">Express.js</span>
-    <span class="project-tag">MongoDB</span>
-    <span class="project-tag">Mongoose</span>
-    <span class="project-tag">REST API</span>
-    <span class="project-tag">Role-Based Access</span>
-
+    <span class="project-tag">YOLOv10</span>
+    <span class="project-tag">Python</span>
+    <span class="project-tag">Computer Vision</span>
+    <span class="project-tag">Deep Learning</span>
+    <span class="project-tag">Object Detection</span>
+    <span class="project-tag">Sign Language Recognition</span>
+    <span class="project-tag">Bangladeshi Sign Language</span>
+    <span class="project-tag">14 Static Signs</span>
+    <span class="project-tag">Custom Dataset</span>
+    <span class="project-tag">Text Translation</span>
   </div>
-
 
   <div class="project-buttons">
 
     <a
-      href="https://github.com/shakil2022/Ecommerce-Website"
+      href="https://github.com/shakil2022/SIGN_LANGUAGE_DETECTION"
       class="project-button primary"
       target="_blank"
       rel="noopener noreferrer"
@@ -235,7 +229,6 @@ related_publications: false
 
 </div>
 
-
 <div class="project-content">
 
   <h2 class="project-section-title">
@@ -243,132 +236,102 @@ related_publications: false
   </h2>
 
   <p>
-    The <strong>University Cafeteria Management System</strong> is a
-    full-stack web application developed to provide an efficient and
-    centralized platform for managing university cafeteria operations.
-    The system integrates food ordering, payment processing, inventory,
-    delivery management, customer feedback, and administrative activities
-    into a single platform.
+    There is a critical need for accurate Bangladeshi Sign Language (BdSL)
+    detection systems to create a more inclusive environment for people who
+    are deaf and mute. Communication barriers can contribute to social
+    isolation and limit access to education, services, and everyday
+    interactions.
   </p>
 
   <p>
-    The application follows a <strong>role-based architecture</strong>,
-    allowing each type of user to access the features relevant to their
-    responsibilities. This improves operational efficiency while providing
-    customers with a convenient way to order food and track their orders.
+    This project proposes a computer vision-based system that recognizes
+    Bangladeshi Sign Language hand gestures and translates them into text.
+    By facilitating communication between sign language users and others,
+    the system aims to reduce communication barriers and support greater
+    social inclusion.
   </p>
 
+  <p>
+    The proposed method uses <strong>YOLOv10</strong>, a state-of-the-art
+    object detection model, to achieve accurate and efficient BdSL gesture
+    recognition. A custom dataset of <strong>1,949 labeled images</strong>
+    covering <strong>14 unique static signs</strong> was used to train and
+    evaluate the model.
+  </p>
 
   <h2 class="project-section-title">
-    User Roles & Features
+    Methodology
   </h2>
-
 
   <div class="row">
 
     <div class="col-md-6 mt-3">
-      <div class="card h-100 role-card">
+      <div class="card h-100 feature-card">
         <div class="card-body">
 
           <h4 class="card-title">
-            <i class="fas fa-user"></i>
-            Customer
+            <i class="fas fa-database"></i>
+            Custom Dataset
           </h4>
 
-          <ul>
-            <li>Browse and order food items from the menu.</li>
-            <li>View previous orders and order history.</li>
-            <li>Customize food orders and specify dietary requirements.</li>
-            <li>Save favorite orders for future use.</li>
-            <li>Provide feedback and ratings for food items.</li>
-          </ul>
+          <p class="card-text">
+            A curated dataset of 1,949 labeled images representing
+            14 unique static Bangladeshi Sign Language gestures.
+          </p>
 
         </div>
       </div>
     </div>
 
-
     <div class="col-md-6 mt-3">
-      <div class="card h-100 role-card">
+      <div class="card h-100 feature-card">
         <div class="card-body">
 
           <h4 class="card-title">
-            <i class="fas fa-user-shield"></i>
-            Admin
+            <i class="fas fa-brain"></i>
+            YOLOv10 Model
           </h4>
 
-          <ul>
-            <li>Add, edit, and delete food items and menus.</li>
-            <li>Manage user accounts and user roles.</li>
-            <li>View and manage orders and order history.</li>
-            <li>Generate sales, revenue, and feedback reports.</li>
-            <li>Monitor inventory and stock availability.</li>
-          </ul>
+          <p class="card-text">
+            A custom YOLOv10 object detection model trained to identify
+            and recognize static BdSL hand gestures.
+          </p>
 
         </div>
       </div>
     </div>
 
-
     <div class="col-md-6 mt-3">
-      <div class="card h-100 role-card">
+      <div class="card h-100 feature-card">
         <div class="card-body">
 
           <h4 class="card-title">
-            <i class="fas fa-user-tie"></i>
-            Manager
+            <i class="fas fa-cogs"></i>
+            Model Training
           </h4>
 
-          <ul>
-            <li>Manage staff schedules and shifts.</li>
-            <li>Monitor sales and revenue trends.</li>
-            <li>Analyze customer feedback and ratings.</li>
-            <li>Manage menu items, promotions, and pricing decisions.</li>
-            <li>Monitor food quality and cafeteria hygiene standards.</li>
-          </ul>
+          <p class="card-text">
+            The model was trained on labeled gesture images to improve
+            recognition accuracy and robustness across the selected signs.
+          </p>
 
         </div>
       </div>
     </div>
 
-
     <div class="col-md-6 mt-3">
-      <div class="card h-100 role-card">
+      <div class="card h-100 feature-card">
         <div class="card-body">
 
           <h4 class="card-title">
-            <i class="fas fa-cash-register"></i>
-            Cashier
+            <i class="fas fa-language"></i>
+            Text Translation
           </h4>
 
-          <ul>
-            <li>Process customer orders and payments.</li>
-            <li>Manage cash registers and POS operations.</li>
-            <li>Handle refunds and returns.</li>
-            <li>Maintain cleanliness and orderliness of the cafeteria.</li>
-            <li>Assist customers with questions and order-related issues.</li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="col-md-6 mt-3">
-      <div class="card h-100 role-card">
-        <div class="card-body">
-
-          <h4 class="card-title">
-            <i class="fas fa-motorcycle"></i>
-            Delivery Personnel
-          </h4>
-
-          <ul>
-            <li>Receive and fulfill delivery orders.</li>
-            <li>Track order progress and update delivery status.</li>
-            <li>Maintain accurate delivery records and receipts.</li>
-            <li>Ensure timely delivery of food orders.</li>
-          </ul>
+          <p class="card-text">
+            Recognized hand gestures are translated into text to support
+            communication between sign language users and others.
+          </p>
 
         </div>
       </div>
@@ -376,195 +339,332 @@ related_publications: false
 
   </div>
 
+  <h2 class="project-section-title">
+    System Workflow
+  </h2>
+
+  <div class="row">
+
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            <i class="fas fa-camera"></i>
+            1. Input Image
+          </h4>
+
+          <p class="card-text">
+            A hand gesture image is provided as input to the detection system.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            <i class="fas fa-search"></i>
+            2. Gesture Detection
+          </h4>
+
+          <p class="card-text">
+            The trained YOLOv10 model detects the hand gesture and identifies
+            the corresponding sign class.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            <i class="fas fa-check-circle"></i>
+            3. Sign Recognition
+          </h4>
+
+          <p class="card-text">
+            The detected gesture is classified into one of the 14 supported
+            Bangladeshi Sign Language signs.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 feature-card">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            <i class="fas fa-comment-alt"></i>
+            4. Text Output
+          </h4>
+
+          <p class="card-text">
+            The recognized sign is converted into text to facilitate
+            communication.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
 
   <h2 class="project-section-title">
-    Key Features
+    Dataset and Model Details
+  </h2>
+
+  <div class="table-responsive">
+
+    <table class="table table-bordered">
+
+      <thead>
+        <tr>
+          <th>Attribute</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <tr>
+          <td>Project Type</td>
+          <td>Computer Vision and Sign Language Recognition</td>
+        </tr>
+
+        <tr>
+          <td>Model</td>
+          <td>YOLOv10</td>
+        </tr>
+
+        <tr>
+          <td>Dataset</td>
+          <td>Custom labeled Bangladeshi Sign Language dataset</td>
+        </tr>
+
+        <tr>
+          <td>Total Images</td>
+          <td>1,949</td>
+        </tr>
+
+        <tr>
+          <td>Number of Signs</td>
+          <td>14 unique static signs</td>
+        </tr>
+
+        <tr>
+          <td>Recognition Type</td>
+          <td>Static hand gesture detection</td>
+        </tr>
+
+        <tr>
+          <td>Output</td>
+          <td>Recognized sign translated into text</td>
+        </tr>
+
+        <tr>
+          <td>Primary Objective</td>
+          <td>Bridging communication barriers through BdSL recognition</td>
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+  <h2 class="project-section-title">
+    Performance Results
+  </h2>
+
+  <p>
+    The proposed method was evaluated on the custom dataset containing
+    1,949 images of 14 unique signs. The model achieved the following
+    performance across all classes.
+  </p>
+
+  <div class="table-responsive">
+
+    <table class="table table-bordered">
+
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>Performance</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <tr>
+          <td>F1-Confidence Rate</td>
+          <td>86%</td>
+        </tr>
+
+        <tr>
+          <td>Recall-Confidence Rate</td>
+          <td>98%</td>
+        </tr>
+
+        <tr>
+          <td>Precision-Confidence Rate</td>
+          <td>100%</td>
+        </tr>
+
+        <tr>
+          <td>Precision-Recall Rate</td>
+          <td>90.3%</td>
+        </tr>
+
+        <tr>
+          <td>Overall Average Accuracy</td>
+          <td>90.67%</td>
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+  <h2 class="project-section-title">
+    Key Contributions
   </h2>
 
   <ul>
 
     <li>
-      Role-based cafeteria management system.
+      <strong>Inclusive Communication:</strong>
+      Develops a system intended to reduce communication barriers faced by
+      deaf and mute individuals.
     </li>
 
     <li>
-      Online food browsing and ordering.
+      <strong>YOLOv10-Based Detection:</strong>
+      Applies a state-of-the-art object detection model to Bangladeshi
+      Sign Language recognition.
     </li>
 
     <li>
-      Food order customization and dietary preference support.
+      <strong>Custom Dataset:</strong>
+      Uses a curated dataset of 1,949 labeled images covering 14 unique
+      static signs.
     </li>
 
     <li>
-      Customer order history and favorite orders.
+      <strong>Accurate Recognition:</strong>
+      Achieves an overall average accuracy of 90.67% across the supported
+      signs.
     </li>
 
     <li>
-      Customer feedback and food rating system.
-    </li>
-
-    <li>
-      Food menu and inventory management.
-    </li>
-
-    <li>
-      User account and role management.
-    </li>
-
-    <li>
-      Order and payment management.
-    </li>
-
-    <li>
-      Sales, revenue, and customer feedback monitoring.
-    </li>
-
-    <li>
-      Staff scheduling and shift management.
-    </li>
-
-    <li>
-      Delivery order tracking and status updates.
-    </li>
-
-    <li>
-      Refund and return management.
+      <strong>Practical Application:</strong>
+      Provides a foundation for developing accessible sign language
+      communication tools.
     </li>
 
   </ul>
 
-
   <h2 class="project-section-title">
-    Technology Stack
+    Social Impact
   </h2>
 
   <p>
-    <strong>Frontend:</strong> React, Redux, JavaScript
+    This project aims to contribute to a more inclusive society by
+    addressing communication barriers faced by people who rely on
+    Bangladeshi Sign Language. By translating hand gestures into text,
+    the system has the potential to improve everyday communication,
+    reduce social isolation, and support greater participation in
+    education, employment, and community activities.
   </p>
 
   <p>
-    <strong>Backend:</strong> Node.js, Express.js
+    The research also contributes to the development of sign language
+    recognition technology and provides a foundation for future systems
+    capable of supporting a wider range of gestures and real-time
+    communication scenarios.
   </p>
-
-  <p>
-    <strong>Database:</strong> MongoDB, Mongoose
-  </p>
-
-  <p>
-    <strong>Architecture:</strong> Full-stack REST-based web application
-  </p>
-
-  <p>
-    <strong>Access Control:</strong> Role-based user management
-  </p>
-
 
   <h2 class="project-section-title">
-    System Modules
+    Future Improvements
   </h2>
 
-  <div class="row justify-content-sm-center">
+  <div class="row">
 
-    <div class="col-sm-6 col-md-4 mt-3">
+    <div class="col-md-6 mt-3">
       <div class="card h-100">
         <div class="card-body">
 
           <h4 class="card-title">
-            Food & Menu
+            <i class="fas fa-video"></i>
+            Real-Time Recognition
           </h4>
 
           <p class="card-text">
-            Manage food items, categories, prices, availability, and menus.
+            Extend the system to support real-time gesture recognition
+            through video input and live camera streams.
           </p>
 
         </div>
       </div>
     </div>
 
-
-    <div class="col-sm-6 col-md-4 mt-3">
+    <div class="col-md-6 mt-3">
       <div class="card h-100">
         <div class="card-body">
 
           <h4 class="card-title">
-            Order Management
+            <i class="fas fa-expand-arrows-alt"></i>
+            Expanded Sign Vocabulary
           </h4>
 
           <p class="card-text">
-            Manage customer orders, order history, customization, and
-            delivery status.
+            Increase the number of supported signs to improve the coverage
+            of Bangladeshi Sign Language.
           </p>
 
         </div>
       </div>
     </div>
 
-
-    <div class="col-sm-6 col-md-4 mt-3">
+    <div class="col-md-6 mt-3">
       <div class="card h-100">
         <div class="card-body">
 
           <h4 class="card-title">
-            Inventory
+            <i class="fas fa-language"></i>
+            Sentence-Level Translation
           </h4>
 
           <p class="card-text">
-            Monitor stock levels and food availability to support cafeteria
-            operations.
+            Extend the system from individual static signs to continuous
+            gesture sequences and sentence-level translation.
           </p>
 
         </div>
       </div>
     </div>
 
-
-    <div class="col-sm-6 col-md-4 mt-3">
+    <div class="col-md-6 mt-3">
       <div class="card h-100">
         <div class="card-body">
 
           <h4 class="card-title">
-            Payment
+            <i class="fas fa-mobile-alt"></i>
+            Mobile Accessibility
           </h4>
 
           <p class="card-text">
-            Support order payment processing, POS operations, refunds, and
-            transaction management.
-          </p>
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="col-sm-6 col-md-4 mt-3">
-      <div class="card h-100">
-        <div class="card-body">
-
-          <h4 class="card-title">
-            Delivery
-          </h4>
-
-          <p class="card-text">
-            Manage delivery orders, progress tracking, status updates, and
-            delivery records.
-          </p>
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="col-sm-6 col-md-4 mt-3">
-      <div class="card h-100">
-        <div class="card-body">
-
-          <h4 class="card-title">
-            Reports & Feedback
-          </h4>
-
-          <p class="card-text">
-            Monitor sales, revenue, customer ratings, and feedback to support
-            operational decisions.
+            Develop a mobile-friendly application to make the recognition
+            system more accessible for everyday use.
           </p>
 
         </div>
@@ -573,21 +673,32 @@ related_publications: false
 
   </div>
 
+  <h2 class="project-section-title">
+    Project Highlights
+  </h2>
+
+  <p>
+    This project demonstrates practical experience in
+    <strong>deep learning, computer vision, object detection, custom dataset
+    development, YOLOv10 model training, and sign language recognition</strong>.
+    It combines technical innovation with a socially meaningful objective:
+    improving communication accessibility for people who rely on
+    Bangladeshi Sign Language.
+  </p>
 
   <h2 class="project-section-title">
     GitHub Repository
   </h2>
 
   <p>
-    The complete source code of the University Cafeteria Management System
-    is available in the GitHub repository.
+    The complete source code of the project is available in the GitHub
+    repository.
   </p>
-
 
   <div class="project-buttons">
 
     <a
-      href="https://github.com/shakil2022/Ecommerce-Website"
+      href="https://github.com/shakil2022/SIGN_LANGUAGE_DETECTION"
       class="project-button primary"
       target="_blank"
       rel="noopener noreferrer"
