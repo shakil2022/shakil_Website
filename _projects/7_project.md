@@ -2,7 +2,7 @@
 layout: page
 title: University Cafeteria Management System
 description: A full-stack University Cafeteria Management System with role-based features for customers, administrators, managers, cashiers, and delivery personnel.
-img: assets/img/University_Cafe.png
+img: assets/img/Cafe_management.png
 importance: 2
 category: work
 related_publications: false
