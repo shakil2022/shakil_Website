@@ -10,7 +10,7 @@ calendar: false
 
 <style>
   :root {
-    --bg-deep: #0b1120;
+    --bg-deep: #080e1d;
     --bg-panel: #111a2e;
     --bg-card: #16213a;
     --border-soft: rgba(255,255,255,0.08);
