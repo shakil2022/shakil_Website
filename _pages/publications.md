@@ -6,10 +6,13 @@ nav: true
 nav_order: 2
 ---
 
-<!-- Bibsearch Feature -->
-{% include bib_search.liquid %}
+<!-- =========================================================
+     PUBLICATIONS
+     ========================================================= -->
 
-<div class="publications">
+<div class="publications academic-publications">
+
+  {% include bib_search.liquid %}
 
   {% bibliography %}
 
@@ -17,67 +20,47 @@ nav_order: 2
 
 
 <!-- =========================================================
-     COMPLETE LIST
+     ACADEMIC PROFILE LINKS
      ========================================================= -->
 
-<section class="complete-list-section">
+<section class="publication-profiles">
 
-  <h2 class="complete-list-title">Complete List</h2>
+  <h2 class="publication-profiles-title">Academic Profiles</h2>
 
-  <div class="profile-links-grid">
+  <div class="publication-profile-links">
 
     <!-- Google Scholar -->
     <a
       href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-      class="profile-card"
+      class="publication-profile-link"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Google Scholar Profile"
     >
-      <div class="profile-card-icon">
-        <i class="fas fa-graduation-cap"></i>
-      </div>
-
-      <div class="profile-card-content">
-        <span>Google Scholar</span>
-      </div>
+      <i class="fas fa-graduation-cap"></i>
+      <span>Google Scholar</span>
     </a>
 
-   <!-- ResearchGate -->
+    <!-- ResearchGate -->
     <a
       href="https://www.researchgate.net/profile/Md-Ahmed-231/research"
-      class="profile-card"
+      class="publication-profile-link"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="ResearchGate Profile"
     >
-      <div class="profile-card-icon">
-        <i class="fab fa-researchgate"></i>
-      </div>
-
-      <div class="profile-card-content">
-        <span>ResearchGate</span>
-      </div>
+      <i class="fab fa-researchgate"></i>
+      <span>ResearchGate</span>
     </a>
+
     <!-- ORCID -->
     <a
       href="https://orcid.org/0009-0005-5684-4151"
-      class="profile-card"
+      class="publication-profile-link"
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="ORCID Profile"
     >
-      <div class="profile-card-icon">
-        <i class="fab fa-orcid"></i>
-      </div>
-
-      <div class="profile-card-content">
-        <span>ORCID</span>
-      </div>
+      <i class="fab fa-orcid"></i>
+      <span>ORCID</span>
     </a>
-
-
- 
 
   </div>
 
@@ -85,175 +68,573 @@ nav_order: 2
 
 
 <!-- =========================================================
-     COMPLETE LIST CSS
+     PUBLICATION PAGE CSS
      ========================================================= -->
 
 <style>
 
-.complete-list-section {
+/* =========================================================
+   MAIN PUBLICATION CONTAINER
+   ========================================================= */
+
+.academic-publications {
   width: 100%;
-  margin-top: 80px;
-  padding-top: 50px;
-  padding-bottom: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   BIBLIOGRAPHY BASE
+   ========================================================= */
+
+.academic-publications .bibliography {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+/* =========================================================
+   YEAR HEADINGS
+   ========================================================= */
+
+.academic-publications .bibliography h2,
+.academic-publications .bibliography h3,
+.academic-publications .bibliography .year {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #f0f2f5;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.25;
+
+  margin-top: 42px;
+  margin-bottom: 20px;
+
+  padding-bottom: 14px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+/* =========================================================
+   INDIVIDUAL PUBLICATION
+   ========================================================= */
+
+.academic-publications .bibliography > li {
+  position: relative;
+
+  margin: 0;
+  padding: 27px 0 25px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+
+/* Remove unnecessary first border spacing */
+
+.academic-publications .bibliography > li:first-child {
+  padding-top: 8px;
+}
+
+
+/* =========================================================
+   PUBLICATION ROW
+   ========================================================= */
+
+.academic-publications .bibliography .row {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Remove Bootstrap column spacing */
+
+.academic-publications .bibliography .row > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+/* =========================================================
+   PUBLICATION TITLE
+   ========================================================= */
+
+.academic-publications .title {
+  display: block;
+
+  margin: 0 0 9px;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  color: #f1f2f4;
+
+  font-size: 18px;
+  font-weight: 700;
+
+  line-height: 1.45;
+
+  text-decoration: none;
+}
+
+
+/* Title hover */
+
+.academic-publications .title:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+/* =========================================================
+   AUTHORS
+   ========================================================= */
+
+.academic-publications .author {
+  margin: 0 0 7px;
+
+  color: #d4d9e2;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   PERIODICAL / JOURNAL / STATUS
+   ========================================================= */
+
+.academic-publications .periodical {
+  margin: 0 0 13px;
+
+  color: #9da9bb;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+
+  font-size: 13px;
+
+  line-height: 1.5;
+}
+
+
+/* Italic journal name */
+
+.academic-publications .periodical em {
+  color: #aab5c6;
+}
+
+
+/* =========================================================
+   PUBLICATION LINKS
+   ========================================================= */
+
+.academic-publications .links {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+  margin-top: 4px;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.academic-publications .links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 28px;
+
+  padding: 4px 9px;
+
+  border: 1px solid #9eafc9;
+  border-radius: 4px;
+
+  background: transparent;
+
+  color: #aebdd6 !important;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+
+  font-size: 11px;
+  font-weight: 500;
+
+  line-height: 1.2;
+
+  text-transform: uppercase;
+
+  text-decoration: none !important;
+
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+
+/* Button hover */
+
+.academic-publications .links a:hover {
+  color: #ffffff !important;
+
+  border-color: #d2dceb;
+
+  background-color: rgba(255, 255, 255, 0.06);
+
+  text-decoration: none !important;
+}
+
+
+/* =========================================================
+   BIBTEX BUTTON
+   ========================================================= */
+
+.academic-publications .bibtex-button,
+.academic-publications .btn {
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   THUMBNAIL / IMAGE
+   ========================================================= */
+
+/*
+   Hide publication thumbnails so the page follows
+   the screenshot's text-focused academic structure.
+*/
+
+.academic-publications .abbr,
+.academic-publications .preview {
+  display: none !important;
+}
+
+
+/* =========================================================
+   HIDE UNNECESSARY BIBTEX CONTENT
+   ========================================================= */
+
+.academic-publications .bibtex {
+  margin-top: 10px;
+}
+
+
+/* =========================================================
+   BIB SEARCH
+   ========================================================= */
+
+.academic-publications .bib-search {
+  margin-bottom: 25px;
+}
+
+
+/* =========================================================
+   ACADEMIC PROFILE SECTION
+   ========================================================= */
+
+.publication-profiles {
+  width: 100%;
+
+  margin-top: 70px;
+  padding-top: 35px;
+  padding-bottom: 25px;
+
   border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 
 /* Section heading */
 
-.complete-list-title {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 40px;
-  font-size: 32px;
+.publication-profiles-title {
+  margin: 0 0 25px;
+
+  font-family: Georgia, "Times New Roman", serif;
+
+  color: #f0f2f5;
+
+  font-size: 24px;
   font-weight: 700;
+
   line-height: 1.3;
 }
 
 
-/* Profile card layout */
+/* =========================================================
+   PROFILE LINKS
+   ========================================================= */
 
-.profile-links-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
-  width: 100%;
-}
-
-
-/* Profile card */
-
-.profile-card {
+.publication-profile-links {
   display: flex;
-  align-items: center;
-  width: 100%;
-  min-height: 80px;
-  padding: 22px 24px;
-  box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 10px;
-  color: inherit;
-  text-decoration: none !important;
-  transition:
-    transform 0.25s ease,
-    border-color 0.25s ease,
-    background-color 0.25s ease,
-    box-shadow 0.25s ease;
+  flex-wrap: wrap;
+
+  gap: 10px;
 }
 
 
-/* Hover effect */
+/* Individual profile link */
 
-.profile-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(255, 255, 255, 0.40);
-  background-color: rgba(255, 255, 255, 0.035);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-  text-decoration: none !important;
-}
+.publication-profile-link {
+  display: inline-flex;
 
-
-/* Icon */
-
-.profile-card-icon {
-  width: 48px;
-  height: 48px;
-  flex: 0 0 48px;
-  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 26px;
-  opacity: 0.80;
+
+  gap: 8px;
+
+  min-height: 32px;
+
+  padding: 5px 11px;
+
+  border: 1px solid #9eafc9;
+  border-radius: 4px;
+
+  background: transparent;
+
+  color: #aebdd6 !important;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif;
+
+  font-size: 11px;
+  font-weight: 500;
+
+  text-transform: uppercase;
+
+  text-decoration: none !important;
+
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 
-/* ORCID and ResearchGate icons */
+/* Profile icon */
 
-.profile-card-icon .fa-orcid,
-.profile-card-icon .fa-researchgate {
-  font-size: 29px;
+.publication-profile-link i {
+  font-size: 13px;
 }
 
 
-/* Text */
+/* Profile hover */
 
-.profile-card-content {
-  display: flex;
-  align-items: center;
-  margin-left: 18px;
+.publication-profile-link:hover {
+  color: #ffffff !important;
+
+  border-color: #d2dceb;
+
+  background-color: rgba(255, 255, 255, 0.06);
+
+  text-decoration: none !important;
 }
 
-.profile-card-content span {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.4;
+
+/* =========================================================
+   DARK BLUE THEME
+   ========================================================= */
+
+/*
+   These variables create the same overall color feeling
+   as the screenshot while remaining compatible with
+   al-folio's dark theme.
+*/
+
+body {
+  --publication-heading: #f0f2f5;
+  --publication-title: #f1f2f4;
+  --publication-author: #d4d9e2;
+  --publication-muted: #9da9bb;
+  --publication-button: #aebdd6;
+  --publication-border: rgba(255, 255, 255, 0.13);
 }
 
 
-/* Mobile */
+/* =========================================================
+   DARK MODE REFINEMENT
+   ========================================================= */
+
+html[data-theme="dark"] .academic-publications .title {
+  color: #f1f2f4;
+}
+
+html[data-theme="dark"] .academic-publications .author {
+  color: #d4d9e2;
+}
+
+html[data-theme="dark"] .academic-publications .periodical {
+  color: #9da9bb;
+}
+
+
+/* =========================================================
+   LIGHT MODE
+   ========================================================= */
+
+html[data-theme="light"] .academic-publications .title {
+  color: #202936;
+}
+
+html[data-theme="light"] .academic-publications .author {
+  color: #4e5968;
+}
+
+html[data-theme="light"] .academic-publications .periodical {
+  color: #687385;
+}
+
+html[data-theme="light"] .academic-publications .bibliography > li {
+  border-bottom-color: rgba(0, 0, 0, 0.12);
+}
+
+html[data-theme="light"] .academic-publications .bibliography h2,
+html[data-theme="light"] .academic-publications .bibliography h3,
+html[data-theme="light"] .academic-publications .bibliography .year {
+  color: #202936;
+
+  border-bottom-color: rgba(0, 0, 0, 0.14);
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
 
 @media (max-width: 768px) {
 
-  .complete-list-section {
-    margin-top: 60px;
-    padding-top: 40px;
-  }
-
-  .complete-list-title {
+  .academic-publications .bibliography h2,
+  .academic-publications .bibliography h3,
+  .academic-publications .bibliography .year {
     font-size: 28px;
-    margin-bottom: 30px;
+
+    margin-top: 35px;
+    margin-bottom: 16px;
   }
 
-  .profile-links-grid {
-    grid-template-columns: 1fr;
-    gap: 18px;
+
+  .academic-publications .bibliography > li {
+    padding: 23px 0 22px;
   }
 
-  .profile-card {
-    min-height: 75px;
-    padding: 20px;
-  }
 
-  .profile-card-content span {
+  .academic-publications .title {
     font-size: 17px;
+  }
+
+
+  .academic-publications .author,
+  .academic-publications .periodical {
+    font-size: 12.5px;
+  }
+
+
+  .publication-profiles {
+    margin-top: 55px;
   }
 
 }
 
 
-/* Small mobile */
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
 
 @media (max-width: 480px) {
 
-  .complete-list-title {
-    font-size: 26px;
+  .academic-publications .bibliography h2,
+  .academic-publications .bibliography h3,
+  .academic-publications .bibliography .year {
+    font-size: 25px;
+
+    margin-top: 30px;
+    padding-bottom: 11px;
   }
 
-  .profile-card {
-    padding: 18px;
-  }
 
-  .profile-card-icon {
-    width: 42px;
-    height: 42px;
-    flex-basis: 42px;
-    font-size: 23px;
-  }
-
-  .profile-card-content {
-    margin-left: 14px;
-  }
-
-  .profile-card-content span {
+  .academic-publications .title {
     font-size: 16px;
+    line-height: 1.45;
   }
 
+
+  .academic-publications .author,
+  .academic-publications .periodical {
+    font-size: 12px;
+  }
+
+
+  .academic-publications .links {
+    gap: 7px;
+  }
+
+
+  .academic-publications .links a {
+    min-height: 27px;
+
+    padding: 4px 8px;
+
+    font-size: 10px;
+  }
+
+
+  .publication-profiles-title {
+    font-size: 22px;
+  }
+
+
+  .publication-profile-links {
+    gap: 7px;
+  }
+
+}
+
+
+/* =========================================================
+   ACCESSIBILITY
+   ========================================================= */
+
+.academic-publications a:focus-visible,
+.publication-profile-link:focus-visible {
+  outline: 2px solid #b8c7df;
+  outline-offset: 3px;
 }
 
 </style>
 
 
-<!-- Footer -->
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
 
 <footer class="site-footer">
   <div class="container text-center">
