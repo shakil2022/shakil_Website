@@ -37,8 +37,7 @@ nav_order: 2
 
   <div class="publication-profile-links">
 
-```
-<!-- Google Scholar -->
+<!-- Google Scholar
 <a
   href="https://scholar.google.com/citations?user=jIomJygAAAAJ&hl=en"
   class="publication-profile-link"
@@ -47,11 +46,11 @@ nav_order: 2
 >
   <i class="fas fa-graduation-cap"></i>
   <span>Google Scholar</span>
-</a>
+</a> -->
 
 
 <!-- ResearchGate -->
-<a
+<!-- <a
   href="https://www.researchgate.net/profile/Md-Ahmed-231/research"
   class="publication-profile-link"
   target="_blank"
@@ -59,7 +58,7 @@ nav_order: 2
 >
   <i class="fab fa-researchgate"></i>
   <span>ResearchGate</span>
-</a>
+</a> -->
 
 
 <!-- ORCID -->
@@ -72,7 +71,7 @@ nav_order: 2
   <i class="fab fa-orcid"></i>
   <span>ORCID</span>
 </a>
-```
+
 
   </div>
 
