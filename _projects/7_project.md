@@ -1,13 +1,12 @@
 ---
-
 layout: page
-title: Training Program Management System
-description: A web-based Training Program Management System for managing courses, trainees, enrollment, payments, communication, and training activities.
-img: assets/img/training-management.jpg
-importance: 3
+title: University Cafeteria Management System
+description: A full-stack University Cafeteria Management System with role-based features for customers, administrators, managers, cashiers, and delivery personnel.
+img: assets/img/Cafe_management.png
+importance: 2
 category: work
 related_publications: false
----------------------------
+---
 
 <style>
 .project-card {
@@ -146,14 +145,6 @@ related_publications: false
   line-height: 1.7;
 }
 
-.feature-card {
-  margin-bottom: 20px;
-}
-
-.feature-card .card-title {
-  font-weight: 700;
-}
-
 @media (max-width: 576px) {
   .project-card {
     padding: 20px;
@@ -179,75 +170,71 @@ related_publications: false
 
   <div class="project-header">
 
-```
-<div class="project-icon">
-  <i class="fas fa-graduation-cap"></i>
-</div>
+    <div class="project-icon">
+      <i class="fas fa-utensils"></i>
+    </div>
 
-<div>
-  <h1 class="project-title">
-    Training Program Management System
-  </h1>
+    <div>
+      <h1 class="project-title">
+        University Cafeteria Management System
+      </h1>
 
-  <p class="project-subtitle">
-    A web-based platform for managing training programs, courses, trainees, enrollment, payments, and communication.
-  </p>
-</div>
-```
+      <p class="project-subtitle">
+        A full-stack web-based cafeteria management and food ordering system.
+      </p>
+    </div>
 
   </div>
+
 
   <div class="project-description">
 
-```
-Developed a <strong>Training Program Management System (TPMS)</strong>
-designed to streamline the administration, organization, and delivery
-of training programs. The system provides a centralized platform for
-managing courses, trainees, enrollment, payments, communication, and
-training-related activities.
-
-The application was developed using <strong>PHP</strong> with
-<strong>MySQL</strong> for database management. The user interface
-incorporates <strong>HTML, CSS, JavaScript, and Bootstrap</strong>,
-while GitHub was used for source-code management and collaboration.
-```
+    Developed a full-stack <strong>University Cafeteria Management System</strong>
+    designed to simplify food ordering, cafeteria operations, inventory
+    management, payment processing, delivery, and administrative activities.
+    The system provides separate role-based functionalities for
+    <strong>Customers, Admins, Managers, Cashiers, and Delivery Personnel</strong>.
+    
+    Customers can browse the menu, place and customize orders, view order
+    history, save favorite orders, and provide feedback. Administrators and
+    managers can manage food items, users, orders, inventory, staff schedules,
+    sales, and customer feedback, while cashiers handle payments and delivery
+    personnel manage food delivery and order status.
 
   </div>
+
 
   <div class="project-tags">
 
-```
-<span class="project-tag">PHP</span>
-<span class="project-tag">MySQL</span>
-<span class="project-tag">HTML</span>
-<span class="project-tag">CSS</span>
-<span class="project-tag">JavaScript</span>
-<span class="project-tag">Bootstrap</span>
-<span class="project-tag">Web Application</span>
-<span class="project-tag">Training Management</span>
-<span class="project-tag">Live Chat</span>
-<span class="project-tag">Online Payment</span>
-```
+    <span class="project-tag">React</span>
+    <span class="project-tag">Redux</span>
+    <span class="project-tag">JavaScript</span>
+    <span class="project-tag">Node.js</span>
+    <span class="project-tag">Express.js</span>
+    <span class="project-tag">MongoDB</span>
+    <span class="project-tag">Mongoose</span>
+    <span class="project-tag">REST API</span>
+    <span class="project-tag">Role-Based Access</span>
 
   </div>
 
+
   <div class="project-buttons">
 
-```
-<a
-  href="https://github.com/shakil2022/Training-Program-Management-System"
-  class="project-button primary"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <i class="fab fa-github"></i>
-  View Code
-</a>
-```
+    <a
+      href="https://github.com/shakil2022/Ecommerce-Website"
+      class="project-button primary"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fab fa-github"></i>
+      View Code
+    </a>
 
   </div>
 
 </div>
+
 
 <div class="project-content">
 
@@ -256,765 +243,358 @@ while GitHub was used for source-code management and collaboration.
   </h2>
 
   <p>
-    The <strong>Training Program Management System (TPMS)</strong> is a
-    web-based platform developed to support the administration,
-    documentation, tracking, and management of training programs.
-    The system provides a centralized environment where administrators,
-    instructors, and trainees can perform their respective activities.
+    The <strong>University Cafeteria Management System</strong> is a
+    full-stack web application developed to provide an efficient and
+    centralized platform for managing university cafeteria operations.
+    The system integrates food ordering, payment processing, inventory,
+    delivery management, customer feedback, and administrative activities
+    into a single platform.
   </p>
 
   <p>
-    The system allows administrators or instructors to create and maintain
-    course categories, add and manage courses, monitor trainee enrollment,
-    communicate with trainees, and configure payment and language settings.
-    Trainees can create accounts, manage their profiles, search for courses,
-    add courses to a cart, purchase courses, review courses, view enrolled
-    courses, and communicate through the live chat facility.
+    The application follows a <strong>role-based architecture</strong>,
+    allowing each type of user to access the features relevant to their
+    responsibilities. This improves operational efficiency while providing
+    customers with a convenient way to order food and track their orders.
   </p>
 
-  <div class="row justify-content-sm-center">
-
-```
-<div class="col-sm-8 mt-3 mt-md-0">
-  {% include figure.liquid loading="eager" path="assets/img/training-management-1.jpg" title="Training Program Management System Dashboard" class="img-fluid rounded z-depth-1" %}
-</div>
-
-<div class="col-sm-4 mt-3 mt-md-0">
-  {% include figure.liquid loading="eager" path="assets/img/training-management-2.jpg" title="Training Program Management System Course Management" class="img-fluid rounded z-depth-1" %}
-</div>
-```
-
-  </div>
-
-  <div class="caption">
-    The Training Program Management System provides centralized management of training programs, courses, trainees, enrollment, and related activities.
-  </div>
 
   <h2 class="project-section-title">
-    System Features
+    User Roles & Features
   </h2>
+
 
   <div class="row">
 
-```
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 role-card">
+        <div class="card-body">
 
-    <div class="card-body">
+          <h4 class="card-title">
+            <i class="fas fa-user"></i>
+            Customer
+          </h4>
 
-      <h4 class="card-title">
-        <i class="fas fa-user-shield"></i>
-        Admin & Instructor Management
-      </h4>
+          <ul>
+            <li>Browse and order food items from the menu.</li>
+            <li>View previous orders and order history.</li>
+            <li>Customize food orders and specify dietary requirements.</li>
+            <li>Save favorite orders for future use.</li>
+            <li>Provide feedback and ratings for food items.</li>
+          </ul>
 
-      <ul>
-        <li>Provides a dedicated admin/instructor dashboard.</li>
-        <li>Creates and manages course categories.</li>
-        <li>Adds, updates, and deletes courses.</li>
-        <li>Manages trainee enrollment.</li>
-        <li>Controls payment and language settings.</li>
-      </ul>
+        </div>
+      </div>
+    </div>
 
+
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 role-card">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            <i class="fas fa-user-shield"></i>
+            Admin
+          </h4>
+
+          <ul>
+            <li>Add, edit, and delete food items and menus.</li>
+            <li>Manage user accounts and user roles.</li>
+            <li>View and manage orders and order history.</li>
+            <li>Generate sales, revenue, and feedback reports.</li>
+            <li>Monitor inventory and stock availability.</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 role-card">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            <i class="fas fa-user-tie"></i>
+            Manager
+          </h4>
+
+          <ul>
+            <li>Manage staff schedules and shifts.</li>
+            <li>Monitor sales and revenue trends.</li>
+            <li>Analyze customer feedback and ratings.</li>
+            <li>Manage menu items, promotions, and pricing decisions.</li>
+            <li>Monitor food quality and cafeteria hygiene standards.</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 role-card">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            <i class="fas fa-cash-register"></i>
+            Cashier
+          </h4>
+
+          <ul>
+            <li>Process customer orders and payments.</li>
+            <li>Manage cash registers and POS operations.</li>
+            <li>Handle refunds and returns.</li>
+            <li>Maintain cleanliness and orderliness of the cafeteria.</li>
+            <li>Assist customers with questions and order-related issues.</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-6 mt-3">
+      <div class="card h-100 role-card">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            <i class="fas fa-motorcycle"></i>
+            Delivery Personnel
+          </h4>
+
+          <ul>
+            <li>Receive and fulfill delivery orders.</li>
+            <li>Track order progress and update delivery status.</li>
+            <li>Maintain accurate delivery records and receipts.</li>
+            <li>Ensure timely delivery of food orders.</li>
+          </ul>
+
+        </div>
+      </div>
     </div>
 
   </div>
-</div>
 
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-user-graduate"></i>
-        Trainee Management
-      </h4>
-
-      <ul>
-        <li>Provides trainee registration and login.</li>
-        <li>Allows users to view and update their profiles.</li>
-        <li>Allows trainees to search for courses.</li>
-        <li>Supports course enrollment and purchasing.</li>
-        <li>Displays enrolled courses.</li>
-      </ul>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-comments"></i>
-        Live Chat
-      </h4>
-
-      <ul>
-        <li>Provides direct communication between trainees and instructors.</li>
-        <li>Helps trainees ask questions about courses.</li>
-        <li>Supports communication about enrollment and payment.</li>
-        <li>Improves interaction between trainees and instructors.</li>
-      </ul>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-credit-card"></i>
-        Online Payment
-      </h4>
-
-      <ul>
-        <li>Supports online course purchasing.</li>
-        <li>Provides payment configuration for administrators.</li>
-        <li>Supports different currency options.</li>
-        <li>Allows trainees to confirm course payments.</li>
-      </ul>
-
-    </div>
-
-  </div>
-</div>
-```
-
-  </div>
 
   <h2 class="project-section-title">
-    System Components
+    Key Features
   </h2>
 
-  <div class="row">
+  <ul>
 
-```
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
+    <li>
+      Role-based cafeteria management system.
+    </li>
 
-    <div class="card-body">
+    <li>
+      Online food browsing and ordering.
+    </li>
 
-      <h4 class="card-title">
-        Admin Dashboard
-      </h4>
+    <li>
+      Food order customization and dietary preference support.
+    </li>
 
-      <p class="card-text">
-        Provides administrative control over courses, categories,
-        trainees, enrollment, payments, and language settings.
-      </p>
+    <li>
+      Customer order history and favorite orders.
+    </li>
 
-    </div>
+    <li>
+      Customer feedback and food rating system.
+    </li>
 
-  </div>
-</div>
+    <li>
+      Food menu and inventory management.
+    </li>
 
+    <li>
+      User account and role management.
+    </li>
 
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
+    <li>
+      Order and payment management.
+    </li>
 
-    <div class="card-body">
+    <li>
+      Sales, revenue, and customer feedback monitoring.
+    </li>
 
-      <h4 class="card-title">
-        Course Management
-      </h4>
+    <li>
+      Staff scheduling and shift management.
+    </li>
 
-      <p class="card-text">
-        Allows administrators or instructors to add, update, delete,
-        categorize, and maintain training courses.
-      </p>
+    <li>
+      Delivery order tracking and status updates.
+    </li>
 
-    </div>
+    <li>
+      Refund and return management.
+    </li>
 
-  </div>
-</div>
+  </ul>
 
-
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        Trainee Management
-      </h4>
-
-      <p class="card-text">
-        Maintains registered trainees and provides access to their
-        enrollment and course-related information.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        Enrollment Management
-      </h4>
-
-      <p class="card-text">
-        Tracks course enrollment history and provides information about
-        overall and pending enrollment.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        Payment Management
-      </h4>
-
-      <p class="card-text">
-        Provides payment-related configuration and supports course
-        purchasing by trainees.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-sm-6 col-md-4 mt-3">
-  <div class="card h-100">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        User Profile
-      </h4>
-
-      <p class="card-text">
-        Provides trainees with a profile containing their account
-        information and allows profile information to be updated.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-```
-
-  </div>
-
-  <h2 class="project-section-title">
-    User Workflow
-  </h2>
-
-  <div class="row">
-
-```
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-user-plus"></i>
-        1. Registration
-      </h4>
-
-      <p class="card-text">
-        New instructors and trainees first create an account by
-        providing the required information.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-sign-in-alt"></i>
-        2. Login
-      </h4>
-
-      <p class="card-text">
-        Users log into the system using their registered username and
-        password. The system provides separate administrative and
-        user-oriented functionality.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-search"></i>
-        3. Course Search
-      </h4>
-
-      <p class="card-text">
-        Trainees can browse and search available courses using course
-        categories to find their desired training program.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-shopping-cart"></i>
-        4. Course Purchase
-      </h4>
-
-      <p class="card-text">
-        Trainees can add courses to their cart, purchase their selected
-        courses, and access the courses after enrollment.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-comments"></i>
-        5. Communication
-      </h4>
-
-      <p class="card-text">
-        Trainees can communicate directly with instructors through the
-        live chat facility when they need assistance.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100 feature-card">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-book-open"></i>
-        6. Course Access
-      </h4>
-
-      <p class="card-text">
-        After purchasing and enrolling in a course, trainees can view
-        their enrolled courses and access the available course
-        materials.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-```
-
-  </div>
-
-  <div class="row justify-content-sm-center">
-
-```
-<div class="col-sm-10 mt-3 mt-md-0">
-  {% include figure.liquid loading="eager" path="assets/img/training-management-3.jpg" title="Training Program Management System User Interface" class="img-fluid rounded z-depth-1" %}
-</div>
-```
-
-  </div>
-
-  <div class="caption">
-    The system supports course discovery, enrollment, purchasing, course access, profile management, and communication between trainees and instructors.
-  </div>
 
   <h2 class="project-section-title">
     Technology Stack
   </h2>
 
-  <div class="table-responsive">
-
-```
-<table class="table table-bordered">
-
-  <thead>
-    <tr>
-      <th>Technology / Tool</th>
-      <th>Purpose</th>
-    </tr>
-  </thead>
-
-  <tbody>
-
-    <tr>
-      <td>PHP</td>
-      <td>Server-side application development</td>
-    </tr>
-
-    <tr>
-      <td>MySQL</td>
-      <td>Database management and data storage</td>
-    </tr>
-
-    <tr>
-      <td>HTML</td>
-      <td>Web page structure and content</td>
-    </tr>
-
-    <tr>
-      <td>CSS</td>
-      <td>User interface styling</td>
-    </tr>
-
-    <tr>
-      <td>JavaScript</td>
-      <td>Client-side web functionality</td>
-    </tr>
-
-    <tr>
-      <td>Bootstrap</td>
-      <td>Responsive user interface development</td>
-    </tr>
-
-    <tr>
-      <td>MySQL Workbench</td>
-      <td>Database design and management</td>
-    </tr>
-
-    <tr>
-      <td>Visual Studio Code</td>
-      <td>Development environment</td>
-    </tr>
-
-    <tr>
-      <td>GitHub</td>
-      <td>Version control and code collaboration</td>
-    </tr>
-
-  </tbody>
-
-</table>
-```
-
-  </div>
-
-  <h2 class="project-section-title">
-    Technical Attributes
-  </h2>
-
-  <div class="table-responsive">
-
-```
-<table class="table table-bordered">
-
-  <thead>
-    <tr>
-      <th>Attribute</th>
-      <th>Details</th>
-    </tr>
-  </thead>
-
-  <tbody>
-
-    <tr>
-      <td>Project Type</td>
-      <td>Web-Based Training Management System</td>
-    </tr>
-
-    <tr>
-      <td>Backend</td>
-      <td>PHP</td>
-    </tr>
-
-    <tr>
-      <td>Database</td>
-      <td>MySQL</td>
-    </tr>
-
-    <tr>
-      <td>Frontend</td>
-      <td>HTML, CSS, JavaScript, Bootstrap</td>
-    </tr>
-
-    <tr>
-      <td>User Roles</td>
-      <td>Administrator / Instructor and Trainee</td>
-    </tr>
-
-    <tr>
-      <td>Course Management</td>
-      <td>Course creation, updating, deletion, and categorization</td>
-    </tr>
-
-    <tr>
-      <td>Enrollment</td>
-      <td>Course enrollment and enrollment history</td>
-    </tr>
-
-    <tr>
-      <td>Payment</td>
-      <td>Online course payment and payment configuration</td>
-    </tr>
-
-    <tr>
-      <td>Communication</td>
-      <td>Live chat between trainees and instructors</td>
-    </tr>
-
-    <tr>
-      <td>Primary Objective</td>
-      <td>Centralized management of training programs</td>
-    </tr>
-
-  </tbody>
-
-</table>
-```
-
-  </div>
-
-  <h2 class="project-section-title">
-    Key Contributions
-  </h2>
-
-  <ul>
-
-```
-<li>
-  <strong>Centralized Management:</strong>
-  Provides a centralized platform for managing training-related
-  activities.
-</li>
-
-<li>
-  <strong>Course Management:</strong>
-  Supports course categories, course creation, maintenance, and
-  course-related information.
-</li>
-
-<li>
-  <strong>Online Enrollment:</strong>
-  Allows trainees to search for desired courses and enroll in them.
-</li>
-
-<li>
-  <strong>Online Payment:</strong>
-  Provides an online purchasing and payment mechanism for courses.
-</li>
-
-<li>
-  <strong>Live Communication:</strong>
-  Includes a live chat facility that allows trainees to communicate
-  directly with instructors.
-</li>
-
-<li>
-  <strong>User Management:</strong>
-  Provides registration, login, profile management, and enrolled-course
-  functionality.
-</li>
-```
-
-  </ul>
-
-  <h2 class="project-section-title">
-    Future Improvements
-  </h2>
-
-  <div class="row">
-
-```
-<div class="col-md-6 mt-3">
-  <div class="card h-100">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-clipboard-check"></i>
-        Assessment System
-      </h4>
-
-      <p class="card-text">
-        Introduce an assessment system to evaluate trainee knowledge,
-        performance, and progress during training programs.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-mobile-alt"></i>
-        Mobile Accessibility
-      </h4>
-
-      <p class="card-text">
-        Extend the platform with improved mobile accessibility so
-        trainees can access training services conveniently from mobile
-        devices.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-gamepad"></i>
-        Gamification
-      </h4>
-
-      <p class="card-text">
-        Introduce gamification techniques to make training activities
-        more engaging and interactive for trainees.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-
-
-<div class="col-md-6 mt-3">
-  <div class="card h-100">
-
-    <div class="card-body">
-
-      <h4 class="card-title">
-        <i class="fas fa-tachometer-alt"></i>
-        Response Optimization
-      </h4>
-
-      <p class="card-text">
-        Improve system performance and minimize response time for a
-        faster and more efficient user experience.
-      </p>
-
-    </div>
-
-  </div>
-</div>
-```
-
-  </div>
-
-  <h2 class="project-section-title">
-    Project Highlights
-  </h2>
-
   <p>
-    This project demonstrates practical experience in
-    <strong>full-stack web development, PHP application development,
-    MySQL database management, responsive interface design, course
-    management, user management, online enrollment, payment management,
-    and live communication</strong>.
+    <strong>Frontend:</strong> React, Redux, JavaScript
   </p>
 
   <p>
-    The system provides an integrated platform for managing online training
-    programs and course purchases while allowing administrators or
-    instructors to maintain course information and trainees to search,
-    purchase, and access their enrolled courses.
+    <strong>Backend:</strong> Node.js, Express.js
   </p>
+
+  <p>
+    <strong>Database:</strong> MongoDB, Mongoose
+  </p>
+
+  <p>
+    <strong>Architecture:</strong> Full-stack REST-based web application
+  </p>
+
+  <p>
+    <strong>Access Control:</strong> Role-based user management
+  </p>
+
 
   <h2 class="project-section-title">
-    Project Report
+    System Modules
   </h2>
 
-  <p>
-    The project was developed as a semester project at the
-    <strong>Institute of Information Technology, Jahangirnagar University</strong>.
-    The project report identifies the development technologies as PHP,
-    MySQL, HTML, CSS, JavaScript, and Bootstrap.
-  </p>
+  <div class="row justify-content-sm-center">
 
-  <p>
-    The project team consisted of
-    <strong>Mst. Sumiya Siddika, Md. Shakil Ahmed, Shariful Islam,
-    and Amit Azim Amit</strong>, under the supervision of
-    <strong>Professor Dr. M. Shamim Kaiser</strong>.
-  </p>
+    <div class="col-sm-6 col-md-4 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            Food & Menu
+          </h4>
+
+          <p class="card-text">
+            Manage food items, categories, prices, availability, and menus.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-4 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            Order Management
+          </h4>
+
+          <p class="card-text">
+            Manage customer orders, order history, customization, and
+            delivery status.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-4 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            Inventory
+          </h4>
+
+          <p class="card-text">
+            Monitor stock levels and food availability to support cafeteria
+            operations.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-4 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            Payment
+          </h4>
+
+          <p class="card-text">
+            Support order payment processing, POS operations, refunds, and
+            transaction management.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-4 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            Delivery
+          </h4>
+
+          <p class="card-text">
+            Manage delivery orders, progress tracking, status updates, and
+            delivery records.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-6 col-md-4 mt-3">
+      <div class="card h-100">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            Reports & Feedback
+          </h4>
+
+          <p class="card-text">
+            Monitor sales, revenue, customer ratings, and feedback to support
+            operational decisions.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 
   <h2 class="project-section-title">
     GitHub Repository
   </h2>
 
   <p>
-    The complete source code of the project is available in the GitHub
-    repository.
+    The complete source code of the University Cafeteria Management System
+    is available in the GitHub repository.
   </p>
+
 
   <div class="project-buttons">
 
-```
-<a
-  href="https://github.com/shakil2022/Training-Program-Management-System"
-  class="project-button primary"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <i class="fab fa-github"></i>
-  GitHub Repository
-</a>
-```
+    <a
+      href="https://github.com/shakil2022/Ecommerce-Website"
+      class="project-button primary"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fab fa-github"></i>
+      GitHub Repository
+    </a>
 
   </div>
 

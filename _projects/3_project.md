@@ -3,7 +3,7 @@ layout: page
 title: QR Code Scanner
 description: A feature-rich Android application for generating, scanning, and decoding QR codes with a simple and user-friendly mobile interface.
 img: assets/img/qr-code-scanner.jpg
-importance: 2
+importance: 3
 category: work
 related_publications: false
 ---

@@ -2,12 +2,11 @@
 layout: page
 title: Automated Fire Detecting and Extinguishing Car
 description: An Arduino-based robotic firefighting car that detects fire, moves toward the affected area, and automatically extinguishes the fire using a water-pumping mechanism.
-img: assets/img/fire-car.jpg
-importance: 3
+img: assets/img/fire-Detection.jpg
+importance: 6
 category: work
 related_publications: false
 ---
-
 <style>
 .project-card {
   position: relative;
@@ -145,14 +144,6 @@ related_publications: false
   line-height: 1.7;
 }
 
-.feature-card {
-  margin-bottom: 20px;
-}
-
-.feature-card .card-title {
-  font-weight: 700;
-}
-
 @media (max-width: 576px) {
   .project-card {
     padding: 20px;
@@ -173,7 +164,6 @@ related_publications: false
   }
 }
 </style>
-
 
 <div class="project-card">
 

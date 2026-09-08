@@ -14,20 +14,8 @@ profile:
   image_circular: false
   more_info: >
 
-selected_papers: true
-social: true
-
-announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
-
-latest_posts:
-  enabled: true
-  scrollable: true
-  limit: 3
----
-
+social: true 
+  ---
 <style>
   :root {
     --bg-deep: #0b1120;
@@ -242,7 +230,7 @@ latest_posts:
   .divider-line {
     max-width: 760px;
     margin: 0 auto;
-    border: none;
+    border: true;
     border-top: 1px solid var(--border-soft);
   }
 
@@ -398,6 +386,62 @@ latest_posts:
     padding: 7px 11px;
   }
 }
+
+/* =========================================================
+   TECHNICAL SKILLS
+   ========================================================= */
+
+.skills-list {
+
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 18px;
+}
+
+.skill-item {
+
+  background: var(--portfolio-card);
+
+  border: 1px solid var(--portfolio-border);
+
+  border-radius: 10px;
+
+  padding: 22px;
+
+  transition: all 0.25s ease;
+}
+
+.skill-item:hover {
+
+  background: var(--portfolio-card-hover);
+
+  transform: translateY(-2px);
+}
+
+.skill-name {
+
+  margin: 0 0 10px;
+
+  color: var(--portfolio-accent);
+
+  font-weight: 700;
+
+  font-size: 1rem;
+}
+
+.skill-desc {
+
+  margin: 0;
+
+  color: var(--portfolio-muted);
+
+  line-height: 1.7;
+
+  font-size: 0.88rem;
+}
+
 </style>
 
 <p>
@@ -409,7 +453,7 @@ in the Department of Computer Science and Engineering at the
 <a href="https://bubt.edu.bd/">
 Bangladesh University of Business and Technology (BUBT)
 </a>.
-I completed my M.Sc. in Information and Communication Technology at the
+I have completed my M.Sc. and B.Sc. degree in Information and Communication Technology at the
 <a href="https://iitju.edu.bd/">
 Institute of Information Technology, Jahangirnagar University
 </a>.
@@ -468,6 +512,7 @@ These experiences have allowed me to combine academic teaching with hands-on res
 </p>
 
 
+<hr class="divider-line">
 <!-- ==================== RESEARCH INTERESTS ==================== -->
 
 <section class="research-interests">
@@ -514,6 +559,7 @@ These experiences have allowed me to combine academic teaching with hands-on res
 </section>
 
 
+<hr class="divider-line">
 <section class="education-section">
   <h2>Education</h2>
 
@@ -628,6 +674,7 @@ These experiences have allowed me to combine academic teaching with hands-on res
 </section>
 
 
+<hr class="divider-line">
 
 <!-- ==================== HONORS AND AWARDS ==================== -->
 
@@ -780,9 +827,6 @@ These experiences have allowed me to combine academic teaching with hands-on res
   </div>
 </section>
 
-
-
-
 <hr class="divider-line">
 
 <!-- ==================== CERTIFICATIONS ==================== -->
@@ -888,83 +932,6 @@ These experiences have allowed me to combine academic teaching with hands-on res
 
 <hr class="divider-line">
 
-
-
-<hr class="divider-line">
-
-
-<!-- ==================== TECHNICAL SKILLS ==================== -->
-
-<section class="section-block">
-  <h2>Technical Skills</h2>
-
-  <div class="skills-list">
-
-    <!-- Languages -->
-    <div class="skill-item">
-      <div class="skill-main">
-        <p class="skill-name">
-          Languages
-        </p>
-
-        <p class="skill-desc">
-          C, C++, Java, Python, PHP, LaTeX, HTML, CSS, JavaScript, MySQL
-        </p>
-      </div>
-    </div>
-
-
-    <!-- Machine Learning -->
-    <div class="skill-item">
-      <div class="skill-main">
-        <p class="skill-name">
-          Machine Learning
-        </p>
-
-        <p class="skill-desc">
-          PyTorch, Keras, OpenCV, TensorFlow, NLTK, Pandas, NumPy,
-          Matplotlib
-        </p>
-      </div>
-    </div>
-
-
-    <!-- Developer Tools -->
-    <div class="skill-item">
-      <div class="skill-main">
-        <p class="skill-name">
-          Developer Tools
-        </p>
-
-        <p class="skill-desc">
-          Visual Studio Code, Code::Blocks, LaTeX, PyCharm,
-          Jupyter Notebook, Eclipse
-        </p>
-      </div>
-    </div>
-
-
-    <!-- Illustration Tools -->
-    <div class="skill-item">
-      <div class="skill-main">
-        <p class="skill-name">
-          Illustration Tools
-        </p>
-
-        <p class="skill-desc">
-          Adobe Illustrator, Adobe Photoshop, Canva, Adobe Animate,
-          Adobe Premiere Pro
-        </p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-<hr class="divider-line">
-
-
 <!-- ==================== CO-CURRICULAR ACTIVITIES ==================== -->
 
 <section class="section-block">
@@ -1065,3 +1032,83 @@ These experiences have allowed me to combine academic teaching with hands-on res
 
   </div>
 </section>
+
+
+<hr class="divider-line">
+<!-- ========================================================= -->
+<!-- TECHNICAL SKILLS -->
+<!-- ========================================================= -->
+
+<section class="section-block">
+
+<h2>Technical Skills</h2>
+
+<div class="skills-list">
+
+
+<div class="skill-item">
+
+<p class="skill-name">
+Languages
+</p>
+
+<p class="skill-desc">
+C, C++, Java, Python, PHP, LaTeX, HTML, CSS, JavaScript, MySQL
+</p>
+
+</div>
+
+
+<div class="skill-item">
+
+<p class="skill-name">
+Machine Learning
+</p>
+
+<p class="skill-desc">
+PyTorch, Keras, OpenCV, TensorFlow, NLTK, Pandas, NumPy, Matplotlib
+</p>
+
+</div>
+
+
+<div class="skill-item">
+
+<p class="skill-name">
+Developer Tools
+</p>
+
+<p class="skill-desc">
+Visual Studio Code, Code::Blocks, LaTeX, PyCharm,
+Jupyter Notebook, Eclipse
+</p>
+
+</div>
+
+
+<div class="skill-item">
+
+<p class="skill-name">
+Illustration Tools
+</p>
+
+<p class="skill-desc">
+Adobe Illustrator, Adobe Photoshop, Canva,
+Adobe Animate, Adobe Premiere Pro
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+<hr class="divider-line">
+<footer class="site-footer">
+  <div class="container text-center">
+    <p class="mb-0">
+      © 2026 Md. Shakil Ahmed. All rights reserved.
+    </p>
+  </div>
+</footer>
