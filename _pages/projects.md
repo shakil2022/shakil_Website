@@ -39,7 +39,6 @@ horizontal: false
 
 {% else %}
 
-<!-- Display projects without categories -->
 
 {% assign sorted_projects = site.projects | sort: "importance" %}
 
